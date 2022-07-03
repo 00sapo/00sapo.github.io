@@ -49,24 +49,24 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         height = 531
 
     [[params.mainMenu]]
-        link = "/post"
-        text = "random posts"
+        link = "/about"
+        text = "who am I?"
 
     [[params.mainMenu]]
         link = "/publications"
         text = "publications"
 
     [[params.mainMenu]]
-        link = "/software"
-        text = "unsoftware"
+        link = "/post"
+        text = "random posts"
 
     [[params.mainMenu]]
         link = "/links"
         text = "not so random links"
 
     [[params.mainMenu]]
-        link = "/about"
-        text = "who am I?"
+        link = "/software"
+        text = "unsoftware"
 
     [[params.mainMenu]]
         link = "/music"
