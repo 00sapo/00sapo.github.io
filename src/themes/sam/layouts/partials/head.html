@@ -1,0 +1,20 @@
+{{ partial "head/metadata.html" . }}
+{{ partial "head/favicons.html" . }}
+{{ partial "head/css.html" . }}
+<!-- Google fonts-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ partial "site-schema.html" . }}
+{{ if .Params.canonicalUrl }}
+<link rel="canonical" href="{{ .Params.canonicalUrl }}">
+{{ else if .Permalink }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ else }}
+<link rel="canonical" href="{{ .Site.baseUrl }}">
+{{ end }}
+{{ if .Params.comments }}
+<script src="https://hypothes.is/embed.js" async></script>
+{{ end }}

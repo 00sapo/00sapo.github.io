@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{ block "head" . }}
+    {{ partial "head.html" . }}
+    {{ end }}
+
+    {{ block "head_resources" . }}
+    <!-- Use this block to link to further resources like .js or .css files. -->
+    {{ end }}
+    <title>
+        {{ block "title" . }}
+        {{ .Title }}
+        {{ end }}
+    </title>
+</head>
+
+<body>
+    {{ block "main" . }}<div class="wrap">
+        {{ block "top-menu" . }}
+        {{ if .Site.Params.mainMenu }}<div class="section top-menu">{{ partial "top_menu.html" (dict "Page" . "show_back_menu_item" false) }}</div>{{ end }}
+        {{ end }}
+    
+        {{ block "section_title" . }}<h1 class="section" id="title">{{ .Title }}</h1>{{ end }}
+
+        {{ block "section_content" . }}<div class="section" id="content">{{ .Content }}</div>{{ end }}
+
+        {{ block "footer" . }}<div class="section footer">{{ partial "footer.html" . }}</div>{{ end }}
+    </div>{{ end }}
+</body>
+
+</html>

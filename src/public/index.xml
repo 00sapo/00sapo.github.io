@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Federico Simonetta</title>
+    <link>https://federicosimonetta.eu.org/</link>
+    <description>Recent content on Federico Simonetta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 14 Jan 2021 09:14:35 +0000</lastBuildDate><atom:link href="https://federicosimonetta.eu.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Una semplice introduzione a Git</title>
+      <link>https://federicosimonetta.eu.org/post/git_intro/</link>
+      <pubDate>Thu, 14 Jan 2021 09:14:35 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/git_intro/</guid>
+      <description>L&amp;rsquo;idea di git è di salvare varie versioni apportate ai file in un repository.
+Le modifiche apportate si salvano sottoforma di commit. Ogni commit contiene le nuove versioni dei file modificati che si vogliono salvare. Idealmente, ogni commit dovrebbe rispettare il principio di singola responsabilità: dovrebbe cioè riguardare una sola funzionalità o caratteristica del software. Ogni commit porta con se un messaggio che descrive brevemente cosa è stato modificato, un timestamp non modificabile e un hash che consente di identificarlo univocamente.</description>
+    </item>
+    
+    <item>
+      <title>Art and similar stuffs</title>
+      <link>https://federicosimonetta.eu.org/notes/art/</link>
+      <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/notes/art/</guid>
+      <description>Il prodotto artistico Definire il concetto di arte in generale, non è semplice. Le persone parlano di arte per riferirsi genericamente a un processo intellettuale e materiale che produce un bene fruibile, materiale o meno; affinché tale bene venga definito arte, deve possedere alcune caratteristiche che variano in base al contesto culturale. Potrei quindi analizzare tali svariate caratteristiche per poi scoprire, però, che la mia stessa analisi sarebbe soggetta al mio contesto culturale e che pertanto non sarebbe comunque universalmente valida.</description>
+    </item>
+    
+    <item>
+      <title>The Last Resort - how to force remote reboot</title>
+      <link>https://federicosimonetta.eu.org/post/the_last_resort/</link>
+      <pubDate>Mon, 07 Dec 2020 11:05:35 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/the_last_resort/</guid>
+      <description>Problem Deadlocks are bad creatures in the unix world. Sometimes, you willl need to kill your machine forcely, but what if you are using a remote machine?
+In the COVID-19 situation, it could be difficult to get a machine up again if you forcely shutdown it (e.g. shutdown -now). So, you need to reboot. The issue is that reboot kindly unmount filesystems and wait for processes to shutdown.
+Solution If you want to abruptly shutdown your system, simply does as following:</description>
+    </item>
+    
+    <item>
+      <title>Developing and testing on a remote host</title>
+      <link>https://federicosimonetta.eu.org/post/remote_editing/</link>
+      <pubDate>Tue, 11 Feb 2020 11:50:35 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/remote_editing/</guid>
+      <description>Workflow In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:
+ You create and edit code on your local machine An indipendent software mirrors your code to the host (syncthing in this document) You interface with the host through terminal, give commands and run code (tmux) Finally, you debug your code (debug section), and edit it your local machine  This workflow allows you to:</description>
+    </item>
+    
+    <item>
+      <title>Contradictions</title>
+      <link>https://federicosimonetta.eu.org/notes/contradictions/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/notes/contradictions/</guid>
+      <description>Human beings in 21th century has to live with a new incredible discovery: our world perception is contradictory.
+Here, I will try to list all the contradictions that humans have to face. The ratio for which they are listed here is that it may be impossible to solve these contradictions without stopping being a human, that is without stopping perceiving ourself as an active coscience.
+ Categories only exist in in our mind, but our mind also tells us that categories do not exist Humans perceive a push towards something but they cannot understand why nor what  </description>
+    </item>
+    
+    <item>
+      <title>Fantastic notes</title>
+      <link>https://federicosimonetta.eu.org/notes/fantastic/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/notes/fantastic/</guid>
+      <description>Categories   We organize what we perceive in the world in categories. Everywhere we find categories: words, concepts, objects. But why we do so? Are categories really part of the intrinsic essence of where we live? In a certain sense, we could say that the needing for categories comes from the perception of the world as a set of multiple different objects.
+  It is completely instictual finding differences between a chair and a glass, or between a table and a laptop.</description>
+    </item>
+    
+    <item>
+      <title>Quando gli ingegneri ci liberavano dal nazifascismo</title>
+      <link>https://federicosimonetta.eu.org/post/liberazione/</link>
+      <pubDate>Thu, 25 Apr 2019 12:34:41 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/liberazione/</guid>
+      <description>Rispetto agli studiosi di materie sociali e umanistiche, pochi tra scienziati e ingegneri si interessano di temi civili o questioni sociali. La cultura in cui viviamo, infatti, non favorisce l&amp;rsquo;interazione tra la sfera socio-umanistica del sapere e quella tecnico-scientifica. Eppure, la Storia dell&amp;rsquo;Italia è ricca di spunti, fin dalle origini dei suoi principi etici: durante la guerra di Liberazione, il ruolo svolto da chi aveva conoscenze professionali tecniche fu decisivo per garantire la trasmissibilità delle informazioni e la cooperazione dei gruppi di liberazione e delle forze alleate.</description>
+    </item>
+    
+    <item>
+      <title>Live Coding is one of the most interesting music phenomena of this century</title>
+      <link>https://federicosimonetta.eu.org/post/live_coding/</link>
+      <pubDate>Wed, 20 Feb 2019 18:50:46 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/live_coding/</guid>
+      <description>Versione italiana su techeconomy.it
+From 14th to 17th February, an important Algorave took place: 84 hours of non-stop music in the what probably is the largest music show completely produced and distributed online of ever. The 14th February 2019, in fact, was the 15th anniversary since the birth of TOPLAP, the international online community of musicians active in live coding, that are musicians who improvise music programming in real time. If you read this article and I can convince you that it was worthwhile to attend this Algorave, you can save this link to access the event: https://toplap.</description>
+    </item>
+    
+    <item>
+      <title>Se il machine learning fosse nato 400 anni fa</title>
+      <link>https://federicosimonetta.eu.org/post/galileo/</link>
+      <pubDate>Tue, 04 Dec 2018 13:50:46 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/galileo/</guid>
+      <description>Il sole era già oltre le colline e le nuvole a sprazzi lasciavano che la luce della luna illuminasse la Terra. Il gelo di gennaio filtrava tra i vestiti di chi, incurante dell’umidità, usciva dopo giorni di pioggia. Simplicio entrò nel capanno dietro casa. Era giunto un messo da Torre del Gallo, non aveva lasciato detto nulla: solo un foglio, piegato in quattro, con le sue iniziali su un lato, GG.</description>
+    </item>
+    
+    <item>
+      <title>L&#39;effetto dell&#39;informatica `user centered`</title>
+      <link>https://federicosimonetta.eu.org/notes/user_center/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/notes/user_center/</guid>
+      <description>Ipertrofia segnica La società del Novecento è stata caratterizzata da un sovraffollamento di segnali. Ovunque andiamo, troviamo segni, indicazioni, scritte, simboli. Viviamo in un horror vacui della comunicazione. La società degli anni duemila è andata oltre. Nel XX sec. il capitalismo cominciò a martellare le persone con informazioni le più disparate con l&amp;rsquo;obiettivo di: sostenere i consumi, garantire la comprensione delle leggi e indicare il comportamento a cui le persone dovevano attenersi.</description>
+    </item>
+    
+    <item>
+      <title>Le emozioni dei computer: a che punto siamo e dove andiamo?</title>
+      <link>https://federicosimonetta.eu.org/post/emozioni/</link>
+      <pubDate>Tue, 02 Oct 2018 13:50:46 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/post/emozioni/</guid>
+      <description>Sono molti gli scrittori, i registi e i “fantasticatori” in genere che hanno immaginato macchine capaci di provare emozioni, eppure, nessuno è mai riuscito ad oggi a crearne uno. Ci riusciremo? Io credo di sì, e nei prossimi paragrafi proverò a dare un’idea di quanto bene possano simulare le emozioni i computer di oggi. Ogni tanto torna sui giornali la notizia di esperimenti riguardanti i cosiddetti “social robots” (qualcuno magari ricorderà i più appariscenti “sex robots“, in grado di simulare in tutto e per tutto una figura umana.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://federicosimonetta.eu.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/about/</guid>
+      <description>Hi! I am Federico and this is my little website, where I try to merge various activities otherwise dispersed all around the web. I am going to work at the Complutense University in the Didone project. I have taken my Ph.D. in Computer Science at the University of Milan in the LIM - Music Informatics Laboratory, where I studied computational methods for music performance analysis. While I am continuously involved in researching new tools for music expressivity, I want to contribute to the improvement of the society and of the world in which we live.</description>
+    </item>
+    
+    <item>
+      <title>List of Notes</title>
+      <link>https://federicosimonetta.eu.org/notes/allnotes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/notes/allnotes/</guid>
+      <description>This a list of personal notes about various stuffs. Be careful, because you could get crazy (or maybe you could just think that I&amp;rsquo;m crazy, which is probably part of the truth).
+ Fantastic notes Effetti sociali dell&amp;rsquo;informatica user-centered Assurda filosofia dell&amp;rsquo;arte Contrdictions  </description>
+    </item>
+    
+    <item>
+      <title>Music &amp; co.</title>
+      <link>https://federicosimonetta.eu.org/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/music/</guid>
+      <description>Here are a few pieces that I have written since when I was an improbable composer until today, when I&amp;rsquo;m still an improbable composer. The order is kind of a mess. Many others exist but only these could be consedered complete by my sensibility at each respective time.
+mmmmmmmmmdddddhddddhsoso+oooooossyhyh++////oosssysyyyyyyyysossyyyyhyhhhhhhhhhdhyooo+++++++++++++++++++++++++++/+/+///+//// mmmmmmmmddhdddhdhhhyodhsyyyooooooo+++++////oooossssyssssso+/+//++osyyyyhhhhhhhhyoo+++/+++++++/+++++++++/+++/++++////++//// mmmmmmdddddhhhhhhhhyoyhso+o++++/+//++/+/++/oooosssssso+:-.......`..:/+osyyyhhhhso+++///+++++//++++++////+++///+/+/+/////// mmmmddddhdhddhhhhhhy+oyso:+++//+//////+////ooooooo+/-::::--.......``...:++syyyyso++///+/+///////////////////////++/++///:: mmmmdddhhhdhhhhhdhhs:/yyysoo+/+////++/+////oooos++/:--..`.....`..--..`....:+osso+++++//++///////////////////////++///+//// mmmdddddhhhdhhhhhhhs-:syhhyho++////+////+//oooso/:-...--------.....-:-......:+oo++++//+/////////////////////////////////// mmddddhdhhhhhhhhhhhs--+ossoo++++//++///++//ooy+-------::::-------.....-...`..-o++//////+////////////////////////////////// mmdddhddddhhhhhhhhhy///+oo+++//+o+oo++/++//oss/://:::::-----------..```..-....:::////////////+/////////////:////////////// mdddhdhdhhhhhhhhhhhyossossoooo+ohyhy+//////osoo+/::::::-......--.....-:/:////////////////:::::/://////////:///:////::::::: mdddhdhhddhhhhhhhhhyohy++yssoooso++o+//////ohyy+::::-----::+/:--...-.`....-://////////////://::::::::::///::/:/:///:///::: dddddhdddddhhdhhhddyooh+/yoooo+++//////////oyyh+//o/::oo++-.-----....:::::/:/::////://::::::::::::::::/:://:/:::::::/::::: ddddddhhdhdhddhhddhyssyooysooo++++/++/+////ssyho/::::+s++s/:----/+/:--....-:/:/:://///::::::::::::::/:/:////////://::::::: ddddddddhddddddhdddh/ossyyssoyoo++++++++///sooyy++++so+---:::/:+/://::/---:::/:::/:::::::::::::::::::::////////:///::::/:/ dddddddddddddddhddhh--/ydyhyhhs+++++/+++++/oosyhs+/oso+/-----------::::+soo/--::---..-//::::/:::::::::::::::::::///////:// ddddddddddddddddhddh--:oyyysooo+++++//++++/sosyhho+////+----:::::/so++----:/o:::::::::::::::::::::::://////:::/::/:::::::: dddddddddddddddddddh///oososoo+++++///++/+/soosysy+/::/+:::::::::::::ossso++++/ooss+::/::/:::::::::::::::::::::://:::://// dddddddddddddddddddhoooooshhh+o+++++//+++++soooyyhho/::+s+/::::::::/o/+yyssssoooo++//////::::::::::::::::::::://:://:://// hdddddddddddddddddddsdhyyhsssoooo++++/++++oysoooshdhs/:/ss/:////:::::/:+/..+o/+++///////+++++/:::::::::::::::::::///////// dddddddddddddddddddhsyhysysooooooo+++++++++ssssooyyyhs///sso++/::::::///.`-/:///////////////++o+/::::::::::::::::://////// ddddddddhddddddddddhosyysysooooooo++/++++++ssssoosssyhyo+oo+///:::////:.`-://++++/+++++/::/://+oss+/:::::::::::::::/:://// hhdddddddddddddddddh//syssyyhhhooooo/++++o+sssoooooysyyhysso+///+++++-`.:///ss+++ooyoo+//////+++osyys+/:::::::::::::/://// hddddddddddddddddddh/:ohyhyhhyhsoooo+o+++o+sysssso+oossshhhhyyssss/:..-///+ohooooyyo////::://+++osyyshs/::::::::::://///// hddddddddddddddddddh/:ohyhsyssoo+oo+++++++/ssssssoooossssyhhdhdyo/::-/o++ooyssssho//////:::///+ooyhhyyhy/::::::::://////// hddddddddddddddddddd//+o+o++++ssoss++++/+++sssooooo++++ossyyyhy/.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://federicosimonetta.eu.org/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/publications/</guid>
+      <description>All the code that I can publish is available in online. See Unsoftware page for more info.
+The following is the updated list of publications.
+ </description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://federicosimonetta.eu.org/software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/software/</guid>
+      <description>One day I will write why all software I produce is released with free license, where free is like in speech, not like in beer&amp;hellip;
+I&amp;rsquo;m really thankful to Framasoft for the free service they provide with a completely free GitLab server.
+All my software and reasearch code is available online. Here area a few places where you can find my code:
+ Framasoft gitlab page - unfortunately, framasoft is closing this service Insitutional gitlab page: Computer Science Department - University of Milan github.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://federicosimonetta.eu.org/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/teaching/</guid>
+      <description>Here I will put all the material I use for teaching. For now, it is just a list of useful links!
+Slides  Easy Introduction to Digital Audio Signal Processing (January 2020): download whole zip  Exercises  Excel exercises for music processing (January 2020): download zip  Technical tools  Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this  Neural Networks and Machine Learning  A very good university course on machine learning The deep learning book.</description>
+    </item>
+    
+    <item>
+      <title>Useful links</title>
+      <link>https://federicosimonetta.eu.org/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/links/</guid>
+      <description>This is a random list of links that I find interesting. Feel free to comment and/or suggest other links. You won&amp;rsquo;t find links to closed software or to software which make use of closed frameworks/libraries/languages.
+Music Informatics links  A list of useful software for music production in Linux (2018, June) PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 A guide to algorithmic music INScore: a greate piece of software to create augmented music score, also in real-time dfscore: an amazing distributed music score FoxDot: live coding in Python TOPLAP: the home of live coding OpenMusic: probably the only visual programming language worth of symbolic music A very nice repository of various computational musicology tools Advanced music and Linux list of software ORCA: programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
+    </item>
+    
+  </channel>
+</rss>
