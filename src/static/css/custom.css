@@ -132,6 +132,10 @@ details[open] summary ~ * {
     order: 4;
 }
 
+html, body {
+  background-color: #00594d;
+}
+
 
 /***************************************************
 * comment the following to get back the dark theme *
