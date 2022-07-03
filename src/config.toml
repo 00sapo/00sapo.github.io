@@ -75,7 +75,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
     [[params.mainMenu]]
         link = "/music"
-        text = "noisy stuffs"
+        text = "noise"
         weight = 6
 
     [[params.mainMenu]]
