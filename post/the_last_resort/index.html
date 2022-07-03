@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Federico Simonetta is musician and computer engineer. From Pavia to Milan through Padua. Here you found my publications, music, software and contacts. Pop in to know me!">
+<title>
+The Last Resort - how to force remote reboot - Federico Simonetta
+</title>
+
+
+<link rel="shortcut icon" href="https://00sapo.github.io/img/avatar.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://00sapo.github.io/css/main.min.202eb2a494b9f8d0a0b154015fe6c213c3d44bdf745bece33482defd57380131.css" integrity="sha256-IC6ypJS5&#43;NCgsVQBX&#43;bCE8PUS990W&#43;zjNILe/Vc4ATE=" crossorigin="anonymous" media="screen">
+
+
+
+<link rel="stylesheet" href="https://00sapo.github.io/css/custom.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://00sapo.github.io/img/image.jpg"/>
+
+<meta name="twitter:title" content="The Last Resort - how to force remote reboot"/>
+<meta name="twitter:description" content="Problem Deadlocks are bad creatures in the unix world. Sometimes, you willl need to kill your machine forcely, but what if you are using a remote machine?
+In the COVID-19 situation, it could be difficult to get a machine up again if you forcely shutdown it (e.g. shutdown -now). So, you need to reboot. The issue is that reboot kindly unmount filesystems and wait for processes to shutdown.
+Solution If you want to abruptly shutdown your system, simply does as following:"/>
+
+<meta property="og:title" content="The Last Resort - how to force remote reboot" />
+<meta property="og:description" content="Problem Deadlocks are bad creatures in the unix world. Sometimes, you willl need to kill your machine forcely, but what if you are using a remote machine?
+In the COVID-19 situation, it could be difficult to get a machine up again if you forcely shutdown it (e.g. shutdown -now). So, you need to reboot. The issue is that reboot kindly unmount filesystems and wait for processes to shutdown.
+Solution If you want to abruptly shutdown your system, simply does as following:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://00sapo.github.io/post/the_last_resort/" /><meta property="og:image" content="https://00sapo.github.io/img/image.jpg"/><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-12-07T11:05:35+00:00" />
+<meta property="article:modified_time" content="2020-12-07T11:05:35+00:00" /><meta property="og:site_name" content="Federico Simonetta" />
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-142387081-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "",
+  "headline": "The Last Resort - how to force remote reboot",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/00sapo.github.io\/post\/the_last_resort\/"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https:\/\/00sapo.github.io\/img\/avatar.png",
+    "width":  1075 ,
+    "height":  531 
+  },
+  "genre": "post",
+  "keywords": "software, teaching, remote, cloud, linux, reboot",
+  "wordcount":  216 ,
+  "url": "https:\/\/00sapo.github.io\/post\/the_last_resort\/",
+  "datePublished": "2020-12-07T11:05:35\u002b00:00",
+  "dateModified": "2020-12-07T11:05:35\u002b00:00",
+  "license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Federico Simonetta",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https:\/\/00sapo.github.io\/img\/avatar.ico",
+      "width":  128 ,
+      "height":  128 
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Federico Simonetta"
+  },
+  "description": ""
+}
+</script>
+
+
+<link rel="canonical" href="https://00sapo.github.io/post/the_last_resort/">
+
+
+<script src="https://hypothes.is/embed.js" async></script>
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        The Last Resort - how to force remote reboot
+        
+    </title>
+</head>
+
+<body>
+    <div class="wrap">
+        
+        <div class="section top-menu">
+<p>
+    
+
+    
+        
+            <a href="https://00sapo.github.io/post">
+                random posts
+            </a>
+        
+    
+        
+            
+                &#183; 
+                <a href="https://00sapo.github.io/publications">
+                    publications
+                </a>
+            
+                &#183; 
+                <a href="https://00sapo.github.io/software">
+                    unsoftware
+                </a>
+            
+                &#183; 
+                <a href="https://00sapo.github.io/links">
+                    not so random links
+                </a>
+            
+                &#183; 
+                <a href="https://00sapo.github.io/about">
+                    who am I?
+                </a>
+            
+                &#183; 
+                <a href="https://00sapo.github.io/music">
+                    noisy stuffs
+                </a>
+            
+                &#183; 
+                <a href="https://00sapo.github.io/teaching">
+                    don&#39;t tell this anyone...
+                </a>
+            
+                &#183; 
+                <a href="https://00sapo.github.io/notes/allnotes">
+                    ...tell everyone this one
+                </a>
+            
+        
+        <p>
+            <a href="https://00sapo.github.io">
+                home
+            </a>
+        </p>
+    
+</p>
+<hr />
+
+</div>
+        
+    
+        <h1 class="section" id="title">The Last Resort - how to force remote reboot</h1>
+
+        <div class="section" id="content"><p><img src="//feetpin.files.wordpress.com/2018/06/bungy-wide-angle.jpg" alt="banner"></p>
+<h2 id="problem">Problem</h2>
+<p>Deadlocks are bad creatures in the unix world. Sometimes, you willl need to kill your machine forcely, but what if you are using a remote machine?</p>
+<p>In the COVID-19 situation, it could be difficult to get a machine up again if you forcely shutdown it (e.g. <code>shutdown -now</code>). So, you need to reboot. The issue is that <code>reboot</code> kindly unmount filesystems and wait for processes to shutdown.</p>
+<h2 id="solution">Solution</h2>
+<p>If you want to abruptly shutdown your system, simply does as following:</p>
+<ul>
+<li><code>echo 1 &gt; /proc/sys/kernel/sysrq</code></li>
+<li><code>echo b &gt; /proc/sysrq-trigger</code></li>
+</ul>
+<h2 id="how-it-works">How it works</h2>
+<p>This is the lowest level method in a Linux system. It first enables the sysrq mode which is used for rescue the system. You can use it even in your PC with a simple <a href="//en.wikipedia.org/wiki/Magic_SysRq_key">key combination</a>. Then it sends the rescue action to take (<code>b</code> is for reboot).</p>
+<p>In other words, the first command is the equivalent of <code>Alt + Stamp</code>, the second command is the equivalent of the key pressed successively.</p>
+<h2 id="only-as-last-resort">Only as last Resort</h2>
+<p>Right now, I&rsquo;m still waiting that my machine completely comes back. It answers to ping again, so it rebooted, but it refuses ssh connections. Probably, the hard-reboot created some problem in the filesystem. I hope it solves it by itself, otherwise I&rsquo;ll need a human intervention!</p>
+<p>Good luck!</p>
+</div>
+
+        <div class="section footer"><hr />
+<em>Fluid thoughts against categories</em>
+</div>
+    </div>
+</body>
+
+</html>
