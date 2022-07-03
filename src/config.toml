@@ -1,6 +1,4 @@
-baseurl = "https://federicosimonetta.eu.org"
-# baseurl = "https://federicosimonetta.eu.org/"
-#
+baseurl = "https://federicosimonetta.eu.org/"
 publishDir = "../"
 title = "Federico Simonetta"
 defaultContentLanguage = "en"
