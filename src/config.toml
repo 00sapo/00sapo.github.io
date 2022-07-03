@@ -1,7 +1,7 @@
 baseurl = "https://00sapo.github.io"
 # baseurl = "https://federicosimonetta.eu.org/"
 #
-publishDir = "../"
+publishDir = "./"
 title = "Federico Simonetta"
 defaultContentLanguage = "en"
 theme = "sam"
@@ -49,36 +49,44 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         height = 531
 
     [[params.mainMenu]]
-        link = "/post"
-        text = "random posts"
+        link = "/about"
+        text = "who am I?"
+        weight = 1
 
     [[params.mainMenu]]
         link = "/publications"
         text = "publications"
+        weight = 2
 
     [[params.mainMenu]]
-        link = "/software"
-        text = "unsoftware"
+        link = "/post"
+        text = "random posts"
+        weight = 3
 
     [[params.mainMenu]]
         link = "/links"
         text = "not so random links"
+        weight = 4
 
     [[params.mainMenu]]
-        link = "/about"
-        text = "who am I?"
+        link = "/software"
+        text = "unsoftware"
+        weight = 5
 
     [[params.mainMenu]]
         link = "/music"
         text = "noisy stuffs"
+        weight = 6
 
     [[params.mainMenu]]
         link = "/teaching"
         text = "don't tell this anyone..."
+        weight = 7
 
     [[params.mainMenu]]
        link = "/notes/allnotes"
        text = "...tell everyone this one"
+       weight = 8
 
 # [taxonomies]
 #     tag = "tags"

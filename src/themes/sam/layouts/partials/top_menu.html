@@ -8,20 +8,18 @@
     {{ end }}
 
     {{ if .Page.Site.Params.mainMenu }}
-        {{ range first 1 .Page.Site.Params.mainMenu }}
-            <a href="{{ .link }}">
-                {{ .text }}
-            </a>
+
+        {{ $menuItems := (sort .Page.Site.Params.mainMenu "weight" "asc") }}
+        {{ range  $index, $element := $menuItems }}
+          <a href="{{.link}}">
+          {{ if (lt $index (add (len $menuItems) -1)) }}
+            {{$element.text}} -
+          {{ else }}
+            {{$element.text}}
+          {{ end }}
+          </a>
         {{ end }}
     
-        {{ if ( gt ( len .Page.Site.Params.mainMenu ) 1 ) }}
-            {{ range after 1 .Page.Site.Params.mainMenu }}
-                &#183; 
-                <a href="{{ .link }}">
-                    {{ .text }}
-                </a>
-            {{ end }}
-        {{ end }}
         <p>
             <a href="{{.Page.Site.BaseURL}}">
                 {{ .Page.Site.Params.homepage }}
