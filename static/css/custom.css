@@ -1,0 +1,168 @@
+#splash {
+    display: flex;
+    align-items: flex-end;
+}
+
+@media screen and (max-height: 684px), (max-width: 300px) {
+    #splash {
+        display: block;
+        height: 100%;
+    }
+    
+}
+
+h1, h2, h3 {
+    opacity: 1;
+}
+
+.big-link {
+    text-align: right;
+}
+.wrap {
+    margin-top: 0;
+}
+
+details p {
+    display: block;
+}
+
+summary:focus, a:focus {
+    outline: none;
+}
+
+details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-left: -10px}
+  100%  {opacity: 1; margin-left: 0px}
+}
+
+/* slightly compress content paragraphs */
+#content p {
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+}
+
+/* better looking inline code */
+#content code {
+    font-size: unset;
+    padding: unset;
+    border-radius: unset;
+}
+
+/* an awesome rectangle around the content area */
+/*
+#content {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+}
+*/
+
+
+/************************************************
+* The following is the styling for BibBase page *
+*************************************************/
+
+/* restyle the link image */
+#content img.bibbase_icon {
+    display: inline-block;
+    width: 15px;
+    vertical-align: middle;
+    margin: 0;
+    margin-right: 5px;
+}
+
+/* remove links to bibbase */
+.bibbase.bibbase_page.link, #bibbase > div:first-of-type {
+    display: none;
+}
+
+.bibbase.bibtex.link {
+    margin-left: -10px;
+}
+
+/* remove border to bibbase menus */
+#bibbase_header a {
+    border: none;
+}
+
+/* reduce unuseful space */
+#bibbase_header {
+    margin: 0;
+}
+
+#menu_dropdown {
+    margin: 0;
+}
+
+#bibbase_body {
+    padding: 0;
+}
+
+/* reordering sections */
+
+#bibbase_body {
+    display: flex;
+    flex-direction: column;
+}
+
+#bibbase_body > div {
+    order: 10;
+}
+
+#bibbase_body #group_Submitted {
+    order: 0;
+}
+
+#bibbase_body #group_Journal {
+    order: 1;
+}
+
+#bibbase_body #group_Conference {
+    order: 2;
+}
+
+#bibbase_body #group_Thesis {
+    order: 3;
+}
+
+#bibbase_body #group_Other {
+    order: 4;
+}
+
+
+/***************************************************
+* comment the following to get back the dark theme *
+***************************************************/
+html, body {
+    background-color: white;
+    color: #39424e;
+}
+
+a {
+    color: #39424e
+}
+
+a:hover {
+    color: #ccc;
+}
+
+#content pre {
+    background-color: whitesmoke;
+}
+
+#content p {
+    opacity: 1;
+}
+
+p {
+    opacity: 1;
+}
+
+li {
+    opacity: 1;
+}
+
+/**************************************************/
