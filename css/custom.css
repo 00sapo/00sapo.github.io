@@ -1,3 +1,7 @@
+a:hover {
+  font-weight: bold;
+}
+
 #splash {
     display: flex;
     align-items: flex-end;
@@ -40,9 +44,11 @@ details[open] summary ~ * {
 }
 
 /* slightly compress content paragraphs */
-#content p {
+#content p, #content li {
     line-height: 1.6;
     letter-spacing: 1.2px;
+    margon-bottom: 10px;
+    margin-top: 5px;
 }
 
 /* better looking inline code */
@@ -53,12 +59,10 @@ details[open] summary ~ * {
 }
 
 /* an awesome rectangle around the content area */
-/*
 #content {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc2b;
     padding: 0.5rem;
 }
-*/
 
 
 /************************************************
@@ -132,37 +136,41 @@ details[open] summary ~ * {
     order: 4;
 }
 
+html, body {
+  background-color: #00594d;
+}
+
 
 /***************************************************
 * comment the following to get back the dark theme *
 ***************************************************/
-html, body {
-    background-color: white;
-    color: #39424e;
-}
+/* html, body { */
+/*     background-color: white; */
+/*     color: #39424e; */
+/* } */
 
-a {
-    color: #39424e
-}
+/* a { */
+/*     color: #39424e */
+/* } */
 
-a:hover {
-    color: #ccc;
-}
+/* a:hover { */
+/*     color: #ccc; */
+/* } */
 
-#content pre {
-    background-color: whitesmoke;
-}
+/* #content pre { */
+/*     background-color: whitesmoke; */
+/* } */
 
-#content p {
-    opacity: 1;
-}
+/* #content p { */
+/*     opacity: 1; */
+/* } */
 
-p {
-    opacity: 1;
-}
+/* p { */
+/*     opacity: 1; */
+/* } */
 
-li {
-    opacity: 1;
-}
+/* li { */
+/*     opacity: 1; */
+/* } */
 
 /**************************************************/

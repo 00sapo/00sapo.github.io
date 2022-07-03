@@ -120,7 +120,8 @@ From 14th to 17th February, an important Algorave took place: 84 hours of non-st
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://00sapo.github.io/about/</guid>
-      <description>Hi! I am Federico and this is my little website, where I try to merge various activities otherwise dispersed all around the web. I am going to work at the Complutense University in the Didone project. I have taken my Ph.D. in Computer Science at the University of Milan in the LIM - Music Informatics Laboratory, where I studied computational methods for music performance analysis. While I am continuously involved in researching new tools for music expressivity, I want to contribute to the improvement of the society and of the world in which we live.</description>
+      <description>Hi! I am Federico and this is my little website, where I try to merge various activities otherwise dispersed all around the web. I am a post-doc researcher at Instituto Complutense de Ciencias Musicales - ICCMU in the Didone project, where I work on the expression of emotions in the 18th century Italian Opera.
+I have taken my Ph.D. in Computer Science at the University of Milan in the LIM - Music Informatics Laboratory, where I studied computational methods for music performance analysis.</description>
     </item>
     
     <item>
@@ -161,9 +162,9 @@ The following is the updated list of publications.
       
       <guid>https://00sapo.github.io/software/</guid>
       <description>One day I will write why all software I produce is released with free license, where free is like in speech, not like in beer&amp;hellip;
-I&amp;rsquo;m really thankful to Framasoft for the free service they provide with a completely free GitLab server.
-All my software and reasearch code is available online. Here area a few places where you can find my code:
- Framasoft gitlab page - unfortunately, framasoft is closing this service Insitutional gitlab page: Computer Science Department - University of Milan github.</description>
+All my software and research code is available online. You can mainly find my codes in my github account and in the links inside my publications.
+However, some of the code I develop is under different github accounts (organizations):
+ github.com/LIMUNIMI github.com/DIDONEproject  Have a Look at these WikiCFP - GGS A browser extension to safely use WikiCFP.</description>
     </item>
     
     <item>
@@ -173,7 +174,7 @@ All my software and reasearch code is available online. Here area a few places w
       
       <guid>https://00sapo.github.io/teaching/</guid>
       <description>Here I will put all the material I use for teaching. For now, it is just a list of useful links!
-Slides  Easy Introduction to Digital Audio Signal Processing (January 2020): download whole zip  Exercises  Excel exercises for music processing (January 2020): download zip  Technical tools  Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this  Neural Networks and Machine Learning  A very good university course on machine learning The deep learning book.</description>
+Technical tools  Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this  Neural Networks and Machine Learning  A very good university course on machine learning The deep learning book.</description>
     </item>
     
     <item>
