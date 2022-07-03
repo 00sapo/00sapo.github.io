@@ -29,7 +29,6 @@ You won't find links to closed software or to software which make use of closed 
 
 * A very good [university course](https://www.youtube.com/playlist?list=PLUenpfvlyoa0rMoE5nXA8kdctBKE9eSob) on machine learning
 * The [*deep learning book*](https://www.deeplearningbook.org/). A must.
-* Python and the [GIL](https://wiki.python.org/moin/GlobalInterpreterLock): can we remove the GIL?
 * Don't bother your computer nerd friend because your computer isn't working. Check [this](http://www.fixingmycomputer.com/computer-turn-on.html) instead.
 * Learn *X* in *Y* minutes, where *X* is almost _everything_: the best introduction or fast-review website for computer languages or advanced tools [learnxinyminutes.com](https://learnxinyminutes.com/)
 * [Manjaro](https://manjaro.org/): the best Linux distro for developers and researchers
