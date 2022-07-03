@@ -1,4 +1,5 @@
-baseurl = "https://federicosimonetta.eu.org/"
+baseurl = "https://00sapo.github.io/public"
+# baseurl = "https://federicosimonetta.eu.org/"
 title = "Federico Simonetta"
 defaultContentLanguage = "en"
 theme = "sam"
