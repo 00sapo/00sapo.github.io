@@ -1,5 +1,6 @@
 baseurl = "https://00sapo.github.io"
 # baseurl = "https://federicosimonetta.eu.org/"
+#
 publishDir = "docs"
 title = "Federico Simonetta"
 defaultContentLanguage = "en"
