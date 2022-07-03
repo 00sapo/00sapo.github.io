@@ -10,12 +10,6 @@ banner = "//studio-70.org/wp-content/uploads/cohort-learning-e1518296152746-1.jp
 Here I will put all the material I use for teaching.
 For now, it is just a list of useful links!
 
-## Slides
-* Easy Introduction to Digital Audio Signal Processing (January 2020): [download whole zip](/lectures/digital_audio_signal_processing.zip)
-
-## Exercises
-* Excel exercises for music processing (January 2020): [download zip](/lectures/excel_exercise_music.zip )
-
 ## Technical tools
 * [Guide](/post/remote_editing) to how to develop on remote hosts
 * Very easy [introduction](/post/git_intro) to git
