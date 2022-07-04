@@ -76,6 +76,7 @@ details[open] summary ~ * {
     vertical-align: middle;
     margin: 0;
     margin-right: 5px;
+    filter: invert(100%);
 }
 
 /* remove links to bibbase */
@@ -116,29 +117,82 @@ details[open] summary ~ * {
     order: 10;
 }
 
-#bibbase_body #group_Submitted {
+#bibbase_body #group_unpublished {
     order: 0;
 }
 
-#bibbase_body #group_Journal {
+#bibbase_body #group_article {
     order: 1;
 }
 
-#bibbase_body #group_Conference {
+#bibbase_body #group_inproceedings {
     order: 2;
 }
 
-#bibbase_body #group_Thesis {
+#bibbase_body #group_thesis {
     order: 3;
 }
 
-#bibbase_body #group_Other {
+#bibbase_body #group_misc {
     order: 4;
+}
+
+#groupby_dropdown a, #menu_dropdown a{
+  color: white;
+  opacity: 1;
+}
+
+#bibbase_header > .dropdown-menu > a {
+  color: black;
+  opacity: 1;
+}
+
+.dropdown-menu > li > a:hover {
+  background-image: -webkit-linear-gradient(top, #00594d, #00594d);
+  background-color: #00594d;
+  color: white;
+}
+
+.nav > li > a:focus {
+  background-color: initial;
+}
+
+.nav > li > a:hover {
+  background-color: #ffffff0a;
+}
+
+.nav .dropdown-toggle .caret, .nav .dropdown-toggle:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+#content ul {
+  padding-left: 0;
 }
 
 html, body {
   background-color: #00594d;
 }
+
+.bibbase_group_head_icon {
+  display: unset;
+}
+
+#group_article div.bibbase_group i+span { display: none; }
+#group_inproceedings div.bibbase_group i+span { display: none; }
+#group_thesis div.bibbase_group i+span { display: none; }
+#group_techreport div.bibbase_group i+span { display: none; }
+#group_unpublished div.bibbase_group i+span { display: none; }
+#group_incollection div.bibbase_group i+span { display: none; }
+#group_misc div.bibbase_group i+span { display: none; }
+
+#group_article div.bibbase_group i:after { content: " Journal Articles" }
+#group_inproceedings div.bibbase_group i:after { content: " Conference and Workshop Publications" }
+#group_thesis div.bibbase_group i:after { content: " Thesis" }
+#group_techreport div.bibbase_group i:after { content: " Technical Report" }
+#group_unpublished div.bibbase_group i:after { content: " Unpublished" }
+#group_incollection div.bibbase_group i:after { content: " In Collection" }
+#group_misc div.bibbase_group i:after { content: " Other" }
 
 
 /***************************************************
