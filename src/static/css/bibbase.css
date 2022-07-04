@@ -50,8 +50,8 @@
   background-color: initial;
 }
 
-.nav > li > a:hover {
-  background-color: #ffffff0a;
+.nav > li > a:hover, .nav-pills .open .dropdown-toggle {
+  background-color: #ffffff24;
 }
 
 .nav .dropdown-toggle .caret, .nav .dropdown-toggle:hover .caret {
