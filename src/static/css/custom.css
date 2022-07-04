@@ -81,6 +81,9 @@ details[open] summary ~ * {
 ********************* colors **********************
 ***************************************************/
 
+/* these colors are overwritten by the theme which takes one color at random
+ * for the background. If you disable this feature from the config file, the
+ * following background will be used */
 html, body {
   background-color: #00594d;
 }

@@ -19,6 +19,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     favicon = "/img/avatar.ico"
     homepage = "home" # What to call the home page link
     footerText = "_Fluid thoughts against categories_"
+    randomBackground = true
 
 # Metadata for Open Graph and Twitter
     images = ["/img/image.jpg"]            # Image that shows on Twitter cards and Open Graph links to the site
