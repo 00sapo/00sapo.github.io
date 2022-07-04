@@ -6,7 +6,7 @@ schematype = "CollectionPage"
 +++
 
 The following are some notable publications that may you are interested in.
-If you are looking for the full list of my publications, see [here](/publications-full).
+You may are interested in [the full list of publications](/publications-full).
 
 ![Screenshot of the Listening Test](/img/listening_test_screenshot.png)
 ### A perceptual measure for evaluating the resynthesis of automatic music transcriptions

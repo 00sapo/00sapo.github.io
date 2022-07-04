@@ -108,6 +108,8 @@
     order: 4;
 }
 
+/* Renaming Sections */
+
 .bibbase_group_head_icon {
   display: unset;
 }
@@ -128,4 +130,20 @@
 #group_incollection div.bibbase_group i:after { content: " In Collection" }
 #group_misc div.bibbase_group i:after { content: " Other" }
 
+/* Restyiling bibtex */
+
+.well.well-small.bibbase {
+  padding: 0px;
+  background-color: initial;
+  border: none;
+}
+
+#content pre {
+  font-size: 0.75rem;
+  line-height: 0.9rem;
+  margin-bottom: 0px
+
+}
+
+/* Restyiling abstract */
 
