@@ -1,5 +1,5 @@
 {{ if or (.Page.Site.Params.mainMenu) (.show_back_menu_item) }}
-<p>
+  <p>
     {{ if .show_back_menu_item }}
         <a href="{{ .Page.Section | relURL }}">back</a>
         {{ if .Page.Site.Params.mainMenu }}
@@ -11,13 +11,10 @@
 
         {{ $menuItems := (sort .Page.Site.Params.mainMenu "weight" "asc") }}
         {{ range  $index, $element := $menuItems }}
-          <a href="{{.link}}">
+          <a href="{{.link}}">{{$element.text}}</a>
           {{ if (lt $index (add (len $menuItems) -1)) }}
-            {{$element.text}} -
-          {{ else }}
-            {{$element.text}}
+            -
           {{ end }}
-          </a>
         {{ end }}
     
         <p>
