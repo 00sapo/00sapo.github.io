@@ -1,5 +1,9 @@
-a:hover {
+.big-link:hover {
   font-weight: bold;
+}
+
+a:hover {
+  background-color: #00594d;
 }
 
 #splash {
@@ -44,11 +48,18 @@ details[open] summary ~ * {
 }
 
 /* slightly compress content paragraphs */
-#content p, #content li {
+#content p, #content li, #content blockquote {
     line-height: 1.6;
     letter-spacing: 1.2px;
     margon-bottom: 10px;
     margin-top: 5px;
+}
+
+/* better looking quotations */
+#content blockquote {
+  color: unset;
+  background-color: unset;
+  filter: sepia();
 }
 
 /* better looking inline code */
@@ -59,145 +70,21 @@ details[open] summary ~ * {
 }
 
 /* an awesome rectangle around the content area */
-#content {
-    border: 1px solid #cccccc2b;
-    padding: 0.5rem;
-}
+/* #content { */
+/*     border: 1px solid #cccccc2b; */
+/*     padding: 0.5rem; */
+/* } */
 
 
-/************************************************
-* The following is the styling for BibBase page *
-*************************************************/
 
-/* restyle the link image */
-#content img.bibbase_icon {
-    display: inline-block;
-    width: 15px;
-    vertical-align: middle;
-    margin: 0;
-    margin-right: 5px;
-    filter: invert(100%);
-}
-
-/* remove links to bibbase */
-.bibbase.bibbase_page.link, #bibbase > div:first-of-type {
-    display: none;
-}
-
-.bibbase.bibtex.link {
-    margin-left: -10px;
-}
-
-/* remove border to bibbase menus */
-#bibbase_header a {
-    border: none;
-}
-
-/* reduce unuseful space */
-#bibbase_header {
-    margin: 0;
-}
-
-#menu_dropdown {
-    margin: 0;
-}
-
-#bibbase_body {
-    padding: 0;
-}
-
-/* reordering sections */
-
-#bibbase_body {
-    display: flex;
-    flex-direction: column;
-}
-
-#bibbase_body > div {
-    order: 10;
-}
-
-#bibbase_body #group_unpublished {
-    order: 0;
-}
-
-#bibbase_body #group_article {
-    order: 1;
-}
-
-#bibbase_body #group_inproceedings {
-    order: 2;
-}
-
-#bibbase_body #group_thesis {
-    order: 3;
-}
-
-#bibbase_body #group_misc {
-    order: 4;
-}
-
-#groupby_dropdown a, #menu_dropdown a{
-  color: white;
-  opacity: 1;
-}
-
-#bibbase_header > .dropdown-menu > a {
-  color: black;
-  opacity: 1;
-}
-
-.dropdown-menu > li > a:hover {
-  background-image: -webkit-linear-gradient(top, #00594d, #00594d);
-  background-color: #00594d;
-  color: white;
-}
-
-.nav > li > a:focus {
-  background-color: initial;
-}
-
-.nav > li > a:hover {
-  background-color: #ffffff0a;
-}
-
-.nav .dropdown-toggle .caret, .nav .dropdown-toggle:hover .caret {
-  border-top-color: white;
-  border-bottom-color: white;
-}
-
-#content ul {
-  padding-left: 0;
-}
+/**************************************************
+********************* colors **********************
+***************************************************/
 
 html, body {
   background-color: #00594d;
 }
 
-.bibbase_group_head_icon {
-  display: unset;
-}
-
-#group_article div.bibbase_group i+span { display: none; }
-#group_inproceedings div.bibbase_group i+span { display: none; }
-#group_thesis div.bibbase_group i+span { display: none; }
-#group_techreport div.bibbase_group i+span { display: none; }
-#group_unpublished div.bibbase_group i+span { display: none; }
-#group_incollection div.bibbase_group i+span { display: none; }
-#group_misc div.bibbase_group i+span { display: none; }
-
-#group_article div.bibbase_group i:after { content: " Journal Articles" }
-#group_inproceedings div.bibbase_group i:after { content: " Conference and Workshop Publications" }
-#group_thesis div.bibbase_group i:after { content: " Thesis" }
-#group_techreport div.bibbase_group i:after { content: " Technical Report" }
-#group_unpublished div.bibbase_group i:after { content: " Unpublished" }
-#group_incollection div.bibbase_group i:after { content: " In Collection" }
-#group_misc div.bibbase_group i:after { content: " Other" }
-
-
-/***************************************************
-* comment the following to get back the dark theme *
-***************************************************/
 /* html, body { */
 /*     background-color: white; */
 /*     color: #39424e; */

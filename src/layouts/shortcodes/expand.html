@@ -1,7 +1,6 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <details class="expand">
     <summary class="expand-label" style="cursor: pointer;" >
-        <i style="font-size:x-small;" class="fas fa-chevron-right"></i>
         <span>
         {{$expandMessage := T "Expand-title"}}
     	{{ if .IsNamedParams }}
@@ -11,5 +10,5 @@
     	{{end}}
     	</span>
     </summary>
-    {{.Inner | safeHTML}}
+    {{.Inner | markdownify }}
 </details>
