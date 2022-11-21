@@ -24,10 +24,10 @@ You won't find links to closed software or to software which make use of closed 
 * [ORCA](https://github.com/hundredrabbits/Orca): programming language for live-coding: be fast, don't mind if it is unreadable for others.
 * [Ajax sound studio](http://ajaxsoundstudio.com/software/): have fun with artistic sound synthesis and processing in python
 
-
 ## General computer science links
 
-* A very good [university course](https://www.youtube.com/playlist?list=PLUenpfvlyoa0rMoE5nXA8kdctBKE9eSob) on machine learning
+* A very good university course on [Machine Learning](https://www.youtube.com/playlist?list=PLUenpfvlyoa0rMoE5nXA8kdctBKE9eSob)
+* A very good university course on [Probabilistic Graphical Models](https://ermongroup.github.io/cs228-notes/) (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields)
 * The [*deep learning book*](https://www.deeplearningbook.org/). A must.
 * Don't bother your computer nerd friend because your computer isn't working. Check [this](http://www.fixingmycomputer.com/computer-turn-on.html) instead.
 * Learn *X* in *Y* minutes, where *X* is almost _everything_: the best introduction or fast-review website for computer languages or advanced tools [learnxinyminutes.com](https://learnxinyminutes.com/)

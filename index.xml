@@ -44,7 +44,7 @@ Solution If you want to abruptly shutdown your system, simply does as following:
       
       <guid>https://federicosimonetta.eu.org/post/remote_editing/</guid>
       <description>Workflow In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:
- You create and edit code on your local machine An indipendent software mirrors your code to the host (syncthing in this document) You interface with the host through terminal, give commands and run code (tmux) Finally, you debug your code (debug section), and edit it your local machine  This workflow allows you to:</description>
+You create and edit code on your local machine An indipendent software mirrors your code to the host (syncthing in this document) You interface with the host through terminal, give commands and run code (tmux) Finally, you debug your code (debug section), and edit it your local machine This workflow allows you to:</description>
     </item>
     
     <item>
@@ -55,7 +55,7 @@ Solution If you want to abruptly shutdown your system, simply does as following:
       <guid>https://federicosimonetta.eu.org/notes/contradictions/</guid>
       <description>Human beings in 21th century has to live with a new incredible discovery: our world perception is contradictory.
 Here, I will try to list all the contradictions that humans have to face. The ratio for which they are listed here is that it may be impossible to solve these contradictions without stopping being a human, that is without stopping perceiving ourself as an active coscience.
- Categories only exist in in our mind, but our mind also tells us that categories do not exist Humans perceive a push towards something but they cannot understand why nor what  </description>
+Categories only exist in in our mind, but our mind also tells us that categories do not exist Humans perceive a push towards something but they cannot understand why nor what </description>
     </item>
     
     <item>
@@ -64,8 +64,8 @@ Here, I will try to list all the contradictions that humans have to face. The ra
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://federicosimonetta.eu.org/notes/fantastic/</guid>
-      <description>Categories   We organize what we perceive in the world in categories. Everywhere we find categories: words, concepts, objects. But why we do so? Are categories really part of the intrinsic essence of where we live? In a certain sense, we could say that the needing for categories comes from the perception of the world as a set of multiple different objects.
-  It is completely instictual finding differences between a chair and a glass, or between a table and a laptop.</description>
+      <description>Categories We organize what we perceive in the world in categories. Everywhere we find categories: words, concepts, objects. But why we do so? Are categories really part of the intrinsic essence of where we live? In a certain sense, we could say that the needing for categories comes from the perception of the world as a set of multiple different objects.
+It is completely instictual finding differences between a chair and a glass, or between a table and a laptop.</description>
     </item>
     
     <item>
@@ -130,8 +130,7 @@ I have taken my Ph.D. in Computer Science at the University of Milan in the LIM 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://federicosimonetta.eu.org/publications-full/</guid>
-      <description>All the code that I can publish is available in online. See Unsoftware page for more info.
- </description>
+      <description>All the code that I can publish is available in online. See Unsoftware page for more info.</description>
     </item>
     
     <item>
@@ -141,7 +140,7 @@ I have taken my Ph.D. in Computer Science at the University of Milan in the LIM 
       
       <guid>https://federicosimonetta.eu.org/notes/allnotes/</guid>
       <description>This a list of personal notes about various stuffs. Be careful, because you could get crazy (or maybe you could just think that I&amp;rsquo;m crazy, which is probably part of the truth).
- Fantastic notes Effetti sociali dell&amp;rsquo;informatica user-centered Assurda filosofia dell&amp;rsquo;arte Contrdictions  </description>
+Fantastic notes Effetti sociali dell&amp;rsquo;informatica user-centered Assurda filosofia dell&amp;rsquo;arte Contrdictions </description>
     </item>
     
     <item>
@@ -161,9 +160,9 @@ mmmmmmmmmdddddhddddhsoso+oooooossyhyh++////oosssysyyyyyyyysossyyyyhyhhhhhhhhhdhy
       
       <guid>https://federicosimonetta.eu.org/publications/</guid>
       <description>The following are some notable publications that you may be interested in. Here is the full list of publications.
-A perceptual measure for evaluating the resynthesis of automatic music transcriptions  See more   Federico Simonetta, S. Ntalampiras, F. Avanzini
+A perceptual measure for evaluating the resynthesis of automatic music transcriptions See more Federico Simonetta, S. Ntalampiras, F. Avanzini
 Published in Multimedia Tools and Applications 2022
- Full paper Web Site Source-code  Abstract This study focuses on the perception of music performances when contextual factors, such as room acoustics and instrument, change.</description>
+Full paper Web Site Source-code Abstract This study focuses on the perception of music performances when contextual factors, such as room acoustics and instrument, change. We propose to distinguish the concept of “performance” from the one of “interpretation”, which expresses the “artistic intention”.</description>
     </item>
     
     <item>
@@ -175,7 +174,7 @@ Published in Multimedia Tools and Applications 2022
       <description>One day I will write why all software I produce is released with free license, where free is like in speech, not like in beer&amp;hellip;
 All my software and research code is available online. You can mainly find my codes in my github account and in the links inside my publications.
 However, some of the code I develop is under different github accounts (organizations):
- github.com/LIMUNIMI github.com/DIDONEproject  Have a Look at these WikiCFP - GGS A browser extension to safely use WikiCFP.</description>
+github.com/LIMUNIMI github.com/DIDONEproject Have a Look at these WikiCFP - GGS A browser extension to safely use WikiCFP.</description>
     </item>
     
     <item>
@@ -185,7 +184,7 @@ However, some of the code I develop is under different github accounts (organiza
       
       <guid>https://federicosimonetta.eu.org/teaching/</guid>
       <description>Here I will put all the material I use for teaching. For now, it is just a list of useful links!
-Technical tools  Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this  Neural Networks and Machine Learning  A very good university course on machine learning The deep learning book.</description>
+Technical tools Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this Neural Networks and Machine Learning A very good university course on machine learning The deep learning book.</description>
     </item>
     
     <item>
@@ -195,7 +194,7 @@ Technical tools  Guide to how to develop on remote hosts Very easy introduction 
       
       <guid>https://federicosimonetta.eu.org/links/</guid>
       <description>This is a random list of links that I find interesting. Feel free to comment and/or suggest other links. You won&amp;rsquo;t find links to closed software or to software which make use of closed frameworks/libraries/languages.
-Music Informatics links  A list of useful software for music production in Linux (2018, June) PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 A guide to algorithmic music INScore: a greate piece of software to create augmented music score, also in real-time dfscore: an amazing distributed music score FoxDot: live coding in Python TOPLAP: the home of live coding OpenMusic: probably the only visual programming language worth of symbolic music A very nice repository of various computational musicology tools Advanced music and Linux list of software ORCA: programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
+Music Informatics links A list of useful software for music production in Linux (2018, June) PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 A guide to algorithmic music INScore: a greate piece of software to create augmented music score, also in real-time dfscore: an amazing distributed music score FoxDot: live coding in Python TOPLAP: the home of live coding OpenMusic: probably the only visual programming language worth of symbolic music A very nice repository of various computational musicology tools Advanced music and Linux list of software ORCA: programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
     </item>
     
   </channel>
