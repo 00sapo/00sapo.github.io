@@ -9,7 +9,16 @@
 
 {{ template "_internal/twitter_cards.html" . }}
 {{ template "_internal/opengraph.html" . }}
-{{ template "_internal/google_analytics_async.html" . }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-91GZC4XQBY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-91GZC4XQBY');
+</script>
+<!-- {{ template "_internal/google_analytics_async.html" . }} -->
 {{ partial "site-schema.html" . }}
 {{ if .Params.canonicalUrl }}
 <link rel="canonical" href="{{ .Params.canonicalUrl }}">
