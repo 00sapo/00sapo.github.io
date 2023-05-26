@@ -5,7 +5,9 @@ comments = false
 schematype = "CollectionPage"
 +++
 
-All the code that I can publish is available in online. See [Unsoftware](/software) page for more info.
+All the code that I can publish is available in online. See my
+[GitHub page](https://github.com/00sapo) for finding them.
+You can also check my [Google Scholar profile](https://scholar.google.it/citations?hl=en&pli=1&user=qkEXQTgAAAAJ)
 
 
 {{< rawhtml >}}

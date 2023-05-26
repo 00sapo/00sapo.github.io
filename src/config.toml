@@ -24,8 +24,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # Metadata for Open Graph and Twitter
     images = ["/img/image.jpg"]            # Image that shows on Twitter cards and Open Graph links to the site
     title = "Federico Simonetta"
-    keywords = "Federico Simonetta, musica, informatica, music, computer science, pavia, padova, university, computer engineer, music composition, milan, research, phd"
-    description = "Federico Simonetta is musician and computer engineer. From Pavia to Milan through Padua. Here you found my publications, music, software and contacts. Pop in to know me!"
+    keywords = "Federico Simonetta, machine learning, artificial intelligence, ai, musica, informatica, music, computer science, pavia, research, computer science, music composition, milan, gssi, phd"
+    description = "Federico Simonetta is a machine learning researcher. Interested in music and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"
         
     custom_css = ["css/custom.css"]
 
@@ -67,10 +67,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         text = "not so random links"
         weight = 4
 
-    [[params.mainMenu]]
-        link = "/software"
-        text = "unsoftware"
-        weight = 5
+    # [[params.mainMenu]]
+    #     link = "/software"
+    #     text = "unsoftware"
+    #     weight = 5
 
     [[params.mainMenu]]
         link = "/music"
@@ -82,10 +82,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
         text = "don't tell this anyone..."
         weight = 7
 
-    [[params.mainMenu]]
-       link = "/notes/allnotes"
-       text = "...tell everyone this one"
-       weight = 8
+    # [[params.mainMenu]]
+    #    link = "/notes/allnotes"
+    #    text = "...tell everyone this one"
+    #    weight = 8
 
 # [taxonomies]
 #     tag = "tags"
