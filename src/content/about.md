@@ -30,6 +30,6 @@ world in which we live.
 ### External Links
 * [**GitHub**](https://github.com/00sapo)
 * [**Google Scholar**](https://scholar.google.it/citations?hl=en&pli=1&user=qkEXQTgAAAAJ)
-* **Mail**: fsimonetta [at] iccmu.es
+* **Mail**: federico.simonetta [at] gssi.it
 
 If you want, do not hesitate and write me an email!
