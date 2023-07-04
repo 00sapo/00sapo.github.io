@@ -10,6 +10,9 @@ enableRobotsTXT = true
 canonifyURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [author]
     name = "Federico Simonetta"
 
