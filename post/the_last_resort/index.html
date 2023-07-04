@@ -80,7 +80,7 @@ Solution If you want to abruptly shutdown your system, simply does as following:
   },
   "genre": "post",
   "keywords": "software, teaching, remote, cloud, linux, reboot",
-  "wordcount":  216 ,
+  "wordcount":  217 ,
   "url": "https:\/\/federicosimonetta.eu.org\/post\/the_last_resort\/",
   "datePublished": "2020-12-07T11:05:35\u002b00:00",
   "dateModified": "2020-12-07T11:05:35\u002b00:00",
@@ -200,7 +200,8 @@ Solution If you want to abruptly shutdown your system, simply does as following:
 <li><code>echo b &gt; /proc/sysrq-trigger</code></li>
 </ul>
 <h2 id="how-it-works">How it works</h2>
-<p>This is the lowest level method in a Linux system. It first enables the sysrq mode which is used for rescue the system. You can use it even in your PC with a simple <a href="//en.wikipedia.org/wiki/Magic_SysRq_key">key combination</a>. Then it sends the rescue action to take (<code>b</code> is for reboot).</p>
+<p>This is the lowest level method in a Linux system. It first enables the sysrq mode which is used for rescue the system. You can use it even in your PC with a simple <a href="//en.wikipedia.org/wiki/Magic_SysRq_key" >key combination</a>
+. Then it sends the rescue action to take (<code>b</code> is for reboot).</p>
 <p>In other words, the first command is the equivalent of <code>Alt + Stamp</code>, the second command is the equivalent of the key pressed successively.</p>
 <h2 id="only-as-last-resort">Only as last Resort</h2>
 <p>Right now, I&rsquo;m still waiting that my machine completely comes back. It answers to ping again, so it rebooted, but it refuses ssh connections. Probably, the hard-reboot created some problem in the filesystem. I hope it solves it by itself, otherwise I&rsquo;ll need a human intervention!</p>

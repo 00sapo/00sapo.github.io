@@ -78,7 +78,7 @@ You create and edit code on your local machine An indipendent software mirrors y
   },
   "genre": "post",
   "keywords": "software, teaching, remote, cloud, syncthing, tmux",
-  "wordcount":  2011 ,
+  "wordcount":  2017 ,
   "url": "https:\/\/federicosimonetta.eu.org\/post\/remote_editing\/",
   "datePublished": "2020-02-11T11:50:35\u002b00:00",
   "dateModified": "2020-02-11T11:50:35\u002b00:00",
@@ -246,7 +246,8 @@ ports 6006, 22001 and 22000 are used by Syncthing for syncing over ssh.</p>
 <p>Save the configuration and restart.</p>
 <p>If one of your machines is behind a strict firewall, it can be useful to use ssh tunneling for connecting.
 This requires a particular configuration that you first connect to the remote machine through ssh with port forwarding and then start syncthing on both machines.
-See the <code>.ssh/config</code> file in previous paragraph. More info in the <a href="https://docs.syncthing.net/users/tunneling.html">official guides</a>.</p>
+See the <code>.ssh/config</code> file in previous paragraph. More info in the <a href="https://docs.syncthing.net/users/tunneling.html" target="_blank" >official guides</a>
+.</p>
 <h2 id="running-tmux">Running tmux</h2>
 <p>Once you have synced code, you should connect through ssh to the remote host and start <code>tmux</code> to run your code. <code>tmux</code> is a nice piece of software used for working on remote host. It can be used to run long experiments that need to disconnect your machine (e.g. experiments lasting many days). I really recommend to always use tmux. Using it, you can also use the same terminal creating multiple tabs and split. One recurring pattern, for instance, is having the terminal with 3 splits: one for the experiment running, the second for controlling the resources on the remote machine and the third to give commands to the machine.</p>
 <p>For controlling <code>tmux</code> you need to prepend each command with <code>CTRL-b</code>: everything pressed after this combination will be interpreted as a tmux command and it will not be written to the terminal.
@@ -273,7 +274,8 @@ These steps exemplify the use of <code>tmux</code>:</p>
 set -g prefix `
 bind-key ` send-prefix
 </code></pre><p>Now instead of pressing <code>CTRL-b</code>, you can just press ` char (for italian keyboard, you could use the <code>\</code> char, for instance).</p>
-<p>You can also customize your keybindings to make them more easy to remember. For instance, I use keybindings very similar to <code>vim</code>. For more info see <a href="https://tmuxcheatsheet.com/">https://tmuxcheatsheet.com/</a>.</p>
+<p>You can also customize your keybindings to make them more easy to remember. For instance, I use keybindings very similar to <code>vim</code>. For more info see <a href="https://tmuxcheatsheet.com/" target="_blank" >https://tmuxcheatsheet.com/</a>
+.</p>
 <p><strong>N.B. If the terminal become unresponsive, it can be that the ssh connection has been closed server-side (e.g. because of a connection error). In such a case, press <code>~</code> and then <code>.</code> to close the connection and return to your local terminal. If it doesn&rsquo;t work, see the &ldquo;SOS&rdquo; section.</strong></p>
 <h2 id="controlling-resources">Controlling resources</h2>
 <p>It is a good practice to continuously monitor the resources on the host in a separate split.</p>
@@ -285,14 +287,18 @@ With these two commands you should be able to understand if:</p>
 <li>you are using too few ersources (for instance if GPU is not used or no parallel processing is in action)</li>
 <li>you are using wrong resources (too many parallel processes, wrong GPU, etc.)</li>
 </ol>
-<p>Note that in <code>pytorch</code> you should use internal commands <code>torch.cuda.memory_allocated</code> and <code>torch.cuda.max_memory_allocated</code> since <code>nvidia-smi</code> fails in showing the real amount of RAM used: <a href="https://pytorch.org/docs/stable/notes/cuda.html#memory-management">docs</a></p>
+<p>Note that in <code>pytorch</code> you should use internal commands <code>torch.cuda.memory_allocated</code> and <code>torch.cuda.max_memory_allocated</code> since <code>nvidia-smi</code> fails in showing the real amount of RAM used: <a href="https://pytorch.org/docs/stable/notes/cuda.html#memory-management" target="_blank" >docs</a>
+</p>
 <h2 id="debugging-code">Debugging code</h2>
 <p>For debugging code from remote you need to use a debugger. I suggest to always debug your code without parallelism whenever possible.</p>
 <h3 id="python">Python</h3>
 <p>In Python, just use the default debugger. Since version 3.7 you can simply add the instruction <code>debugger()</code> one line before the one you want to start the debug. You can set up your preferred debugger (I suggest <code>ipdb</code>). For previous versions use <code>import pdb; pdb.set_trace()</code>.</p>
-<p>A better debugger is ipdb (<code>import ipdb; ipdb.set_trace()</code>). You will probably need to install it: <code>pip install ipdb</code>. See its commands by pressing <code>h</code> or <a href="http://wangchuan.github.io/coding/2017/07/12/ipdb-cheat-sheet.html">here</a></p>
-<p>If you really want a graphical debugger, you try <a href="https://github.com/Kozea/wdb">wdb</a>. You will probably need to install it: <code>pip install wdb</code>.</p>
-<p>Another useful tool is <a href="https://github.com/cool-RR/PySnooper">pysnooper</a>. You can use it in place of printing to stdout or of logging. It&rsquo;s much easier to use and very powerful. I use it for debugging scripts with multiprocessing on different files.</p>
+<p>A better debugger is ipdb (<code>import ipdb; ipdb.set_trace()</code>). You will probably need to install it: <code>pip install ipdb</code>. See its commands by pressing <code>h</code> or <a href="http://wangchuan.github.io/coding/2017/07/12/ipdb-cheat-sheet.html" target="_blank" >here</a>
+</p>
+<p>If you really want a graphical debugger, you try <a href="https://github.com/Kozea/wdb" target="_blank" >wdb</a>
+. You will probably need to install it: <code>pip install wdb</code>.</p>
+<p>Another useful tool is <a href="https://github.com/cool-RR/PySnooper" target="_blank" >pysnooper</a>
+. You can use it in place of printing to stdout or of logging. It&rsquo;s much easier to use and very powerful. I use it for debugging scripts with multiprocessing on different files.</p>
 <p>I also recommend to use <code>pyenv</code> and <code>poetry</code> to isolate your project from the OS python packages.</p>
 <h3 id="matlab">Matlab</h3>
 <p>In <code>matlab</code>, you can use the default debugger by using the statement <code>keyboard</code> just one line after you want to stop. Then you will be prompted and you can use typical matlab commands to show variables. However, the editing needs the use a <code>emacs</code> keys (as of now I am still not able to change these mappings). Remember these ones:</p>
@@ -323,11 +329,17 @@ With these two commands you should be able to understand if:</p>
 </tbody>
 </table>
 <p>* <em>if you are using the default tmux keymap, <code>CTRL_B</code> is also the tmux escape sequence; in this case you&rsquo;ll have to press twice <code>CTRL-B</code> to send it to Matlab</em></p>
-<p>For managing the debugging itself, you can use <a href="https://www.mathworks.com/help/matlab/ref/dbcont.html">dbcont</a>, <a href="https://www.mathworks.com/help/matlab/ref/dbstep.html">dbstep</a>, <a href="https://www.mathworks.com/help/matlab/ref/dbquit.html">dbquit</a> and all the commands listed in the <a href="https://www.mathworks.com/help/matlab/debugging-code.html">official docs</a></p>
+<p>For managing the debugging itself, you can use <a href="https://www.mathworks.com/help/matlab/ref/dbcont.html" target="_blank" >dbcont</a>
+, <a href="https://www.mathworks.com/help/matlab/ref/dbstep.html" target="_blank" >dbstep</a>
+, <a href="https://www.mathworks.com/help/matlab/ref/dbquit.html" target="_blank" >dbquit</a>
+ and all the commands listed in the <a href="https://www.mathworks.com/help/matlab/debugging-code.html" target="_blank" >official docs</a>
+</p>
 <h3 id="julia">Julia</h3>
-<p>Use <a href="https://github.com/JuliaDebug/Debugger.jl">Debugger</a> package: command <code>]add Debugger</code> from Julia REPL.
+<p>Use <a href="https://github.com/JuliaDebug/Debugger.jl" target="_blank" >Debugger</a>
+ package: command <code>]add Debugger</code> from Julia REPL.
 Set breakpoints with <code>@bp</code>. Start debugging a function with <code>@enter functionName(args)</code> (will stop at the first instruction) or with <code>@run functionName(args)</code> (will stop at the first breakpoint).</p>
-<p>Open the REPL. Run <code>include('filename'); mainFunction()</code> to test mainFunction after having edited it. Alternatively, you can also try <a href="https://github.com/timholy/Revise.jl">Revise</a> to automatically reload changed modules.</p>
+<p>Open the REPL. Run <code>include('filename'); mainFunction()</code> to test mainFunction after having edited it. Alternatively, you can also try <a href="https://github.com/timholy/Revise.jl" target="_blank" >Revise</a>
+ to automatically reload changed modules.</p>
 <h2 id="sos">SOS</h2>
 <p>It can happen that your program fill the host resources. In that case, you can:</p>
 <ol>
@@ -345,7 +357,8 @@ a different Linux machines running inside the OS - similarly to virtual machines
 All <code>lxc</code> and <code>lxd</code> commands are executed from the parent environment, while inside your container you can work as in a real OS on which you have all admin privileges.</p>
 <ol>
 <li>Run <code>lxd init</code> to set up your configuration (just use the default options if you are unsure)</li>
-<li>Create a new container based on your preferred distro: <code>lxc launch ubuntu:18.04 myubuntu</code>. You can also use other distro and versions, see <a href="images.linuxcontainers.org">the complete list</a></li>
+<li>Create a new container based on your preferred distro: <code>lxc launch ubuntu:18.04 myubuntu</code>. You can also use other distro and versions, see <a href="images.linuxcontainers.org" >the complete list</a>
+</li>
 <li>Enter your container by executing a shell <code>lxc exec myubuntu -- /bin/sh</code></li>
 <li>Create your user if you want with <code>useradd -m -G sudo,wheel username</code></li>
 <li><code>exit</code></li>

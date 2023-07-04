@@ -83,8 +83,7 @@ It is completely instictual finding differences between a chair and a glass, or 
       <pubDate>Wed, 20 Feb 2019 18:50:46 +0000</pubDate>
       
       <guid>https://federicosimonetta.eu.org/post/live_coding/</guid>
-      <description>Versione italiana su techeconomy.it
-From 14th to 17th February, an important Algorave took place: 84 hours of non-stop music in the what probably is the largest music show completely produced and distributed online of ever. The 14th February 2019, in fact, was the 15th anniversary since the birth of TOPLAP, the international online community of musicians active in live coding, that are musicians who improvise music programming in real time. If you read this article and I can convince you that it was worthwhile to attend this Algorave, you can save this link to access the event: https://toplap.</description>
+      <description>Versione italiana su techeconomy.it From 14th to 17th February, an important Algorave took place: 84 hours of non-stop music in the what probably is the largest music show completely produced and distributed online of ever. The 14th February 2019, in fact, was the 15th anniversary since the birth of TOPLAP, the international online community of musicians active in live coding, that are musicians who improvise music programming in real time. If you read this article and I can convince you that it was worthwhile to attend this Algorave, you can save this link to access the event: https://toplap.</description>
     </item>
     
     <item>
@@ -120,8 +119,8 @@ From 14th to 17th February, an important Algorave took place: 84 hours of non-st
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://federicosimonetta.eu.org/about/</guid>
-      <description>I am a post-doc researcher in the Laudare ERC project at the GSSI - Gran Sasso Science Institute. I am also a research collaborator at the University of Milan, in the LIM - Music Informatics Laboratory. Previously, I was a post-doc researcher at the Instituto Complutense de Ciencias Musicales - ICCMU in the Didone project, where I worked on the 18th century Italian Opera.
-I have taken my Ph.D. in Computer Science at the University of Milan in the LIM - Music Informatics Laboratory, where I studied computational methods for music performance analysis.</description>
+      <description>I am a post-doc researcher in the Laudare ERC project at the GSSI - Gran Sasso Science Institute. I am also a research collaborator at the University of Milan, in the LIM - Music Informatics Laboratory. Previously, I was a post-doc researcher at the Instituto Complutense de Ciencias Musicales - ICCMU in the Didone project , where I worked on the 18th century Italian Opera.
+I have taken my Ph.</description>
     </item>
     
     <item>
@@ -130,7 +129,7 @@ I have taken my Ph.D. in Computer Science at the University of Milan in the LIM 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://federicosimonetta.eu.org/publications-full/</guid>
-      <description>All the code that I can publish is available in online. See my GitHub page for finding them. You can also check my Google Scholar profile</description>
+      <description>All the code that I can publish is available in online. See my GitHub page for finding them. You can also check my Google Scholar profile </description>
     </item>
     
     <item>
@@ -159,10 +158,10 @@ mmmmmmmmmdddddhddddhsoso+oooooossyhyh++////oosssysyyyyyyyysossyyyyhyhhhhhhhhhdhy
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://federicosimonetta.eu.org/publications/</guid>
-      <description>The following are some notable publications that you may be interested in. Here is the full list of publications.
+      <description>The following are some notable publications that you may be interested in. Here is the full list of publications . There, you can also find my library of references (from where you can better grasp my scientific interests).
 A perceptual measure for evaluating the resynthesis of automatic music transcriptions See more Federico Simonetta, S. Ntalampiras, F. Avanzini
 Published in Multimedia Tools and Applications 2022
-Full paper Web Site Source-code Abstract This study focuses on the perception of music performances when contextual factors, such as room acoustics and instrument, change. We propose to distinguish the concept of “performance” from the one of “interpretation”, which expresses the “artistic intention”.</description>
+Full paper Web Site Source-code Abstract This study focuses on the perception of music performances when contextual factors, such as room acoustics and instrument, change.</description>
     </item>
     
     <item>
@@ -172,7 +171,7 @@ Full paper Web Site Source-code Abstract This study focuses on the perception of
       
       <guid>https://federicosimonetta.eu.org/teaching/</guid>
       <description>Here I will put all the material I use for teaching. For now, it is just a list of useful links!
-Technical tools Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this Neural Networks and Machine Learning A very good university course on Machine Learning A very good university course on Probabilistic Graphical Models (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields) The deep learning book.</description>
+Technical tools Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this Neural Networks and Machine Learning A very good university course on Machine Learning A very good university course on Probabilistic Graphical Models (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields) The deep learning book .</description>
     </item>
     
     <item>
@@ -182,7 +181,7 @@ Technical tools Guide to how to develop on remote hosts Very easy introduction t
       
       <guid>https://federicosimonetta.eu.org/links/</guid>
       <description>This is a random list of links that I find interesting. Feel free to comment and/or suggest other links. You won&amp;rsquo;t find links to closed software or to software which make use of closed frameworks/libraries/languages.
-Music Informatics links A list of useful software for music production in Linux (2018, June) PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 A guide to algorithmic music INScore: a greate piece of software to create augmented music score, also in real-time dfscore: an amazing distributed music score FoxDot: live coding in Python TOPLAP: the home of live coding OpenMusic: probably the only visual programming language worth of symbolic music A very nice repository of various computational musicology tools Advanced music and Linux list of software ORCA: programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
+Music Informatics links A list of useful software for music production in Linux (2018, June) PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 A guide to algorithmic music INScore : a greate piece of software to create augmented music score, also in real-time dfscore : an amazing distributed music score FoxDot : live coding in Python TOPLAP : the home of live coding OpenMusic : probably the only visual programming language worth of symbolic music A very nice repository of various computational musicology tools Advanced music and Linux list of software ORCA : programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
     </item>
     
   </channel>
