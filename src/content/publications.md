@@ -5,8 +5,18 @@ comments = false
 schematype = "CollectionPage"
 +++
 
+<!-- Remove the margins before the title -->
+<style>
+#content h3 {
+margin: -2em 0em 0em;
+}
+</style>
+
 The following are some notable publications that you may be interested in.
-Here is [the full list of publications](/publications-full).
+Here is [the full list of publications](https://www.zotero.org/fsimonetta). There, you
+can also find my library of references (from where you can better grasp my scientific
+interests).
+<!-- Here is [the full list of publications](/publications-full). -->
 
 ![Screenshot of the Listening Test](/img/listening_test_screenshot.png)
 ### A perceptual measure for evaluating the resynthesis of automatic music transcriptions
@@ -43,62 +53,65 @@ method and propose an approximation algorithm for the p-dispersion problem.
 
 ---
 
-![Results of the A2S method](/img/audio_to_score_alignment.png)
-### Audio-to-Score Alignment Using Deep Automatic Music Transcription
-
+![Acoustics-specific strategies improve velocity prediction](/img/acoustics_specific_screenshot.jpg)
+### Acoustics-specific Piano Velocity Estimation
 {{< expand "See more" >}}
 _Federico Simonetta, S. Ntalampiras, F. Avanzini_
 
-Published in MMSP 2021
+Published in MMSP 2022
 
-* [Full paper](http://arxiv.org/pdf/2107.12854)
-* [Source-code](https://github.com/LIMUNIMI/MMSP2021-Audio2ScoreAlignment)
+* [Full paper](https://arxiv.org/abs/2203.16294)
+* [Web Site](https://limunimi.github.io/MIA/)
+* [Source-code](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/phdthesis)
 
 ##### Abstract 
 
-Audio-to-score alignment (A2SA) is a multimodal task consisting in the
-alignment of audio signals to music scores. Recent literature confirms the
-benefits of Automatic Music Transcription (AMT) for A2SA at the frame-level. In
-this work, we aim to elaborate on the exploitation of AMT Deep Learning (DL)
-models for achieving alignment at the note-level. We propose a method which
-benefits from HMM-based score-to-score alignment and AMT, showing a remarkable
-advancement beyond the state-of-the-art. We design a systematic procedure to
-take advantage of large datasets which do not offer an aligned score. Finally,
-we perform a thorough comparison and extensive tests on multiple datasets.
+Motivated by the state-of-art psychological research, we note that a piano performance
+transcribed with existing Automatic Music Transcription (AMT) methods cannot be
+successfully resynthesized without affecting the artistic content of the performance.
+This is due to 1) the different mappings between MIDI parameters used by different
+instruments, and 2) the fact that musicians adapt their way of playing to the
+surrounding acoustic environment. To face this issue, we propose a methodology to build
+acoustics-specific AMT systems that are able to model the adaptations that musicians
+apply to convey their interpretation. Specifically, we train models tailored for virtual
+instruments in a modular architecture that takes as input an audio recording and the
+relative aligned music score, and outputs the acoustics-specific velocities of each
+note. We test different model shapes and show that the proposed methodology generally
+outperforms the usual AMT pipeline which does not consider specificities of the
+instrument and of the acoustic environment. Interestingly, such a methodology is
+extensible in a straightforward way since only slight efforts are required to train
+models for the inference of other piano parameters, such as pedaling.
 
 {{< /expand >}}
 
 ---
 
-![Example of melody identification](/img/cnn_melody_identification.png)
-### A Convolutional Approach to Melody Line Identification in Symbolic Scores
-
+![Benchmarks of feature extraction tools](/img/optimizing_feature_extraction_screenshot.jpg)
+### Optimizing Feature Extraction for Symbolic Music
 {{< expand "See more" >}}
-_Federico Simonetta, Carlos Eduardo Cancino-Chacón, S. Ntalampiras, G. Widmer_
+_Federico Simonetta, Ana Llorens, Martín Serrano, Eduardo García-Portugués, Álvaro
+Torrente_
 
-Published in ISMIR 2022
+Published in ISMIR 2023
 
-* [Full paper](https://arxiv.org/pdf/1906.10547.pdf)
-* [Website](https://arxiv.org/pdf/1906.10547.pdf)
-* [Source-code](https://github.com/LIMUNIMI/Symbolic-Melody-Identification)
+* [Full paper](TODO)
+* [Website](https://musif.didone.eu)
+* [Source-code](https://github.com/DIDONEproject/musif)
 
 ##### Abstract 
 
-In many musical traditions, the melody line is of primary significance in a
-piece. Human listeners can readily distinguish melodies from accompaniment;
-however, making this distinction given only the written score -- i.e. without
-listening to the music performed -- can be a difficult task. Solving this task
-is of great importance for both Music Information Retrieval and musicological
-applications. In this paper, we propose an automated approach to identifying
-the most salient melody line in a symbolic score. The backbone of the method
-consists of a convolutional neural network (CNN) estimating the probability
-that each note in the score (more precisely: each pixel in a piano roll
-encoding of the score) belongs to the melody line. We train and evaluate the
-method on various datasets, using manual annotations where available and solo
-instrument parts where not. We also propose a method to inspect the CNN and to
-analyze the influence exerted by notes on the prediction of other notes; this
-method can be applied whenever the output of a neural network has the same size
-as the input.
+This paper presents a comprehensive investigation of existing feature extraction tools
+for symbolic music and contrasts their performance to determine the feature set that
+best characterizes the musical style of a given music score. In this regard, we propose
+a novel feature extraction tool, named musif, and evaluate its efficacy on various
+repertoires and file formats, including MIDI, MusicXML, and **kern. Musif approximates
+existing tools such as jSymbolic and music21 in terms of computational efficiency while
+attempting to enhance the usability for custom feature development. The proposed tool
+also enhances classification accuracy when combined with other feature sets. We
+demonstrate the contribution of each feature set and the computational resources they
+require. Our findings indicate that the optimal tool for feature extraction is a
+combination of the best features from each tool rather than a single one. To facilitate
+future research in music information retrieval, we release the source code of the tool
+and benchmarks.
 
 {{< /expand >}}
-
