@@ -5,6 +5,7 @@
     <link>https://federicosimonetta.eu.org/</link>
     <description>Recent content on Federico Simonetta</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 14 Jan 2021 09:14:35 +0000</lastBuildDate><atom:link href="https://federicosimonetta.eu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -171,7 +172,7 @@ Full paper Web Site Source-code Abstract This study focuses on the perception of
       
       <guid>https://federicosimonetta.eu.org/teaching/</guid>
       <description>Here I will put all the material I use for teaching. For now, it is just a list of useful links!
-Technical tools Guide to how to develop on remote hosts Very easy introduction to git A full interactive tutorial about git When git is a mess If you need a review of any technology, check this Neural Networks and Machine Learning A very good university course on Machine Learning A very good university course on Probabilistic Graphical Models (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields) The deep learning book .</description>
+Technical tools Guide to how to develop on remote hosts Very easy introduction to git A fully interactive tutorial about git When git is a mess If you need a review of any technology, check this Machine Learning A good university course on Machine Learning A good university course on Probabilistic Graphical Models (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields) Neural Networks The deep learning book .</description>
     </item>
     
     <item>
@@ -181,7 +182,7 @@ Technical tools Guide to how to develop on remote hosts Very easy introduction t
       
       <guid>https://federicosimonetta.eu.org/links/</guid>
       <description>This is a random list of links that I find interesting. Feel free to comment and/or suggest other links. You won&amp;rsquo;t find links to closed software or to software which make use of closed frameworks/libraries/languages.
-Music Informatics links A list of useful software for music production in Linux (2018, June) PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 A guide to algorithmic music INScore : a greate piece of software to create augmented music score, also in real-time dfscore : an amazing distributed music score FoxDot : live coding in Python TOPLAP : the home of live coding OpenMusic : probably the only visual programming language worth of symbolic music A very nice repository of various computational musicology tools Advanced music and Linux list of software ORCA : programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
+Music Informatics links PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 TOPLAP : the home of live coding A very nice repository of various computational musicology tools ORCA : programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
     </item>
     
   </channel>

@@ -7,7 +7,7 @@ Build
 -----
 
 #. Install ``hugo``
-#. Install builg dependencies: ``npm install postcss autoprefixer``
+#. Install build dependencies: ``npm install postcss-cli autoprefixer``
 #. ``hugo -s src``
 #. ``git commit -a``
 #. ``git push``

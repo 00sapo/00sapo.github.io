@@ -13,13 +13,15 @@ For now, it is just a list of useful links!
 ## Technical tools
 * [Guide](/post/remote_editing) to how to develop on remote hosts
 * Very easy [introduction](/post/git_intro) to git
-* A full [interactive tutorial](https://learngitbranching.js.org/?locale=it_IT) about git
+* A fully [interactive tutorial](https://learngitbranching.js.org/?locale=it_IT) about git
 * When git is a [mess](http://justinhileman.info/article/git-pretty/)
 * If you need a review of any technology, check [this](https://learnxinyminutes.com)
 
-## Neural Networks and Machine Learning
-* A very good university course on [Machine Learning](https://www.youtube.com/playlist?list=PLUenpfvlyoa0rMoE5nXA8kdctBKE9eSob)
-* A very good university course on [Probabilistic Graphical Models](https://ermongroup.github.io/cs228-notes/) (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields)
+## Machine Learning
+* A good university course on [Machine Learning](https://www.youtube.com/playlist?list=PLUenpfvlyoa0rMoE5nXA8kdctBKE9eSob)
+* A good university course on [Probabilistic Graphical Models](https://ermongroup.github.io/cs228-notes/) (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields)
+
+## Neural Networks
 * The [*deep learning book*](https://www.deeplearningbook.org/). A must.
 * An awesome explanation of [backpropagation](https://medium.com/@14prakash/back-propagation-is-very-simple-who-made-it-complicated-97b794c97e5c)
 * A tool to visualize [how nn learn](http://www.emergentmind.com/neural-network) (check input and output)
