@@ -78,7 +78,7 @@ You create and edit code on your local machine An indipendent software mirrors y
   },
   "genre": "post",
   "keywords": "software, teaching, remote, cloud, syncthing, tmux",
-  "wordcount":  2017 ,
+  "wordcount":  2553 ,
   "url": "https:\/\/federicosimonetta.eu.org\/post\/remote_editing\/",
   "datePublished": "2020-02-11T11:50:35\u002b00:00",
   "dateModified": "2020-02-11T11:50:35\u002b00:00",
@@ -212,9 +212,9 @@ ControlPath ~/.ssh/sockets/%r@%h-%p
 ControlPersist 60
 
 Host amadeus.lim.di.unimi.it !exec &#34;[ -e ~/.ssh/socket-%r@%h:%p ]&#34;
-LocalForward 22001 localhost:22000 
-RemoteForward 22001 localhost:22000 
-LocalForward 8384 localhost:8384 
+LocalForward 22001 localhost:22000
+RemoteForward 22001 localhost:22000
+LocalForward 8384 localhost:8384
 LocalForward 8097 localhost:8097
 LocalForward 6006 localhost:6006
 </code></pre><p>This configuration allows the reuse of the first connection among several <code>ssh</code>
@@ -349,44 +349,139 @@ Set breakpoints with <code>@bp</code>. Start debugging a function with <code>@en
 <li>if your ssh connection is completely saturated or the host doesn&rsquo;t answer, then from another local terminal run <code>ssh username@host killall program</code> where <code>program</code> is the command of the experiment that your were executing (i.e. <code>python</code>, <code>python3</code>, <code>matlab</code>, etc.). This command will try to create a new ssh connection, run the command <code>killall program</code> and then exit suddenly.</li>
 <li>If the machine is not responding contact the administrator as soon as possible</li>
 </ol>
-<h2 id="bonus">Bonus</h2>
-<h3 id="using-linux-containers">Using Linux containers</h3>
-<p>I always suggest to use linux containers to isolate your environment and use any software you need. You can think to linux containers as
-a different Linux machines running inside the OS - similarly to virtual machines, but they need much fewer resources.</p>
-<p>First of all, you need <code>lxc</code> and <code>lxd</code> commands on the host and your user should be in the <code>lxd</code> group. Ask the administrator for this.
-All <code>lxc</code> and <code>lxd</code> commands are executed from the parent environment, while inside your container you can work as in a real OS on which you have all admin privileges.</p>
+<h2 id="apptainer">Apptainer</h2>
+<h3 id="why">Why</h3>
+<p>When you are in a server without root access and you need to install some application,
+you are in a difficult situation. You can try to install it in your home, but it is not
+always possible and usually requires the admin intervention (i.e. Homebrew and Nix).
+Moreover, if you are worried about computational performances, Homebrew and Nix are not
+the best solutions. The best solution is to use a container.</p>
+<p>Containers are environments that are isolated from the rest of the system. Most of the
+container technologies, however, still require the admin intervention to be installed,
+even though they&rsquo;re much more likely already setup in the server than Homebrew and Nix.</p>
+<p>It is difficult to chose the proper technology, though. 99% of the benchmarks around are
+made by sysadmins, that are mainly interested in startup times and web server
+performances, not in the computational
+overhead imposed by the container while running our scientific code.</p>
+<p>A few time ago I have made some <a href="https://github.com/00sapo/Container-benchmarks" target="_blank" >little benchmarks</a>
+ for these purposes. The results are
+shown below:</p>
+<p><img src="https://camo.githubusercontent.com/94b8e16291852776a37f9d567141e82f75d36800222c93215b9791e21f4dc80b/68747470733a2f2f646f63732e676f6f676c652e636f6d2f7370726561647368656574732f642f652f32504143582d3176534c727753317a4d647a70744e753549555239336e4e4d664443705571425273536f72595959466c476337683556736549686966617068586b61516d5178623039774e396f6c5a6c43456d6f314a2f70756263686172743f6f69643d343238373434393426666f726d61743d696d616765" alt="Benchmark">
+As you see, the best solution is by far Apptainer, then docker, devbox and podman. It
+must be noted, that docker total score is so high because of its ability to
+asynchronously read and write files. However, this is not that relevant for scientific
+code, usually. Removed that, I would suggest using podman over docker.</p>
+<p>But the truth is that Apptainer has been built for scientific code and perfectly fits
+our needs:</p>
 <ol>
-<li>Run <code>lxd init</code> to set up your configuration (just use the default options if you are unsure)</li>
-<li>Create a new container based on your preferred distro: <code>lxc launch ubuntu:18.04 myubuntu</code>. You can also use other distro and versions, see <a href="images.linuxcontainers.org" >the complete list</a>
-</li>
-<li>Enter your container by executing a shell <code>lxc exec myubuntu -- /bin/sh</code></li>
-<li>Create your user if you want with <code>useradd -m -G sudo,wheel username</code></li>
-<li><code>exit</code></li>
-<li>Enter to your new user <code>lxc exec myubuntu -- su username</code></li>
-<li>Install everything you need</li>
-<li>Push/pull files to/from the container: <code>lxc file pull myubuntu/absolute/path .</code></li>
-<li>Save your container to file:</li>
+<li>you can use it everywhere, without root access (docker and podman require some admin
+set ups)</li>
+<li>an Apptainer image is easy to build and to share, so your code will be totally
+reproducible</li>
+<li>you can use Docker images in Apptainer, so you can use most of the Docker ecosystem</li>
+<li>it is fast, especially in terms of CPU and RAM usage</li>
+<li>it gives you access to your home and files on the server by default in an optimized way</li>
 </ol>
-<pre tabindex="0"><code>lxc publish myubuntu --alias myubuntu_saved
-lxc image export myubuntu_saved .
-</code></pre><ol start="10">
-<li>Reload your container in another machine:</li>
+<h3 id="how">How</h3>
+<p>So, use it. The workflow is like this:</p>
+<ol>
+<li>Install Apptainer in your computer, where you have admin/root access</li>
+<li>Prepare a file definition that specify an OS, the packages to install and the
+commands to run to configure the container</li>
+<li>Copy the Apptainer binary installed in your computer to the server (it&rsquo;s portable! 🎉)</li>
+<li>Build the container</li>
+<li>Copy the Apptainer image to the server</li>
+<li>Run the container</li>
+<li>Execute your code</li>
 </ol>
-<pre tabindex="0"><code>lxc image import image.tar --alias myubuntu_saved
-lxc init myubuntu_saved myubuntu
-</code></pre><ol start="11">
-<li>
-<p>Stop it: <code>lxc stop myubuntu</code></p>
-</li>
-<li>
-<p>To use syncthing, you have to forward your host port to the container&rsquo;s one:</p>
-<p>lxc config device add mycontainer syncthing8384 proxy listen=tcp:0.0.0.0:8384 connect=tcp:127.0.0.1:8384</p>
-</li>
+<p>Points 1 and 2 are executed only once, while 3-5 are executed for each different server
+you deal with. Points 6-7 are executed every time you want to run your code.</p>
+<h3 id="installation">Installation</h3>
+<p>So,
+<a href="https://apptainer.org/docs/admin/main/installation.html#install-from-pre-built-packages" target="_blank" >here</a>
+
+(Linux) and
+<a href="https://apptainer.org/docs/admin/main/installation.html#installation-on-windows-or-mac" target="_blank" >here</a>
+
+(Windows and Mac) are the instructions to install Apptainer. In Windows, I suggest you
+use WSL, which is simpler.</p>
+<h3 id="building-an-image">Building an image</h3>
+<p>Now you need to define an image. Here is an example that I use usually. However,
+<a href="https://apptainer.org/docs/user/main/definition_files.html" target="_blank" >here</a>
+ you can find more details.</p>
+<p>You can build a definition file with <code>apptainer build mycontainer.sif mycontainer.def</code>,
+where <code>mycontainer.def</code> is the name of the definition file (e.g. the one below) and
+<code>mycontainer.sif</code> is the name of the image you want to create.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># This line means &#34;pick the base container image from</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the docker hub&#34;.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Bootstrap: docker</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">Bootstrap</span>: <span style="color:#ae81ff">localimage</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Whereas here we specify the particular image we are</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># interested in using as the base image, in this case</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># a basic `fedora` system at version `39`.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The base image is the operating system configuration</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># that you want to customize.</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">From</span>: <span style="color:#ae81ff">fedora:39</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can also start building from an existing image to modify it</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># In this case, comment out this line and the line in %post that were already executed</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># From: mycontainer.sif</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># environment variables here</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">%environment</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">export LANG=en_US.UTF-8</span> <span style="color:#75715e"># luatex needs locale set</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A definition file has several sections, see the documentation.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># In the `post` section you can run commands to customize</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># your environment</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">%post</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># This is the place where you can</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># install additional dependencies.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">########### My basic stuffs ###########</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># software for development</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install tmux neovim syncthing fish zoxide fzf ripgrep openssh-clients openssh powerline git hostname fd-find copr-cli procps-ng syncthing htop</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># python build dependencies</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install make gcc patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel libuuid-devel gdbm-libs libnsl2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># python-pip</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install python3-pip</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># lazygit</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install &#39;dnf-command(copr)&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf copr enable atim/lazygit -y</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install lazygit</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># font</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/SourceCodePro.tar.xz</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># locale</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install glibc-locale-source glibc-langpack-en</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">########### Other more specific stuffs ###########</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># luatex and gregotex</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install texlive-collection-luatex texlive-collection-fontsrecommended texlive-collection-latexrecommended texlive-collection-latexextra texlive-collection-latex texlive-collection-music texlive-collec</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">tion-mathscience texlive-gregoriotex</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install latexmk</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># tesseract</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install tesseract tesseract-langpack-eng tesseract-langpack-ita tesseract-langpack-ita_old tesseract-script-latin tesseract-tools tesseract-osd</span>
+</span></span></code></pre></div><h3 id="running-an-image">Running an image</h3>
+<p>Now you can run the image. You can do it in two ways:</p>
+<ol>
+<li>Running an <code>instance</code> to which you can connect even after ssh disconnection</li>
 </ol>
-<h3 id="using-poetry">Using Poetry</h3>
-<p><em>poetry</em> is slowly becoming <em>the</em> python package management system. You can use it to develop packages and to keep you environment isolated and update. It&rsquo;st best to use it in conjunction with <em>pyenv</em>.</p>
-<p>For scientific research, I suggest to always set the python version to only one precise version; this will make dependency solving much faster. Also,  suggest to use as environment path a <code>.venv</code> directory in your wirking dir; in this way, you can just distribute the ipped directory to make your research easily reproducible.</p>
-<p>[TBC]</p>
+<ul>
+<li><code>apptainer instance start mycontainer.sif a_name_for_this_instance</code></li>
+<li><code>apptainer shell instance://a_name_for_this_instance</code></li>
+<li><code>apptainer instance stop mycontainer.sif a_name_for_this_instance</code></li>
+</ul>
+<ol start="2">
+<li>Just run some commands in the container and close it</li>
+</ol>
+<ul>
+<li><code>apptainer shell mycontainer.sif</code></li>
+</ul>
+<p>You could actually define a command to run inside the container in the <code>%runscript</code>
+section of the definition file. In this case, you can just run <code>./mycontainer.sif</code> to
+run it or <code>apptainer instance run mycontainer.sif a_name_for_this_instance</code> to run it in
+a detached instance.</p>
 </div>
 
         <div class="section footer"><hr />

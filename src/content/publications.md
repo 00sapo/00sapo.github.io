@@ -12,13 +12,14 @@ margin: -2em 0em 0em;
 }
 </style>
 
+Here is [the full list of my publications](https://www.zotero.org/fsimonetta).
+
 The following are some notable publications that you may be interested in.
-Here is [the full list of publications](https://www.zotero.org/fsimonetta). There, you
-can also find my library of references (from where you can better grasp my scientific
-interests).
+
 <!-- Here is [the full list of publications](/publications-full). -->
 
 ![Screenshot of the Listening Test](/img/listening_test_screenshot.png)
+
 ### A perceptual measure for evaluating the resynthesis of automatic music transcriptions
 
 {{< expand "See more" >}}
@@ -26,11 +27,11 @@ _Federico Simonetta, S. Ntalampiras, F. Avanzini_
 
 Published in Multimedia Tools and Applications 2022
 
-* [Full paper](https://arxiv.org/pdf/2202.12257.pdf)
-* [Web Site](https://limunimi.github.io/MIA/)
-* [Source-code](https://github.com/LIMUNIMI/PerceptualEvaluation)
+- [Full paper](https://arxiv.org/abs/2202.12257)
+- [Web Site](https://limunimi.github.io/MIA/)
+- [Source-code](https://github.com/LIMUNIMI/PerceptualEvaluation)
 
-##### Abstract 
+##### Abstract
 
 This study focuses on the perception of music performances when contextual
 factors, such as room acoustics and instrument, change. We propose to
@@ -54,17 +55,19 @@ method and propose an approximation algorithm for the p-dispersion problem.
 ---
 
 ![Acoustics-specific strategies improve velocity prediction](/img/acoustics_specific_screenshot.jpg)
+
 ### Acoustics-specific Piano Velocity Estimation
+
 {{< expand "See more" >}}
 _Federico Simonetta, S. Ntalampiras, F. Avanzini_
 
 Published in MMSP 2022
 
-* [Full paper](https://arxiv.org/abs/2203.16294)
-* [Web Site](https://limunimi.github.io/MIA/)
-* [Source-code](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/phdthesis)
+- [Full paper](https://arxiv.org/abs/2203.16294)
+- [Web Site](https://limunimi.github.io/MIA/)
+- [Source-code](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/phdthesis)
 
-##### Abstract 
+##### Abstract
 
 Motivated by the state-of-art psychological research, we note that a piano performance
 transcribed with existing Automatic Music Transcription (AMT) methods cannot be
@@ -87,24 +90,25 @@ models for the inference of other piano parameters, such as pedaling.
 ---
 
 ![Benchmarks of feature extraction tools](/img/optimizing_feature_extraction_screenshot.jpg)
+
 ### Optimizing Feature Extraction for Symbolic Music
+
 {{< expand "See more" >}}
 _Federico Simonetta, Ana Llorens, Martín Serrano, Eduardo García-Portugués, Álvaro
 Torrente_
 
 Published in ISMIR 2023
 
-* [Full paper](TODO)
-* [Website](https://musif.didone.eu)
-* [Source-code](https://github.com/DIDONEproject/musif)
+- [Full paper](https://arxiv.org/abs/2307.05107)
+- [Source-code](https://github.com/DIDONEproject/music_symbolic_features/)
 
-##### Abstract 
+##### Abstract
 
 This paper presents a comprehensive investigation of existing feature extraction tools
 for symbolic music and contrasts their performance to determine the feature set that
 best characterizes the musical style of a given music score. In this regard, we propose
 a novel feature extraction tool, named musif, and evaluate its efficacy on various
-repertoires and file formats, including MIDI, MusicXML, and **kern. Musif approximates
+repertoires and file formats, including MIDI, MusicXML, and \*\*kern. Musif approximates
 existing tools such as jSymbolic and music21 in terms of computational efficiency while
 attempting to enhance the usability for custom feature development. The proposed tool
 also enhances classification accuracy when combined with other feature sets. We
