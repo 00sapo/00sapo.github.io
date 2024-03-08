@@ -12,9 +12,9 @@ margin: -2em 0em 0em;
 }
 </style>
 
-<!-- Here is [the full list of my publications](https://www.zotero.org/fsimonetta). -->
+Here is [the full list of my publications](https://www.zotero.org/fsimonetta).
 
-Here is [the full list of publications](/publications-full).
+<!-- Here is [the full list of publications](/publications-full). -->
 
 The following are some notable publications that you may be interested in.
 
