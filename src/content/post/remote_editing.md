@@ -201,9 +201,9 @@ overhead imposed by the container while running our scientific code.
 A few time ago I have made some [little benchmarks](https://github.com/00sapo/Container-benchmarks) for these purposes. The results are
 shown below:
 
-![Benchmark](https://camo.githubusercontent.com/94b8e16291852776a37f9d567141e82f75d36800222c93215b9791e21f4dc80b/68747470733a2f2f646f63732e676f6f676c652e636f6d2f7370726561647368656574732f642f652f32504143582d3176534c727753317a4d647a70744e753549555239336e4e4d664443705571425273536f72595959466c476337683556736549686966617068586b61516d5178623039774e396f6c5a6c43456d6f314a2f70756263686172743f6f69643d343238373434393426666f726d61743d696d616765)
+![Benchmark](https://camo.githubusercontent.com/fa10bbe543500c6ece9c7bee61edcfef3c9a13397cfe2c551b59ac000767e2d4/68747470733a2f2f646f63732e676f6f676c652e636f6d2f7370726561647368656574732f642f652f32504143582d3176534c727753317a4d647a70744e753549555239336e4e4d664443705571425273536f72595959466c476337683556736549686966617068586b61516d5178623039774e396f6c5a6c43456d6f314a2f70756263686172743f6f69643d343238373434393426666f726d61743d696d616765)
 As you see, the best solution is by far Apptainer, then docker, devbox and podman. It
-must be noted, that docker total score is so high because of its ability to
+must be noted that docker total score is so high because of its ability to
 asynchronously read and write files. However, this is not that relevant for scientific
 code, usually. Removed that, I would suggest using podman over docker.
 
@@ -245,7 +245,7 @@ use WSL, which is simpler.
 
 ### Building an image
 
-Now you need to define an image. Here is an example that I use usually. However,
+Now you need to define an image. Here is an example that I have used in the past. However,
 [here](https://apptainer.org/docs/user/main/definition_files.html) you can find more details.
 
 You can build a definition file with `apptainer build mycontainer.sif mycontainer.def`,
