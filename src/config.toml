@@ -23,6 +23,7 @@ favicon = "/img/avatar.ico"
 homepage = "home"                                  # What to call the home page link
 footerText = "_Fluid thoughts against categories_"
 randomBackground = false
+showHomeMenuItem = true
 comments = false
 
 # Metadata for Open Graph and Twitter
