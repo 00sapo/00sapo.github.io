@@ -3,7 +3,7 @@ publishDir = "../"
 title = "Federico Simonetta"
 defaultContentLanguage = "en"
 theme = "sam"
-enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+enableEmoji = true                                                                                                # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "G-91GZC4XQBY"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 enableRobotsTXT = true
@@ -14,85 +14,88 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 unsafe = true
 
 [author]
-    name = "Federico Simonetta"
+name = "Federico Simonetta"
 
 [params]
-    dateform = "Mon Jan 02, 2006"
-    dateformfull = "Mon Jan 2 2006 15:04:05 EST"
-    favicon = "/img/avatar.ico"
-    homepage = "home" # What to call the home page link
-    footerText = "_Fluid thoughts against categories_"
-    randomBackground = true
+dateform = "Mon Jan 02, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 EST"
+favicon = "/img/avatar.ico"
+homepage = "home"                                  # What to call the home page link
+footerText = "_Fluid thoughts against categories_"
+randomBackground = true
+comments = false
 
 # Metadata for Open Graph and Twitter
-    images = ["/img/image.jpg"]            # Image that shows on Twitter cards and Open Graph links to the site
-    title = "Federico Simonetta"
-    keywords = "Federico Simonetta, machine learning, artificial intelligence, ai, musica, informatica, music, computer science, pavia, research, computer science, music composition, milan, gssi, phd"
-    description = "Federico Simonetta is a machine learning researcher. Interested in music and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"
-        
-    custom_css = ["css/custom.css"]
+images = [
+  "/img/image.jpg",
+] # Image that shows on Twitter cards and Open Graph links to the site
+title = "Federico Simonetta"
+keywords = "Federico Simonetta, machine learning, artificial intelligence, ai, musica, informatica, music, computer science, pavia, research, computer science, music composition, milan, gssi, phd"
+description = "Federico Simonetta is a machine learning researcher. Interested in music, sound, and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"
 
-    [params.publisher]
-        name = "Federico Simonetta"
-        
-        [params.publisher.logo]
-            url = "/img/avatar.ico"
-            width = 128
-            height = 128
+custom_css = ["css/custom.css"]
 
-    [params.logo]
-        url = "/img/avatar.ico"
-        width = 128
-        height = 128
+[params.publisher]
+name = "Federico Simonetta"
 
-    [params.image]
-        url = "/img/avatar.png"
-        width = 1075
-        height = 531
+[params.publisher.logo]
+url = "/img/avatar.ico"
+width = 128
+height = 128
 
-    [[params.mainMenu]]
-        link = "/about"
-        text = "who am I?"
-        weight = 1
+[params.logo]
+url = "/img/avatar.ico"
+width = 128
+height = 128
 
-    [[params.mainMenu]]
-        link = "/publications"
-        text = "publications"
-        weight = 2
+[params.image]
+url = "/img/avatar.png"
+width = 1075
+height = 531
 
-    [[params.mainMenu]]
-        link = "/post"
-        text = "random posts"
-        weight = 3
+[[params.mainMenu]]
+link = "/about"
+text = "who am I?"
+weight = 1
 
-    [[params.mainMenu]]
-        link = "/links"
-        text = "not so random links"
-        weight = 4
+[[params.mainMenu]]
+link = "/publications"
+text = "publications"
+weight = 2
 
-    # [[params.mainMenu]]
-    #     link = "/software"
-    #     text = "unsoftware"
-    #     weight = 5
+[[params.mainMenu]]
+link = "/post"
+text = "random posts"
+weight = 3
 
-    [[params.mainMenu]]
-        link = "/music"
-        text = "noise"
-        weight = 6
+[[params.mainMenu]]
+link = "/links"
+text = "not so random links"
+weight = 4
 
-    [[params.mainMenu]]
-        link = "/teaching"
-        text = "don't tell this anyone..."
-        weight = 7
+# [[params.mainMenu]]
+#     link = "/software"
+#     text = "unsoftware"
+#     weight = 5
 
-    # [[params.mainMenu]]
-    #    link = "/notes/allnotes"
-    #    text = "...tell everyone this one"
-    #    weight = 8
+[[params.mainMenu]]
+link = "/music"
+text = "noise"
+weight = 6
+
+[[params.mainMenu]]
+link = "/teaching"
+text = "don't tell this anyone..."
+weight = 7
+
+# [[params.mainMenu]]
+#    link = "/notes/allnotes"
+#    text = "...tell everyone this one"
+#    weight = 8
 
 # [taxonomies]
 #     tag = "tags"
 #     category = ""  # Categories are disabled by default.
 
 [imaging]
-    quality = 75
+quality = 75

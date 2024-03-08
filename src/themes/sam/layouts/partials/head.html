@@ -1,45 +1,58 @@
-{{ partial "head/metadata.html" . }}
-{{ partial "head/favicons.html" . }}
-{{ partial "head/css.html" . }}
+{{ partial "head/metadata.html" . }} {{ partial "head/favicons.html" . }} {{
+partial "head/css.html" . }}
 <!-- Google fonts-->
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic"> -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&family=Fira+Sans:wght@200&display=swap"
+  rel="stylesheet"
+/>
 
-{{ template "_internal/twitter_cards.html" . }}
-{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }} {{ template
+"_internal/opengraph.html" . }}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-91GZC4XQBY"></script>
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=G-91GZC4XQBY"
+></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'G-91GZC4XQBY');
+  gtag("config", "G-91GZC4XQBY");
 </script>
 <!-- {{ template "_internal/google_analytics_async.html" . }} -->
-{{ partial "site-schema.html" . }}
-{{ if .Params.canonicalUrl }}
-<link rel="canonical" href="{{ .Params.canonicalUrl }}">
+{{ partial "site-schema.html" . }} {{ if .Params.canonicalUrl }}
+<link rel="canonical" href="{{ .Params.canonicalUrl }}" />
 {{ else if .Permalink }}
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" />
 {{ else }}
-<link rel="canonical" href="{{ .Site.baseUrl }}">
-{{ end }}
-{{ if .Params.comments }}
+<link rel="canonical" href="{{ .Site.baseUrl }}" />
+{{ end }} {{ if .Params.comments }}
 <script src="https://hypothes.is/embed.js" async></script>
-{{ end }}
-
-{{ if .Site.Params.randomBackground }}
-  <style> html, body { display: none; } </style>
-  <script>
-  window.addEventListener('load', (event) => {
-    var color = "hsl(" + Math.floor(Math.random() * 255).toString() + "," + Math.floor(Math.random() * 100).toString() + "%,30%)";
+{{ end }} {{ if .Site.Params.randomBackground }}
+<style>
+  html,
+  body {
+    display: none;
+  }
+</style>
+<script>
+  window.addEventListener("load", (event) => {
+    var color =
+      "hsl(" +
+      Math.floor(Math.random() * 255).toString() +
+      "," +
+      Math.floor(Math.random() * 100).toString() +
+      "%,10%)";
     document.body.style.backgroundColor = color;
     document.body.style.display = "initial";
     document.getElementsByTagName("html")[0].style.backgroundColor = color;
-    document.getElementsByTagName("html")[0].style.display = "initial"
-    });
-  </script>
+    document.getElementsByTagName("html")[0].style.display = "initial";
+  });
+</script>
 {{ end }}
