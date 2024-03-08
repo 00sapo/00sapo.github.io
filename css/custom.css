@@ -1,11 +1,3 @@
-.big-link:hover {
-  font-weight: bold;
-}
-
-a:hover {
-  background-color: #ffffff24;
-}
-
 #splash {
   display: flex;
   align-items: flex-end;
@@ -92,40 +84,13 @@ details[open] summary ~ * {
 /* these colors are overwritten by the theme which takes one color at random
  * for the background. If you disable this feature from the config file, the
  * following background will be used */
-
-html,
-body {
-  background-color: #00594d;
+a,
+body,
+html {
+  color: #000000;
+  background-color: #ffffff;
 }
-/**/
-/* html, */
-/* body { */
-/*   background-color: white; */
-/*   color: #39424e; */
-/* } */
-/**/
-/* a { */
-/*   color: #39424e; */
-/* } */
-/**/
-/* a:hover { */
-/*   color: #ccc; */
-/* } */
-/**/
-/* #content pre { */
-/*   background-color: whitesmoke; */
-/* } */
-/**/
-/* #content p { */
-/*   opacity: 1; */
-/* } */
-/**/
-/* p { */
-/*   opacity: 1; */
-/* } */
-/**/
-/* li { */
-/*   opacity: 1; */
-/* } */
 
-/**************************************************/
+a:hover {
+  color: #00000066;
+}

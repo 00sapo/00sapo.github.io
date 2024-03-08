@@ -82,7 +82,7 @@ You create and edit code on your local machine An indipendent software mirrors y
   },
   "genre": "post",
   "keywords": "software, teaching, remote, cloud, syncthing, tmux",
-  "wordcount":  2553 ,
+  "wordcount":  2556 ,
   "url": "https:\/\/federicosimonetta.eu.org\/post\/remote_editing\/",
   "datePublished": "2020-02-11T11:50:35\u002b00:00",
   "dateModified": "2020-02-11T11:50:35\u002b00:00",
@@ -109,27 +109,6 @@ You create and edit code on your local machine An indipendent software mirrors y
  
 <script src="https://hypothes.is/embed.js" async></script>
  
-<style>
-  html,
-  body {
-    display: none;
-  }
-</style>
-<script>
-  window.addEventListener("load", (event) => {
-    var color =
-      "hsl(" +
-      Math.floor(Math.random() * 255).toString() +
-      "," +
-      Math.floor(Math.random() * 100).toString() +
-      "%,10%)";
-    document.body.style.backgroundColor = color;
-    document.body.style.display = "initial";
-    document.getElementsByTagName("html")[0].style.backgroundColor = color;
-    document.getElementsByTagName("html")[0].style.display = "initial";
-  });
-</script>
-
 
     
 
@@ -147,48 +126,29 @@ You create and edit code on your local machine An indipendent software mirrors y
     <div class="wrap">
         
         <div class="section top-menu">
-  <p>
-    
+<p>
+  
+  <a href="https://federicosimonetta.eu.org/post">home</a>
+   &#183;     
+  <a href="https://federicosimonetta.eu.org/about">who am I?</a>
+   -  
+  <a href="https://federicosimonetta.eu.org/publications">publications</a>
+   -  
+  <a href="https://federicosimonetta.eu.org/post">random posts</a>
+   -  
+  <a href="https://federicosimonetta.eu.org/links">not so random links</a>
+   -  
+  <a href="https://federicosimonetta.eu.org/music">noise</a>
+   -  
+  <a href="https://federicosimonetta.eu.org/teaching">don&#39;t tell this anyone...</a>
+   
 
-    
-
-        
-        
-          <a href="https://federicosimonetta.eu.org/about">who am I?</a>
-          
-            -
-          
-        
-          <a href="https://federicosimonetta.eu.org/publications">publications</a>
-          
-            -
-          
-        
-          <a href="https://federicosimonetta.eu.org/post">random posts</a>
-          
-            -
-          
-        
-          <a href="https://federicosimonetta.eu.org/links">not so random links</a>
-          
-            -
-          
-        
-          <a href="https://federicosimonetta.eu.org/music">noise</a>
-          
-            -
-          
-        
-          <a href="https://federicosimonetta.eu.org/teaching">don&#39;t tell this anyone...</a>
-          
-        
-    
-        <p>
-            <a href="https://federicosimonetta.eu.org/">
-                home
-            </a>
-        </p>
-    
+  
+  
+  
+  
+  
+  
 </p>
 <hr />
 
@@ -376,9 +336,9 @@ overhead imposed by the container while running our scientific code.</p>
 <p>A few time ago I have made some <a href="https://github.com/00sapo/Container-benchmarks" target="_blank" >little benchmarks</a>
  for these purposes. The results are
 shown below:</p>
-<p><img src="https://camo.githubusercontent.com/94b8e16291852776a37f9d567141e82f75d36800222c93215b9791e21f4dc80b/68747470733a2f2f646f63732e676f6f676c652e636f6d2f7370726561647368656574732f642f652f32504143582d3176534c727753317a4d647a70744e753549555239336e4e4d664443705571425273536f72595959466c476337683556736549686966617068586b61516d5178623039774e396f6c5a6c43456d6f314a2f70756263686172743f6f69643d343238373434393426666f726d61743d696d616765" alt="Benchmark">
+<p><img src="https://camo.githubusercontent.com/fa10bbe543500c6ece9c7bee61edcfef3c9a13397cfe2c551b59ac000767e2d4/68747470733a2f2f646f63732e676f6f676c652e636f6d2f7370726561647368656574732f642f652f32504143582d3176534c727753317a4d647a70744e753549555239336e4e4d664443705571425273536f72595959466c476337683556736549686966617068586b61516d5178623039774e396f6c5a6c43456d6f314a2f70756263686172743f6f69643d343238373434393426666f726d61743d696d616765" alt="Benchmark">
 As you see, the best solution is by far Apptainer, then docker, devbox and podman. It
-must be noted, that docker total score is so high because of its ability to
+must be noted that docker total score is so high because of its ability to
 asynchronously read and write files. However, this is not that relevant for scientific
 code, usually. Removed that, I would suggest using podman over docker.</p>
 <p>But the truth is that Apptainer has been built for scientific code and perfectly fits
@@ -416,7 +376,7 @@ you deal with. Points 6-7 are executed every time you want to run your code.</p>
 (Windows and Mac) are the instructions to install Apptainer. In Windows, I suggest you
 use WSL, which is simpler.</p>
 <h3 id="building-an-image">Building an image</h3>
-<p>Now you need to define an image. Here is an example that I use usually. However,
+<p>Now you need to define an image. Here is an example that I have used in the past. However,
 <a href="https://apptainer.org/docs/user/main/definition_files.html" target="_blank" >here</a>
  you can find more details.</p>
 <p>You can build a definition file with <code>apptainer build mycontainer.sif mycontainer.def</code>,
