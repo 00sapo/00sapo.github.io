@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syncthing on Federico Simonetta</title>
+    <link>https://federicosimonetta.eu.org/tags/syncthing/</link>
+    <description>Recent content in Syncthing on Federico Simonetta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 11 Feb 2020 11:50:35 +0000</lastBuildDate>
+    <atom:link href="https://federicosimonetta.eu.org/tags/syncthing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing and testing on a remote host</title>
+      <link>https://federicosimonetta.eu.org/post/remote_editing/</link>
+      <pubDate>Tue, 11 Feb 2020 11:50:35 +0000</pubDate>
+      <guid>https://federicosimonetta.eu.org/post/remote_editing/</guid>
+      <description>Workflow In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:&#xA;You create and edit code on your local machine An indipendent software mirrors your code to the host (syncthing in this document) You interface with the host through terminal, give commands and run code (tmux) Finally, you debug your code (debug section), and edit it your local machine This workflow allows you to:</description>
+    </item>
+  </channel>
+</rss>

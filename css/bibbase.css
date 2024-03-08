@@ -1,20 +1,21 @@
 /* restyle the link image */
 #content img.bibbase_icon {
-    display: inline-block;
-    width: 15px;
-    vertical-align: middle;
-    margin: 0;
-    margin-right: 5px;
-    filter: invert(100%);
+  display: inline-block;
+  width: 15px;
+  vertical-align: middle;
+  margin: 0;
+  margin-right: 5px;
+  filter: invert(100%);
 }
 
 /* remove links to bibbase */
-.bibbase.bibbase_page.link, #bibbase > div:first-of-type {
-    display: none;
+.bibbase.bibbase_page.link,
+#bibbase > div:first-of-type {
+  display: none;
 }
 
 .bibbase.bibtex.link {
-    margin-left: -10px;
+  margin-left: -10px;
 }
 
 /* restyle menus */
@@ -23,7 +24,7 @@
 /* } */
 
 #bibbase_header a {
-    border: none;
+  border: none;
 }
 
 #bibbase_header li {
@@ -50,11 +51,13 @@
   background-color: initial;
 }
 
-.nav > li > a:hover, .nav-pills .open .dropdown-toggle {
+.nav > li > a:hover,
+.nav-pills .open .dropdown-toggle {
   background-color: #ffffff24;
 }
 
-.nav .dropdown-toggle .caret, .nav .dropdown-toggle:hover .caret {
+.nav .dropdown-toggle .caret,
+.nav .dropdown-toggle:hover .caret {
   border-top-color: white;
   border-bottom-color: white;
 }
@@ -63,49 +66,63 @@
   padding-left: 0;
 }
 
-
 /* reduce unuseful space */
-#bibbase_header {
-    margin: 0;
-}
-
-#menu_dropdown {
-    margin: 0;
-}
-
-#bibbase_body {
-    padding: 0;
-}
+/* #bibbase_header { */
+/*   margin: 0; */
+/* } */
+/**/
+/* #menu_dropdown { */
+/*   margin: 0; */
+/* } */
+/**/
+/* #bibbase_body { */
+/*   padding: 0; */
+/* } */
 
 /* reordering sections */
 
 #bibbase_body {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #bibbase_body > div {
-    order: 10;
+  order: 10;
 }
 
 #bibbase_body #group_unpublished {
-    order: 0;
+  order: 0;
 }
 
 #bibbase_body #group_article {
-    order: 1;
+  order: 1;
 }
 
 #bibbase_body #group_inproceedings {
-    order: 2;
+  order: 2;
 }
 
 #bibbase_body #group_thesis {
-    order: 3;
+  order: 3;
 }
 
 #bibbase_body #group_misc {
-    order: 4;
+  order: 4;
+}
+
+/* Adjusting spaces of titles */
+#content div {
+  width: unset;
+}
+
+.bibbase_group {
+  float: unset;
+  width: 100%;
+}
+
+.bibbase_group_body {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /* Renaming Sections */
@@ -114,36 +131,68 @@
   display: unset;
 }
 
-#group_article div.bibbase_group i+span { display: none; }
-#group_inproceedings div.bibbase_group i+span { display: none; }
-#group_thesis div.bibbase_group i+span { display: none; }
-#group_techreport div.bibbase_group i+span { display: none; }
-#group_unpublished div.bibbase_group i+span { display: none; }
-#group_incollection div.bibbase_group i+span { display: none; }
-#group_misc div.bibbase_group i+span { display: none; }
+#group_article div.bibbase_group i + span {
+  display: none;
+}
+#group_inproceedings div.bibbase_group i + span {
+  display: none;
+}
+#group_thesis div.bibbase_group i + span {
+  display: none;
+}
+#group_techreport div.bibbase_group i + span {
+  display: none;
+}
+#group_unpublished div.bibbase_group i + span {
+  display: none;
+}
+#group_incollection div.bibbase_group i + span {
+  display: none;
+}
+#group_misc div.bibbase_group i + span {
+  display: none;
+}
+#group_Conference div.bibbase_group i + span {
+  display: none;
+}
 
-#group_article div.bibbase_group i:after { content: " Journal Articles" }
-#group_inproceedings div.bibbase_group i:after { content: " Conference and Workshop Publications" }
-#group_thesis div.bibbase_group i:after { content: " Thesis" }
-#group_techreport div.bibbase_group i:after { content: " Technical Report" }
-#group_unpublished div.bibbase_group i:after { content: " Unpublished" }
-#group_incollection div.bibbase_group i:after { content: " In Collection" }
-#group_misc div.bibbase_group i:after { content: " Other" }
+#group_article div.bibbase_group i:after {
+  content: " Journal Articles";
+}
+#group_inproceedings div.bibbase_group i:after {
+  content: " Conference and Workshop Publications";
+}
+#group_thesis div.bibbase_group i:after {
+  content: " Thesis";
+}
+#group_techreport div.bibbase_group i:after {
+  content: " Technical Report";
+}
+#group_unpublished div.bibbase_group i:after {
+  content: " Unpublished";
+}
+#group_incollection div.bibbase_group i:after {
+  content: " In Collection";
+}
+#group_misc div.bibbase_group i:after {
+  content: " Other";
+}
+#group_Conference div.bibbase_group i:after {
+  content: " Oral";
+}
 
-/* Restyiling bibtex */
+/* Restyiling bibtex and abstract */
 
 .well.well-small.bibbase {
   padding: 0px;
   background-color: initial;
   border: none;
+  color: black;
 }
 
-#content pre {
+#content .well.well-small.bibbase pre {
   font-size: 0.75rem;
   line-height: 0.9rem;
-  margin-bottom: 0px
-
+  margin-bottom: 0px;
+  background-color: initial;
 }
-
-/* Restyiling abstract */
-

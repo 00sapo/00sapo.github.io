@@ -7,52 +7,62 @@ a:hover {
 }
 
 #splash {
-    display: flex;
-    align-items: flex-end;
+  display: flex;
+  align-items: flex-end;
 }
 
 @media screen and (max-height: 684px), (max-width: 300px) {
-    #splash {
-        display: block;
-        height: 100%;
-    }
-    
+  #splash {
+    display: block;
+    height: 100%;
+  }
 }
 
-h1, h2, h3 {
-    opacity: 1;
+h1,
+h2,
+h3 {
+  opacity: 1;
 }
 
 .big-link {
-    text-align: right;
+  text-align: right;
 }
 .wrap {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 details p {
-    display: block;
+  display: block;
 }
 
-summary:focus, a:focus {
-    outline: none;
+summary:focus,
+a:focus {
+  outline: none;
 }
 
 details[open] summary ~ * {
-  animation: sweep .5s ease-in-out;
+  animation: sweep 0.5s ease-in-out;
 }
 
 @keyframes sweep {
-  0%    {opacity: 0; margin-left: -10px}
-  100%  {opacity: 1; margin-left: 0px}
+  0% {
+    opacity: 0;
+    margin-left: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
 }
 
 /* slightly compress content paragraphs */
-#content p, #content li, #content blockquote {
-    line-height: 1.6;
-    letter-spacing: 1.2px;
-    margon-bottom: 10px;
-    margin-top: 5px;
+#content p,
+#content li,
+#content blockquote {
+  line-height: 1.6;
+  letter-spacing: 1.2px;
+  margon-bottom: 10px;
+  margin-top: 5px;
 }
 
 /* better looking quotations */
@@ -64,9 +74,9 @@ details[open] summary ~ * {
 
 /* better looking inline code */
 #content code {
-    font-size: unset;
-    padding: unset;
-    border-radius: unset;
+  font-size: unset;
+  padding: unset;
+  border-radius: unset;
 }
 
 /* an awesome rectangle around the content area */
@@ -75,8 +85,6 @@ details[open] summary ~ * {
 /*     padding: 0.5rem; */
 /* } */
 
-
-
 /**************************************************
 ********************* colors **********************
 ***************************************************/
@@ -84,37 +92,40 @@ details[open] summary ~ * {
 /* these colors are overwritten by the theme which takes one color at random
  * for the background. If you disable this feature from the config file, the
  * following background will be used */
-html, body {
+
+html,
+body {
   background-color: #00594d;
 }
-
-/* html, body { */
-/*     background-color: white; */
-/*     color: #39424e; */
+/**/
+/* html, */
+/* body { */
+/*   background-color: white; */
+/*   color: #39424e; */
 /* } */
-
+/**/
 /* a { */
-/*     color: #39424e */
+/*   color: #39424e; */
 /* } */
-
+/**/
 /* a:hover { */
-/*     color: #ccc; */
+/*   color: #ccc; */
 /* } */
-
+/**/
 /* #content pre { */
-/*     background-color: whitesmoke; */
+/*   background-color: whitesmoke; */
 /* } */
-
+/**/
 /* #content p { */
-/*     opacity: 1; */
+/*   opacity: 1; */
 /* } */
-
+/**/
 /* p { */
-/*     opacity: 1; */
+/*   opacity: 1; */
 /* } */
-
+/**/
 /* li { */
-/*     opacity: 1; */
+/*   opacity: 1; */
 /* } */
 
 /**************************************************/

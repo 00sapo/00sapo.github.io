@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emozioni on Federico Simonetta</title>
+    <link>https://federicosimonetta.eu.org/tags/emozioni/</link>
+    <description>Recent content in Emozioni on Federico Simonetta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 02 Oct 2018 13:50:46 +0000</lastBuildDate>
+    <atom:link href="https://federicosimonetta.eu.org/tags/emozioni/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Le emozioni dei computer: a che punto siamo e dove andiamo?</title>
+      <link>https://federicosimonetta.eu.org/post/emozioni/</link>
+      <pubDate>Tue, 02 Oct 2018 13:50:46 +0000</pubDate>
+      <guid>https://federicosimonetta.eu.org/post/emozioni/</guid>
+      <description>Sono molti gli scrittori, i registi e i “fantasticatori” in genere che hanno immaginato macchine capaci di provare emozioni, eppure, nessuno è mai riuscito ad oggi a crearne uno. Ci riusciremo? Io credo di sì, e nei prossimi paragrafi proverò a dare un’idea di quanto bene possano simulare le emozioni i computer di oggi. Ogni tanto torna sui giornali la notizia di esperimenti riguardanti i cosiddetti “social robots” (qualcuno magari ricorderà i più appariscenti “sex robots“, in grado di simulare in tutto e per tutto una figura umana).</description>
+    </item>
+  </channel>
+</rss>
