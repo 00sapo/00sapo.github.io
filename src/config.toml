@@ -22,7 +22,7 @@ dateformfull = "Mon Jan 2 2006 15:04:05 EST"
 favicon = "/img/avatar.ico"
 homepage = "home"                                  # What to call the home page link
 footerText = "_Fluid thoughts against categories_"
-randomBackground = true
+randomBackground = false
 comments = false
 
 # Metadata for Open Graph and Twitter
