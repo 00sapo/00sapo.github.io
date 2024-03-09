@@ -47,6 +47,14 @@ details[open] summary ~ * {
   }
 }
 
+#content {
+  margin: 1rem 0;
+}
+
+.footer {
+  padding: 1rem 0.5rem;
+}
+
 /* slightly compress content paragraphs */
 #content p,
 #content li,
