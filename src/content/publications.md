@@ -5,9 +5,7 @@ comments = false
 schematype = "CollectionPage"
 +++
 
-Here is [the full list of my publications](https://www.zotero.org/fsimonetta).
-
-<!-- Here is [the full list of publications](/publications-full). -->
+Here is [the full list of publications](/publications-full).
 
 The following are some notable publications that you may be interested in.
 
