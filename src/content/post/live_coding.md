@@ -10,7 +10,7 @@ showDate = true
 
 Versione italiana su [techeconomy2030.it](https://web.archive.org/web/20230202085545/https://www.techeconomy2030.it/2019/02/18/7-motivi-per-cui-live-coding-crescera/)
 
-![TOPLAP logo](https://toplap.org/wiki/images/thumb/6/67/Toplap.png/450px-Toplap.png)
+{{< figure class="old_photo" src="https://toplap.org/wiki/images/thumb/6/67/Toplap.png/450px-Toplap.png" >}}
 
 From 14th to 17th February, an important Algorave took place: 84 hours of non-stop music in the what probably is the largest music show completely produced and distributed online of ever. The 14th February 2019, in fact, was the 15th anniversary since the birth of TOPLAP, the international online community of musicians active in _live coding_, that are musicians who improvise music programming in real time. If you read this article and I can convince you that it was worthwhile to attend this Algorave, you can save this link to access the event: [https://toplap.org/wearefifteen/](https://toplap.org/wearefifteen/)
 

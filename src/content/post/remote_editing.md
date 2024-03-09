@@ -8,7 +8,7 @@ comments = true
 showDate = true
 +++
 
-![banner](//www.dalet.com/uploads/2020/11/Remote-Editing-min1_0.png)
+{{< figure class="old_photo" src="//www.dalet.com/uploads/2020/11/Remote-Editing-min1_0.png" >}}
 
 ## Workflow
 

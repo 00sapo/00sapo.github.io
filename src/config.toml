@@ -20,7 +20,6 @@ name = "Federico Simonetta"
 dateform = "Mon Jan 02, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 EST"
 favicon = "/img/avatar.ico"
-homepage = "home"                                  # What to call the home page link
 footerText = "_Fluid thoughts against categories_"
 randomBackground = false
 showHomeMenuItem = true
@@ -57,7 +56,7 @@ height = 531
 [[params.mainMenu]]
 link = "/about"
 text = "who am I?"
-weight = 1
+weight = 1         # set the order in the menu
 
 [[params.mainMenu]]
 link = "/publications"

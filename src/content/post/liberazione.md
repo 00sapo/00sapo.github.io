@@ -8,7 +8,7 @@ comments = false
 showDate = true
 +++
 
-![Banner](https://web.archive.org/web/20230626194516im_/https://www.techeconomy2030.it/wp-content/uploads/2019/04/telephone-1822040_1280.jpg)
+{{< figure class="old_photo" src="https://web.archive.org/web/20230626194516im_/https://www.techeconomy2030.it/wp-content/uploads/2019/04/telephone-1822040_1280.jpg" >}}
 
 Rispetto agli studiosi di materie sociali e umanistiche, pochi tra scienziati e
 ingegneri si interessano di temi civili o questioni sociali. La cultura in cui viviamo, infatti,

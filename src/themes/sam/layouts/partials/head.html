@@ -32,7 +32,7 @@ partial "head/css.html" . }}
 <link rel="canonical" href="{{ .Permalink }}" />
 {{ else }}
 <link rel="canonical" href="{{ .Site.baseUrl }}" />
-{{ end }} {{ if .Params.comments }}
+{{ end }} {{ if .Site.Params.comments }}
 <script src="https://hypothes.is/embed.js" async></script>
 {{ end }} {{ if .Site.Params.randomBackground }}
 <style>

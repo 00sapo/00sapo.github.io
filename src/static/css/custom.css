@@ -66,9 +66,17 @@ details[open] summary ~ * {
 
 /* better looking inline code */
 #content code {
-  font-size: unset;
+  line-height: 0.8rem;
+  font-size: 0.8rem;
   padding: unset;
   border-radius: unset;
+}
+
+#content pre {
+  padding: 0.5rem;
+  border: 1px solid #cccccc2b;
+  background-color: #f8f8f8;
+  overflow-x: auto;
 }
 
 /* an awesome rectangle around the content area */
@@ -93,4 +101,55 @@ html {
 
 a:hover {
   color: #00000066;
+}
+
+.old_photo {
+  filter: grayscale(1) contrast(1.5) brightness(1.2);
+}
+.old_photo:after {
+  box-shadow: 0 0 8px 8px white inset;
+}
+
+/**************************************************
+******************** columns **********************
+**************************************************/
+
+.gdoc-columns {
+  display: flex;
+}
+
+.gdoc-columns--regular > :first-child {
+  flex: 1;
+}
+
+.gdoc-columns--small > :first-child {
+  flex: 0.35;
+  min-width: 35%;
+}
+
+.gdoc-columns--large > :first-child {
+  flex: 1.65;
+  min-width: 165%;
+}
+
+.gdoc-columns__content {
+  flex: 1 1;
+  min-width: 66%;
+  padding: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .gdoc-columns {
+    flex-direction: column;
+  }
+
+  .gdoc-columns > :first-child,
+  .gdoc-columns__content {
+    flex: none;
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+  }
 }

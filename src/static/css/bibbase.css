@@ -1,11 +1,11 @@
 /* restyle the link image */
 #content img.bibbase_icon {
   display: inline-block;
-  width: 15px;
+  width: 10px;
   vertical-align: middle;
   margin: 0;
   margin-right: 5px;
-  filter: invert(100%);
+  filter: grayscale(1);
 }
 
 /* remove links to bibbase */
@@ -19,9 +19,9 @@
 }
 
 /* restyle menus */
-/* #bibbase_header .nav a { */
-/*   color: auto !important; */
-/* } */
+#bibbase_header .nav a {
+  color: auto !important;
+}
 
 #bibbase_header a {
   border: none;
@@ -32,7 +32,7 @@
 }
 
 #bibbase_header ul.nav a.dropdown-toggle {
-  color: white;
+  color: black;
   opacity: 1;
 }
 
@@ -41,43 +41,41 @@
   opacity: 1;
 }
 
-#bibbase_header ul.dropdown-menu a:hover {
-  background-image: -webkit-linear-gradient(top, #00594d, #00594d);
-  background-color: #00594d;
-  color: white;
+#content div.navbar-form {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#content div.navbar-form input {
+  vertical-align: middle;
 }
 
 .nav > li > a:focus {
   background-color: initial;
 }
 
-.nav > li > a:hover,
-.nav-pills .open .dropdown-toggle {
-  background-color: #ffffff24;
+#bibbase_header .dropdown:hover .dropdown-toggle,
+#bibbase_header ul.dropdown-menu a:hover,
+#bibbase_header .dropdown-menu > li:hover,
+#bibbase_header .dropdown-toggle:hover .caret {
+  background: #000000;
+  color: white;
 }
 
-.nav .dropdown-toggle .caret,
-.nav .dropdown-toggle:hover .caret {
-  border-top-color: white;
-  border-bottom-color: white;
+.nav .dropdown-toggle .caret {
+  border-top-color: black;
+  border-bottom-color: black;
 }
 
 #content ul {
   padding-left: 0;
 }
 
-/* reduce unuseful space */
-/* #bibbase_header { */
-/*   margin: 0; */
-/* } */
-/**/
-/* #menu_dropdown { */
-/*   margin: 0; */
-/* } */
-/**/
-/* #bibbase_body { */
-/*   padding: 0; */
-/* } */
+/* links on a new line */
+.bibbase_paper_content:before {
+  content: "\A";
+  white-space: pre;
+}
 
 /* reordering sections */
 

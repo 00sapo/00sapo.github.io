@@ -8,7 +8,8 @@ banner = "https://web.archive.org/web/20230607084349im_/https://www.techeconomy2
 description = ""
 +++
 
-![Mani](https://web.archive.org/web/20230607084349im_/https://www.techeconomy2030.it/wp-content/uploads/2018/10/hands-423794_1280.jpg)
+{{< figure
+src="https://web.archive.org/web/20230607084349im_/https://www.techeconomy2030.it/wp-content/uploads/2018/10/hands-423794_1280.jpg" class="old_photo" >}}
 
 Sono molti gli scrittori, i registi e i “fantasticatori” in genere che hanno immaginato macchine capaci di provare emozioni, eppure, nessuno è mai riuscito ad oggi a crearne uno. Ci riusciremo? Io credo di sì, e nei prossimi paragrafi proverò a dare un’idea di quanto bene possano simulare le emozioni i computer di oggi.
 Ogni tanto torna sui giornali la notizia di esperimenti riguardanti i cosiddetti “social robots” (qualcuno magari ricorderà i più appariscenti “sex robots“, in grado di simulare in tutto e per tutto una figura umana). E’ indubbio che queste ricerche restano lontane dalla nostra realtà, sia per motivi economici sia perché banalmente nessun nostro amico possiede un “social robot”. In realtà, lo studio e la modellizzazione delle emozioni da un punto di vista computazionale è ben più vasto e i campi applicativi molteplici, nonché di diretta influenza sulla nostra vita di tutti i giorni.

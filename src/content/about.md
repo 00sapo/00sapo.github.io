@@ -4,15 +4,12 @@ id = "about"
 schematype = "ContactPage"
 +++
 
-{{< rawhtml >}}
-<img src="/img/image.jpg" alt="Personal Image" style="width:35%;"/>
-{{< /rawhtml >}}
-
-I am a post-doc researcher in the Laudare ERC project at the GSSI - Gran Sasso Science
+{{< columns size="regular" >}}
+I am a post-doc researcher in the [Laudare ERC project](https://laudare.eu) at the GSSI - Gran Sasso Science
 Institute. I am also a research collaborator at the University of Milan, in the LIM -
 Music Informatics Laboratory. Previously, I was a post-doc researcher
-at the Instituto Complutense de Ciencias Musicales - ICCMU in the Didone
-[project](//didone.eu), where I worked on the 18th
+at the Instituto Complutense de Ciencias Musicales - ICCMU in the [Didone
+project](//didone.eu), where I worked on the 18th
 century Italian Opera.
 
 I have taken my Ph.D. in Computer Science at the University of Milan in the
@@ -34,3 +31,10 @@ world in which we live.
 - **Mail**: federico.simonetta [at] gssi.it
 
 If you want, do not hesitate and write me an email!
+
+<--->
+
+{{< figure
+class="old_photo" src="/img/image.jpg" alt="Personal Image" >}}
+
+{{< /columns >}}

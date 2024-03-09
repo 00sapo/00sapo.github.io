@@ -7,7 +7,7 @@ showDate = true
 banner = "https://web.archive.org/web/20230601222546im_/https://www.techeconomy2030.it/wp-content/uploads/2018/12/fire-2777580_1280.jpg"
 +++
 
-![Fuoco](https://web.archive.org/web/20230601222546im_/https://www.techeconomy2030.it/wp-content/uploads/2018/12/fire-2777580_1280.jpg)
+{{< figure class="old_photo" src="https://web.archive.org/web/20230601222546im_/https://www.techeconomy2030.it/wp-content/uploads/2018/12/fire-2777580_1280.jpg" >}}
 
 Il sole era già oltre le colline e le nuvole a sprazzi lasciavano che la luce della luna illuminasse la Terra. Il gelo di gennaio filtrava tra i vestiti di chi, incurante dell’umidità, usciva dopo giorni di pioggia. Simplicio entrò nel capanno dietro casa. Era giunto un messo da Torre del Gallo, non aveva lasciato detto nulla: solo un foglio, piegato in quattro, con le sue iniziali su un lato, GG. Presa in consegna la lettera, Simplicio uscì immediatamente per avvisarlo e portargli il messaggio.
 
