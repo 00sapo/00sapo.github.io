@@ -6,7 +6,7 @@ schematype = "CollectionPage"
 banner = "//studio-70.org/wp-content/uploads/cohort-learning-e1518296152746-1.jpg"
 +++
 
-{{< figure src="https://studio-70.org/wp-content/uploads/cohort-learning-e1518296152746-1.jpg"
+{{< figure src="<https://studio-70.org/wp-content/uploads/cohort-learning-e1518296152746-1.jpg>"
 class="old_photo" >}}
 
 Here I will put all the material I use for teaching.
@@ -35,3 +35,7 @@ For now, it is just a list of useful links!
 - A nice paper to understand [LSTM networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - Understanding [update algorithms](https://ruder.io/optimizing-gradient-descent/index.html)
   [Attention](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/) and [transformers](https://jalammar.github.io/illustrated-transformer/) explained visually
+
+## Theses
+
+- [Here](/theses) are all the theses that I have supervised so far. If you are interested in one of these topics, please contact me.
