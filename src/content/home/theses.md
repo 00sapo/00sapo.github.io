@@ -8,6 +8,8 @@ Here are all the theses that I have supervised so far. If you are interested in 
 The `Overleaf` column is a reminder for myself, indicating if I have the source code of
 the LaTeX project on Overleaf.
 
+{{< expand "See Table (not responsive)" >}}
+
 | Level    | Student                | Year    | Title                                                                                              | Advisor        | Co-advisor | Publication | Link                                               | Overleaf |
 | -------- | ---------------------- | ------- | -------------------------------------------------------------------------------------------------- | -------------- | ---------- | ----------- | -------------------------------------------------- | -------- |
 | Bachelor | Festorazzi Francesco   | 2019    | _Stima del parametro MIDI velocity da registrazioni audio polifoniche di pianoforte_               | F. Avanzini    | me         | -           | -                                                  | yes      |
@@ -30,3 +32,5 @@ the LaTeX project on Overleaf.
 | Bachelor | Longhi Giorgio         | ongoing | _Interpretability of Medical Acoustic Models_                                                      | S. Ntalampiras | me         | -           | -                                                  | no       |
 | Master   | Mondal Rishav          | ongoing | _Optical Music Recognition for Cultural Heritage in the Ricordi Archive_                           | S. Ntalampiras | me         | conference  | [arxiv](https://arxiv.org/abs/2408.10260)          | yes      |
 | Master   | Tabaraei Ali           | ongoing | _Domain generalization for multimodal speech-based depression detection_                           | S. Ntalampiras | me         | -           | -                                                  | no       |
+
+{{< /expand >}}
