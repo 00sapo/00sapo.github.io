@@ -1,8 +1,8 @@
 baseurl = "https://federicosimonetta.eu.org/"
 publishDir = "../"
 title = "Federico Simonetta"
-defaultContentLanguage = "en"
-theme = "sam"
+defaultContentLanguage = ""
+theme = "introduction"
 enableEmoji = true                                                                                                # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "G-91GZC4XQBY"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -22,8 +22,13 @@ dateformfull = "Mon Jan 2 2006 15:04:05 EST"
 favicon = "/img/avatar.ico"
 footerText = "_Fluid thoughts against categories_"
 randomBackground = false
-showHomeMenuItem = true
+showMenu = true
 comments = false
+showRSSButton = false                              # Show rss button in navigation
+fadeIn = true                                      # Turn on/off the fade-in effect
+fadeInIndex = false                                # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+dateFormat = "2 Jan 2006"
+email = "federico.simonetta [at] gssi.it"          # E-mail address for contact section
 
 # Metadata for Open Graph and Twitter
 images = [
@@ -33,69 +38,48 @@ title = "Federico Simonetta"
 keywords = "Federico Simonetta, machine learning, artificial intelligence, ai, musica, informatica, music, computer science, pavia, research, computer science, music composition, milan, gssi, phd"
 description = "Federico Simonetta is a machine learning researcher. Interested in music, sound, and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"
 
-custom_css = ["css/custom.css"]
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 98
 
-[params.publisher]
-name = "Federico Simonetta"
+[[menu.main]]
+name = "Music & co."
+url = "/music/"
+weight = 99
 
-[params.publisher.logo]
-url = "/img/avatar.ico"
-width = 128
-height = 128
 
-[params.logo]
-url = "/img/avatar.ico"
-width = 128
-height = 128
+[params.home]
+introHeight = "fullheight"     # Input either "medium" or "large" or "fullheight"
+showLatest = false             # Show latest blog post summary
+showAllPosts = false           # Set true to list all posts on home page, or set false to link to separate blog list page
+allPostsArchiveFormat = true   # show all posts in an archive format
+numberOfProjectsToShow = 3     # Maximum number of projects to show on home page. Unset or comment out to show all projects
+localTime = true               # Show your current local time in contact section
+timeZone = "Europe/Rome"       # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timeFormat = "en-US"           # Language specific format to use
+customCSS = ["css/custom.css"]
 
-[params.image]
-url = "/img/avatar.png"
-width = 1075
-height = 531
+[[params.social]]
+url = "https://github.com/00sapo"
+icon = "github"
+icon_pack = "fab"
 
-[[params.mainMenu]]
-link = "/about"
-text = "who am I?"
-weight = 1         # set the order in the menu
+[[params.social]]
+url = "https://scholar.google.it/citations?hl=en&pli=1&user=qkEXQTgAAAAJ"
+icon = "google-scholar"
+icon_pack = "ai"
 
-[[params.mainMenu]]
-link = "/publications"
-text = "publications"
-weight = 2
+[[params.social]]
+url = "https://www.scopus.com/authid/detail.uri?authorId=57205640973"
+icon = "scopus"
+icon_pack = "ai"
 
-[[params.mainMenu]]
-link = "/post"
-text = "random posts"
-weight = 3
+[[params.social]]
+url = "mailto:federico.simonetta at gssi.it"
+icon = "paper-plane"
+icon_pack = "fas"
 
-[[params.mainMenu]]
-link = "/links"
-text = "not so random links"
-weight = 4
-
-# [[params.mainMenu]]
-#     link = "/software"
-#     text = "unsoftware"
-#     weight = 5
-
-[[params.mainMenu]]
-link = "/music"
-text = "noise"
-weight = 6
-
-[[params.mainMenu]]
-link = "/teaching"
-text = "don't tell this anyone..."
-weight = 7
-
-# [[params.mainMenu]]
-#    link = "/notes/allnotes"
-#    text = "...tell everyone this one"
-#    weight = 8
-
-# [taxonomies]
-#     tag = "tags"
-#     category = ""  # Categories are disabled by default.
 
 [imaging]
 quality = 75

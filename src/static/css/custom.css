@@ -1,163 +1,18 @@
-#splash {
-  display: flex;
-  align-items: flex-end;
+ul {
+  display: inline-block;
+  text-align: left;
+  max-width: 60%;
 }
 
-@media screen and (max-height: 684px), (max-width: 300px) {
-  #splash {
-    display: block;
-    height: 100%;
+img {
+  max-height: 350px;
+  max-width: 80%;
+}
+
+.markdown img.bibbase_icon {
+    display: inline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 14px;
+    vertical-align: middle;
   }
-}
-
-h1,
-h2,
-h3 {
-  opacity: 1;
-}
-
-.big-link {
-  text-align: right;
-}
-.wrap {
-  margin-top: 0;
-}
-
-details p {
-  display: block;
-}
-
-summary:focus,
-a:focus {
-  outline: none;
-}
-
-details[open] summary ~ * {
-  animation: sweep 0.5s ease-in-out;
-}
-
-@keyframes sweep {
-  0% {
-    opacity: 0;
-    margin-left: -10px;
-  }
-  100% {
-    opacity: 1;
-    margin-left: 0px;
-  }
-}
-
-#content {
-  margin: 1rem 0;
-}
-
-.footer {
-  padding: 1rem 0.5rem;
-}
-
-/* slightly compress content paragraphs */
-#content p,
-#content li,
-#content blockquote {
-  line-height: 1.6;
-  letter-spacing: 1.2px;
-  margon-bottom: 10px;
-  margin-top: 5px;
-}
-
-/* better looking quotations */
-#content blockquote {
-  color: unset;
-  background-color: unset;
-  filter: sepia();
-}
-
-/* better looking inline code */
-#content code {
-  line-height: 0.8rem;
-  font-size: 0.8rem;
-  padding: unset;
-  border-radius: unset;
-}
-
-#content pre {
-  padding: 0.5rem;
-  border: 1px solid #cccccc2b;
-  background-color: #f8f8f8;
-  overflow-x: auto;
-}
-
-/* an awesome rectangle around the content area */
-/* #content { */
-/*     border: 1px solid #cccccc2b; */
-/*     padding: 0.5rem; */
-/* } */
-
-/**************************************************
-********************* colors **********************
-***************************************************/
-
-/* these colors are overwritten by the theme which takes one color at random
- * for the background. If you disable this feature from the config file, the
- * following background will be used */
-a,
-body,
-html {
-  color: #000000;
-  background-color: #ffffff;
-}
-
-a:hover {
-  color: #00000066;
-}
-
-.old_photo {
-  filter: grayscale(1) contrast(1.5) brightness(1.2);
-}
-.old_photo:after {
-  box-shadow: 0 0 8px 8px white inset;
-}
-
-/**************************************************
-******************** columns **********************
-**************************************************/
-
-.gdoc-columns {
-  display: flex;
-}
-
-.gdoc-columns--regular > :first-child {
-  flex: 1;
-}
-
-.gdoc-columns--small > :first-child {
-  flex: 0.35;
-  min-width: 35%;
-}
-
-.gdoc-columns--large > :first-child {
-  flex: 1.65;
-  min-width: 165%;
-}
-
-.gdoc-columns__content {
-  flex: 1 1;
-  min-width: 66%;
-  padding: 0;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-  .gdoc-columns {
-    flex-direction: column;
-  }
-
-  .gdoc-columns > :first-child,
-  .gdoc-columns__content {
-    flex: none;
-    width: 100%;
-    min-width: 100%;
-    margin: 0;
-  }
-}

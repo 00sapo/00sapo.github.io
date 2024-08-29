@@ -24,16 +24,16 @@ if (!doNotTrack) {
 <meta name="referrer" content="no-referrer">
 <meta name="description" content="Federico Simonetta is a machine learning researcher. Interested in music, sound, and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!">
 <title>
-List of Notes - Federico Simonetta
+The Last Resort How to Force Remote Reboot - Federico Simonetta
 </title>
 
 
 
         
-        <meta property="og:title" content="List of Notes - Federico Simonetta" />
+        <meta property="og:title" content="The Last Resort - how to force remote reboot - Federico Simonetta" />
 <meta property="og:type" content="website" />
 <meta property="og:description" content="Federico Simonetta is a machine learning researcher. Interested in music, sound, and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"/>
-<meta property="og:url" content="https://federicosimonetta.eu.org/notes/allnotes/"/>
+<meta property="og:url" content="https://federicosimonetta.eu.org/blog/the_last_resort/"/>
 <meta property="og:site_name" content="Federico Simonetta"/>
 
 
@@ -69,8 +69,10 @@ List of Notes - Federico Simonetta
             
             <div class="container hero  fade-in one ">
                 
-                <h1 class="bold-title is-1">List of Notes</h1>
-                
+
+<h1 class="bold-title is-1"></h1>
+
+
             </div>
             
             <div class="section  fade-in two ">
@@ -117,7 +119,7 @@ List of Notes - Federico Simonetta
                 
                   <a class="navbar-item" href="https://federicosimonetta.eu.org/blog/">
                   
-                  
+                  Back to 
                   
                   </a>
                 
@@ -194,22 +196,105 @@ List of Notes - Federico Simonetta
 
 
                 
-    <div class="container markdown top-pad">
-        <p>This a list of personal notes about various stuffs. Be careful, because you could get crazy (or maybe you could just think that I&rsquo;m crazy, which is probably part of the truth).</p>
-<ol>
-<li><a href="https://federicosimonetta.eu.org/notes/fantastic" >Fantastic notes</a>
-</li>
-<li><a href="https://federicosimonetta.eu.org/notes/user_center" >Effetti sociali dell&rsquo;informatica user-centered</a>
-</li>
-<li><a href="https://federicosimonetta.eu.org/notes/art" >Assurda filosofia dell&rsquo;arte</a>
-</li>
-<li><a href="https://federicosimonetta.eu.org/notes/contradictions" >Contrdictions</a>
-</li>
-</ol>
-
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://federicosimonetta.eu.org/blog/the_last_resort/">The Last Resort - how to force remote reboot</a>
+    </h2>
+    
+    <div class="post-data">
+        7 Dec 2020
+        
+         | 
+        2 minutes read
+        
     </div>
     
     
+    
+    
+    
+    
+    <p>
+        Categories:
+        
+        <a href="https://federicosimonetta.eu.org/categories/software">
+            software</a>
+        
+    </p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="https://federicosimonetta.eu.org/tags/software">
+            software</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/teaching">
+            teaching</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/remote">
+            remote</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/cloud">
+            cloud</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/linux">
+            linux</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/reboot">
+            reboot</a>
+        
+    </p>
+    
+    
+    
+    
+</div>
+
+<div class="container markdown top-pad">
+    <figure class="old_photo"><img src="//feetpin.files.wordpress.com/2018/06/bungy-wide-angle.jpg"/>
+</figure>
+
+
+<h2 id="problem" class="anchor-link"><a href="#problem">Problem</a></h2>
+<p>Deadlocks are bad creatures in the unix world. Sometimes, you willl need to kill your machine forcely, but what if you are using a remote machine?</p>
+<p>In the COVID-19 situation, it could be difficult to get a machine up again if you forcely shutdown it (e.g. <code>shutdown -now</code>). So, you need to reboot. The issue is that <code>reboot</code> kindly unmount filesystems and wait for processes to shutdown.</p>
+
+<h2 id="solution" class="anchor-link"><a href="#solution">Solution</a></h2>
+<p>If you want to abruptly shutdown your system, simply does as following:</p>
+<ul>
+<li><code>echo 1 &gt; /proc/sys/kernel/sysrq</code></li>
+<li><code>echo b &gt; /proc/sysrq-trigger</code></li>
+</ul>
+
+<h2 id="how-it-works" class="anchor-link"><a href="#how-it-works">How it works</a></h2>
+<p>This is the lowest level method in a Linux system. It first enables the sysrq mode which is used for rescue the system. You can use it even in your PC with a simple <a href="//en.wikipedia.org/wiki/Magic_SysRq_key" >key combination</a>
+. Then it sends the rescue action to take (<code>b</code> is for reboot).</p>
+<p>In other words, the first command is the equivalent of <code>Alt + Stamp</code>, the second command is the equivalent of the key pressed successively.</p>
+
+<h2 id="only-as-last-resort" class="anchor-link"><a href="#only-as-last-resort">Only as last Resort</a></h2>
+<p>Right now, I&rsquo;m still waiting that my machine completely comes back. It answers to ping again, so it rebooted, but it refuses ssh connections. Probably, the hard-reboot created some problem in the filesystem. I hope it solves it by itself, otherwise I&rsquo;ll need a human intervention!</p>
+<p>Good luck!</p>
+
+</div>
+
+
 
 
 

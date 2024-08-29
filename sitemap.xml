@@ -2,13 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://federicosimonetta.eu.org/blog/</loc>
+    <lastmod>2021-01-14T09:14:35+00:00</lastmod>
+    <priority>0</priority>
+  </url><url>
     <loc>https://federicosimonetta.eu.org/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/</loc>
-    <lastmod>2021-01-14T09:14:35+00:00</lastmod>
-  </url><url>
-    <loc>https://federicosimonetta.eu.org/post/git_intro/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/git_intro/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
     <loc>https://federicosimonetta.eu.org/notes/art/</loc>
@@ -17,10 +18,10 @@
     <loc>https://federicosimonetta.eu.org/notes/</loc>
     <lastmod>2020-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/the_last_resort/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/the_last_resort/</loc>
     <lastmod>2020-12-07T11:05:35+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/remote_editing/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/remote_editing/</loc>
     <lastmod>2020-02-11T11:50:35+00:00</lastmod>
   </url><url>
     <loc>https://federicosimonetta.eu.org/notes/contradictions/</loc>
@@ -29,36 +30,25 @@
     <loc>https://federicosimonetta.eu.org/notes/fantastic/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/liberazione/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/liberazione/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/live_coding/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/live_coding/</loc>
     <lastmod>2019-02-20T18:50:46+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/galileo/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/galileo/</loc>
     <lastmod>2018-12-04T13:50:46+00:00</lastmod>
   </url><url>
     <loc>https://federicosimonetta.eu.org/notes/user_center/</loc>
     <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/post/emozioni/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/emozioni/</loc>
     <lastmod>2018-10-02T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>https://federicosimonetta.eu.org/theses/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://federicosimonetta.eu.org/about/</loc>
-  </url><url>
-    <loc>https://federicosimonetta.eu.org/publications-full/</loc>
+    <loc>https://federicosimonetta.eu.org/home/</loc>
   </url><url>
     <loc>https://federicosimonetta.eu.org/notes/allnotes/</loc>
   </url><url>
     <loc>https://federicosimonetta.eu.org/music/</loc>
-  </url><url>
-    <loc>https://federicosimonetta.eu.org/publications/</loc>
-  </url><url>
-    <loc>https://federicosimonetta.eu.org/teaching/</loc>
-  </url><url>
-    <loc>https://federicosimonetta.eu.org/links/</loc>
   </url>
 </urlset>
