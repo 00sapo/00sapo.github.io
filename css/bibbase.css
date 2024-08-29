@@ -184,3 +184,8 @@
   margin-bottom: 0px;
   background-color: initial;
 }
+
+/* input search form is not responsive otherwise */
+input.form-control {
+  width:unset !important;
+}

@@ -1,7 +1,12 @@
+@media screen and (orientation: landscape) {
+  ul {
+    max-width: 60%;
+  }
+}
+
 ul {
   display: inline-block;
   text-align: left;
-  max-width: 60%;
 }
 
 img {
@@ -15,4 +20,4 @@ img {
     margin-bottom: 0px;
     width: 14px;
     vertical-align: middle;
-  }
+}
