@@ -4,4 +4,4 @@ package-lock.json
 node_modules
 
 .hugo_build.lock
-src/resources/_gen/assets/sass/sass
+src/resources/_gen
