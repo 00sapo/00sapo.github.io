@@ -189,3 +189,8 @@
 input.form-control {
   width:unset !important;
 }
+
+/* Separators between groups */
+div.bibbase_group_whole {
+  border-top-style: dashed !important;
+}
