@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="container markdown top-pad">
+    <div class="page-404-content">
+      <p>
+        The page you are looking for doesn’t exists.<br>
+        It may be removed or moved to another URL.
+      </p>
+      <p>
+        You can try the following:
+        <ul>
+          <li>Search this page in the <a href="https://web.archive.org/web/*/{{ .Site.BaseURL }}" target="_blank">Internet Archive</a>.</li>
+          <li>Maybe this page moved to a <a href="{{ .Site.BaseURL }}">subsection of the homepage</a>.</li>
+          <li>Alternatively, please <a href="{{ .Site.BaseURL }}#contact">contact me</a> if you think this is an error.</li>
+      </p>
+    </div>
+  </div>
+{{ end }}
