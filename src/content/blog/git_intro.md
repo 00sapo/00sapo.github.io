@@ -23,7 +23,7 @@ differenti che il software può prendere. Un commit può appartenere a più bran
 branch possono fondersi tra di loro "merge". Se il merge genera dei conflitti, ad
 esempio se entrambi i branch modificano una certa parte di un file, viene lasciato
 all'utente la scelta di cosa tenere e cosa togliere.
-
+th-247796942
 Puoi immaginare git come se ci fossero diverse aree di memoria per lo stesso codice sorgente.
 Le aree di memoria possono rappresentare versioni diverse dello stesso codice oppure la stessa
 identica versione. Le aree di memoria sono le seguenti:
