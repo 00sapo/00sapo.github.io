@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://federicosimonetta.eu.org/publications/</loc>
+  </url><url>
+    <loc>https://federicosimonetta.eu.org/publications-full/</loc>
+  </url><url>
+    <loc>https://federicosimonetta.eu.org/teaching/</loc>
+  </url><url>
+    <loc>https://federicosimonetta.eu.org/links/</loc>
+  </url><url>
+    <loc>https://federicosimonetta.eu.org/theses/</loc>
+  </url><url>
     <loc>https://federicosimonetta.eu.org/blog/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
     <priority>0</priority>
@@ -44,6 +54,8 @@
   </url><url>
     <loc>https://federicosimonetta.eu.org/blog/emozioni/</loc>
     <lastmod>2018-10-02T13:50:46+00:00</lastmod>
+  </url><url>
+    <loc>https://federicosimonetta.eu.org/about/</loc>
   </url><url>
     <loc>https://federicosimonetta.eu.org/home/</loc>
   </url><url>

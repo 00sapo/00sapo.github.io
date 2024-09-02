@@ -8,6 +8,60 @@
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 14 Jan 2021 09:14:35 +0000</lastBuildDate><atom:link href="https://federicosimonetta.eu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Publications</title>
+      <link>https://federicosimonetta.eu.org/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/publications/</guid>
+      <description>Here is the full list of publications .
+The following are some notable publications that you may be interested in.
+A perceptual measure for evaluating the resynthesis of automatic music transcriptions See more Federico Simonetta, S. Ntalampiras, F. Avanzini
+Published in Multimedia Tools and Applications 2022
+Full paper Web Site Source-code Abstract This study focuses on the perception of music performances when contextual factors, such as room acoustics and instrument, change.</description>
+    </item>
+    
+    <item>
+      <title>Full List Of Publications</title>
+      <link>https://federicosimonetta.eu.org/publications-full/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/publications-full/</guid>
+      <description>All the code that I can publish is available in online. See my GitHub page for finding them. You can also check my Google Scholar profile .
+PDFs of my papers are also available on my Zotero personal page whenever possible.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://federicosimonetta.eu.org/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/teaching/</guid>
+      <description>Here I will put all the material I use for teaching. For now, it is just a list of useful links!
+Technical tools Guide to how to develop on remote hosts Very easy introduction to git A fully interactive tutorial about git When git is a mess If you need a review of any technology, check this Machine Learning A good university course on Machine Learning A good university course on Probabilistic Graphical Models (including Bayesian Networks, Markov Random Fields, and Conditional Random Fields) Neural Networks The deep learning book .</description>
+    </item>
+    
+    <item>
+      <title>Useful links</title>
+      <link>https://federicosimonetta.eu.org/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/links/</guid>
+      <description>This is a random list of links that I find interesting. Feel free to comment and/or suggest other links. You won&amp;rsquo;t find links to closed software or to software which make use of closed frameworks/libraries/languages.
+Music Informatics links PLUM: list of programming languages used for music (most of them are old) A reasoned list of music installations updated at 2007 TOPLAP : the home of live coding A very nice repository of various computational musicology tools ORCA : programming language for live-coding: be fast, don&amp;rsquo;t mind if it is unreadable for others.</description>
+    </item>
+    
+    <item>
+      <title>Theses</title>
+      <link>https://federicosimonetta.eu.org/theses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/theses/</guid>
+      <description>Here are all the theses that I have supervised so far. If you are interested in one of these topics, please contact me.
+The Overleaf column is a reminder for myself, indicating if I have the source code of the LaTeX project on Overleaf.
+See Table (not responsive) Level Student Year Title Advisor Co-advisor Publication Link Overleaf Bachelor Festorazzi Francesco 2019 Stima del parametro MIDI velocity da registrazioni audio polifoniche di pianoforte F.</description>
+    </item>
+    
+    <item>
       <title>Una semplice introduzione a Git</title>
       <link>https://federicosimonetta.eu.org/blog/git_intro/</link>
       <pubDate>Thu, 14 Jan 2021 09:14:35 +0000</pubDate>
@@ -111,6 +165,16 @@ It is completely instictual finding differences between a chair and a glass, or 
       
       <guid>https://federicosimonetta.eu.org/blog/emozioni/</guid>
       <description>Sono molti gli scrittori, i registi e i “fantasticatori” in genere che hanno immaginato macchine capaci di provare emozioni, eppure, nessuno è mai riuscito ad oggi a crearne uno. Ci riusciremo? Io credo di sì, e nei prossimi paragrafi proverò a dare un’idea di quanto bene possano simulare le emozioni i computer di oggi. Ogni tanto torna sui giornali la notizia di esperimenti riguardanti i cosiddetti “social robots” (qualcuno magari ricorderà i più appariscenti “sex robots“, in grado di simulare in tutto e per tutto una figura umana).</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://federicosimonetta.eu.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://federicosimonetta.eu.org/about/</guid>
+      <description>I am a post-doc researcher in the Laudare ERC project at the GSSI - Gran Sasso Science Institute. I am also a research collaborator at the University of Milan, in the LIM - Music Informatics Laboratory. Previously, I was a post-doc researcher at the Instituto Complutense de Ciencias Musicales - ICCMU in the Didone project , where I worked on the 18th century Italian Opera.
+I have taken my Ph.D. in Computer Science at the University of Milan in the LIM - Music Informatics Laboratory , where I studied computational methods for music performance analysis.</description>
     </item>
     
     <item>
