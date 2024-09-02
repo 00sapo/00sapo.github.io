@@ -12,8 +12,8 @@ For now, it is just a list of useful links!
 
 ## Technical tools
 
-- [Guide](/post/remote_editing) to how to develop on remote hosts
-- Very easy [introduction](/post/git_intro) to git
+- [Guide](/blog/remote_editing) to how to develop on remote hosts
+- Very easy [introduction](/blog/git_intro) to git
 - A fully [interactive tutorial](https://learngitbranching.js.org/?locale=it_IT) about git
 - When git is a [mess](http://justinhileman.info/article/git-pretty/)
 - If you need a review of any technology, check [this](https://learnxinyminutes.com)

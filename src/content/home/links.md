@@ -32,4 +32,4 @@ You won't find links to closed software or to software which make use of closed 
 - [List](https://degooglisons-internet.org/en/alternatives/) of alternative tools to free yourself from Google, Facebook, Amazon, and co.
 - [e-foundation](https://e.foundation/): no-profit who develops a usable Google-free Android OS
 - [Mozilla](https://www.mozilla.org/it/): probably, the biggest no-profit in the computer world: develops computer technologies focused on web, especially the Firefox browser, the Rust language, and the Thunderbird mail client
-- [LiChess](lichess.org/): no-profit organization to play chess
+- [LiChess](//lichess.org/): no-profit organization to play chess
