@@ -1,14 +1,14 @@
 baseurl = "https://federicosimonetta.eu.org/"
 publishDir = "../"
 title = "Federico Simonetta"
-defaultContentLanguage = ""
+defaultContentLanguage = "english"
 theme = "introduction"
 enableEmoji = true                                                                                                # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
 googleAnalytics = "G-91GZC4XQBY"
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 enableRobotsTXT = true
 canonifyURLs = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [markup.goldmark.renderer]
 unsafe = true
