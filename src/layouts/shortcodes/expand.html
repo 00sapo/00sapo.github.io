@@ -4,7 +4,7 @@
         <span>
         {{$expandMessage := T "Expand-title"}}
     	{{ if .IsNamedParams }}
-    	{{.Get "title" | default $expandMessage}}
+    	{{.Get "title" | markdownify | default $expandMessage}}
     	{{else}}
     	{{.Get 0 | default $expandMessage}}
     	{{end}}
