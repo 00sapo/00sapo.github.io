@@ -14,7 +14,7 @@
       <link>https://federicosimonetta.eu.org/blog/git_intro/</link>
       <pubDate>Thu, 14 Jan 2021 09:14:35 +0000</pubDate>
       <guid>https://federicosimonetta.eu.org/blog/git_intro/</guid>
-      <description>L&amp;rsquo;idea di git è di salvare varie versioni apportate ai file in un repository.&#xA;Le modifiche apportate si salvano sottoforma di commit. Ogni commit contiene le nuove versioni dei file modificati che si vogliono salvare. Idealmente, ogni commit dovrebbe rispettare il principio di singola responsabilità: dovrebbe cioè riguardare una sola funzionalità o caratteristica del software. Ogni commit porta con se un messaggio che descrive brevemente cosa è stato modificato, un timestamp non modificabile e un hash che consente di identificarlo univocamente.</description>
+      <description>&lt;p&gt;L&amp;rsquo;idea di git è di salvare varie versioni apportate ai file in un repository.&lt;/p&gt;&#xA;&lt;p&gt;Le modifiche apportate si salvano sottoforma di &lt;strong&gt;commit&lt;/strong&gt;. Ogni commit contiene le&#xA;nuove versioni dei file modificati che si vogliono salvare. Idealmente, ogni commit&#xA;dovrebbe rispettare il principio di singola responsabilità: dovrebbe cioè riguardare una&#xA;sola funzionalità o caratteristica del software. Ogni commit porta con se un messaggio&#xA;che descrive brevemente cosa è stato modificato, un timestamp non modificabile e un hash&#xA;che consente di identificarlo univocamente.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

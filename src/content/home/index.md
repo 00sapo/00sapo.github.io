@@ -1,7 +1,5 @@
 ---
-title: "Federico Simonetta"
+title: "sound, machine learning, music"
 ---
-
-sound, machine learning, computing
 
 _fluid thoughts against categories_

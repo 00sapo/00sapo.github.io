@@ -19,6 +19,7 @@ continuously involved in researching new tools for enabling access to music/cult
 fruition/production, I want to contribute to the improvement of the society and of the
 world in which we live.
 
+- **Full Name**: Federico Simonetta
 - **Main Research interests**: music information processing, machine learning, audio processing, document understanding
 - **Secondary Research interests**: audio processing, medical acoustics, symbolic music analysis and generation, audio synthesis
 - **CV**: [download](/cv.pdf) it (old)

@@ -14,7 +14,7 @@
       <link>https://federicosimonetta.eu.org/blog/remote_editing/</link>
       <pubDate>Tue, 11 Feb 2020 11:50:35 +0000</pubDate>
       <guid>https://federicosimonetta.eu.org/blog/remote_editing/</guid>
-      <description>Workflow In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:&#xA;You create and edit code on your local machine An indipendent software mirrors your code to the host (syncthing in this document) You interface with the host through terminal, give commands and run code (tmux) Finally, you debug your code (debug section), and edit it your local machine This workflow allows you to:</description>
+      <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;//www.dalet.com/uploads/2020/11/Remote-Editing-min1_0.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;h2 id=&#34;workflow&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#workflow&#34;&gt;Workflow&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;You create and edit code on your local machine&lt;/li&gt;&#xA;&lt;li&gt;An indipendent software mirrors your code to the host (&lt;code&gt;syncthing&lt;/code&gt; in this document)&lt;/li&gt;&#xA;&lt;li&gt;You interface with the host through terminal, give commands and run code (&lt;code&gt;tmux&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Finally, you debug your code (&lt;code&gt;debug&lt;/code&gt; section), and edit it your local machine&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This workflow allows you to:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
