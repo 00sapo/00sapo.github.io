@@ -1,7 +1,7 @@
 **/*~
-package.json
 package-lock.json
 node_modules
 
 .hugo_build.lock
 src/resources/_gen
+yarn.lock
