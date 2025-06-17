@@ -194,3 +194,8 @@ input.form-control {
 div.bibbase_group_whole {
   border-top-style: dashed !important;
 }
+
+/* headers font */ 
+.bibbase_group_head_icon::after {
+  font-family: Nunito Sans,sans-serif;
+}

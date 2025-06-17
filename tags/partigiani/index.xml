@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Partigiani on Federico Simonetta</title>
-    <link>https://federicosimonetta.eu.org/tags/partigiani/</link>
+    <link>http://localhost:1313/tags/partigiani/</link>
     <description>Recent content in Partigiani on Federico Simonetta</description>
     <generator>Hugo</generator>
     <language>english</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 25 Apr 2019 12:34:41 +0000</lastBuildDate>
-    <atom:link href="https://federicosimonetta.eu.org/tags/partigiani/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/partigiani/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quando gli ingegneri ci liberavano dal nazifascismo</title>
-      <link>https://federicosimonetta.eu.org/blog/liberazione/</link>
+      <link>http://localhost:1313/blog/liberazione/</link>
       <pubDate>Thu, 25 Apr 2019 12:34:41 +0000</pubDate>
-      <guid>https://federicosimonetta.eu.org/blog/liberazione/</guid>
+      <guid>http://localhost:1313/blog/liberazione/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230626194516im_/https://www.techeconomy2030.it/wp-content/uploads/2019/04/telephone-1822040_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Rispetto agli studiosi di materie sociali e umanistiche, pochi tra scienziati e&#xA;ingegneri si interessano di temi civili o questioni sociali. La cultura in cui viviamo, infatti,&#xA;non favorisce l&amp;rsquo;interazione tra la sfera socio-umanistica del sapere e&#xA;quella tecnico-scientifica. Eppure, la Storia dell&amp;rsquo;Italia è ricca di spunti, fin dalle&#xA;origini dei suoi principi etici: durante la guerra di Liberazione, il ruolo svolto da chi&#xA;aveva conoscenze professionali tecniche fu decisivo per garantire la trasmissibilità delle&#xA;informazioni e la cooperazione dei gruppi di liberazione e delle forze alleate.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techeconomy on Federico Simonetta</title>
-    <link>https://federicosimonetta.eu.org/categories/techeconomy/</link>
+    <link>http://localhost:1313/categories/techeconomy/</link>
     <description>Recent content in Techeconomy on Federico Simonetta</description>
     <generator>Hugo</generator>
     <language>english</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 25 Apr 2019 12:34:41 +0000</lastBuildDate>
-    <atom:link href="https://federicosimonetta.eu.org/categories/techeconomy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/techeconomy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quando gli ingegneri ci liberavano dal nazifascismo</title>
-      <link>https://federicosimonetta.eu.org/blog/liberazione/</link>
+      <link>http://localhost:1313/blog/liberazione/</link>
       <pubDate>Thu, 25 Apr 2019 12:34:41 +0000</pubDate>
-      <guid>https://federicosimonetta.eu.org/blog/liberazione/</guid>
+      <guid>http://localhost:1313/blog/liberazione/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230626194516im_/https://www.techeconomy2030.it/wp-content/uploads/2019/04/telephone-1822040_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Rispetto agli studiosi di materie sociali e umanistiche, pochi tra scienziati e&#xA;ingegneri si interessano di temi civili o questioni sociali. La cultura in cui viviamo, infatti,&#xA;non favorisce l&amp;rsquo;interazione tra la sfera socio-umanistica del sapere e&#xA;quella tecnico-scientifica. Eppure, la Storia dell&amp;rsquo;Italia è ricca di spunti, fin dalle&#xA;origini dei suoi principi etici: durante la guerra di Liberazione, il ruolo svolto da chi&#xA;aveva conoscenze professionali tecniche fu decisivo per garantire la trasmissibilità delle&#xA;informazioni e la cooperazione dei gruppi di liberazione e delle forze alleate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Live Coding is one of the most interesting music phenomena of this century</title>
-      <link>https://federicosimonetta.eu.org/blog/live_coding/</link>
+      <link>http://localhost:1313/blog/live_coding/</link>
       <pubDate>Wed, 20 Feb 2019 18:50:46 +0000</pubDate>
-      <guid>https://federicosimonetta.eu.org/blog/live_coding/</guid>
+      <guid>http://localhost:1313/blog/live_coding/</guid>
       <description>&lt;p&gt;Versione italiana su &lt;a href=&#34;https://web.archive.org/web/20230202085545/https://www.techeconomy2030.it/2019/02/18/7-motivi-per-cui-live-coding-crescera/&#34; target=&#34;_blank&#34; &gt;techeconomy2030.it&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://toplap.org/wiki/images/thumb/6/67/Toplap.png/450px-Toplap.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;From 14th to 17th February, an important Algorave took place: 84 hours of non-stop music in the what probably is the largest music show completely produced and distributed online of ever. The 14th February 2019, in fact, was the 15th anniversary since the birth of TOPLAP, the international online community of musicians active in &lt;em&gt;live coding&lt;/em&gt;, that are musicians who improvise music programming in real time. If you read this article and I can convince you that it was worthwhile to attend this Algorave, you can save this link to access the event: &lt;a href=&#34;https://toplap.org/wearefifteen/&#34; target=&#34;_blank&#34; &gt;https://toplap.org/wearefifteen/&lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Se il machine learning fosse nato 400 anni fa</title>
-      <link>https://federicosimonetta.eu.org/blog/galileo/</link>
+      <link>http://localhost:1313/blog/galileo/</link>
       <pubDate>Tue, 04 Dec 2018 13:50:46 +0000</pubDate>
-      <guid>https://federicosimonetta.eu.org/blog/galileo/</guid>
+      <guid>http://localhost:1313/blog/galileo/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230601222546im_/https://www.techeconomy2030.it/wp-content/uploads/2018/12/fire-2777580_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Il sole era già oltre le colline e le nuvole a sprazzi lasciavano che la luce della luna illuminasse la Terra. Il gelo di gennaio filtrava tra i vestiti di chi, incurante dell’umidità, usciva dopo giorni di pioggia. Simplicio entrò nel capanno dietro casa. Era giunto un messo da Torre del Gallo, non aveva lasciato detto nulla: solo un foglio, piegato in quattro, con le sue iniziali su un lato, GG. Presa in consegna la lettera, Simplicio uscì immediatamente per avvisarlo e portargli il messaggio.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Le emozioni dei computer: a che punto siamo e dove andiamo?</title>
-      <link>https://federicosimonetta.eu.org/blog/emozioni/</link>
+      <link>http://localhost:1313/blog/emozioni/</link>
       <pubDate>Tue, 02 Oct 2018 13:50:46 +0000</pubDate>
-      <guid>https://federicosimonetta.eu.org/blog/emozioni/</guid>
+      <guid>http://localhost:1313/blog/emozioni/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230607084349im_/https://www.techeconomy2030.it/wp-content/uploads/2018/10/hands-423794_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Sono molti gli scrittori, i registi e i “fantasticatori” in genere che hanno immaginato macchine capaci di provare emozioni, eppure, nessuno è mai riuscito ad oggi a crearne uno. Ci riusciremo? Io credo di sì, e nei prossimi paragrafi proverò a dare un’idea di quanto bene possano simulare le emozioni i computer di oggi.&#xA;Ogni tanto torna sui giornali la notizia di esperimenti riguardanti i cosiddetti “social robots” (qualcuno magari ricorderà i più appariscenti “sex robots“, in grado di simulare in tutto e per tutto una figura umana). E’ indubbio che queste ricerche restano lontane dalla nostra realtà, sia per motivi economici sia perché banalmente nessun nostro amico possiede un “social robot”. In realtà, lo studio e la modellizzazione delle emozioni da un punto di vista computazionale è ben più vasto e i campi applicativi molteplici, nonché di diretta influenza sulla nostra vita di tutti i giorni.&lt;/p&gt;</description>
     </item>
   </channel>
