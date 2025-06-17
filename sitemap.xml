@@ -2,127 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://federicosimonetta.eu.org/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/git/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/remote/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/remote/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/software/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/software/</loc>
+    <loc>https://federicosimonetta.eu.org/categories/software/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/teaching/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/teaching/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/git_intro/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/git_intro/</loc>
     <lastmod>2021-01-14T09:14:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/art/</loc>
+    <loc>https://federicosimonetta.eu.org/notes/art/</loc>
     <lastmod>2020-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://federicosimonetta.eu.org/notes/</loc>
     <lastmod>2020-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cloud/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/cloud/</loc>
     <lastmod>2020-12-07T11:05:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/linux/</loc>
     <lastmod>2020-12-07T11:05:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reboot/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/reboot/</loc>
     <lastmod>2020-12-07T11:05:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/the_last_resort/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/the_last_resort/</loc>
     <lastmod>2020-12-07T11:05:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/remote_editing/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/remote_editing/</loc>
     <lastmod>2020-02-11T11:50:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/syncthing/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/syncthing/</loc>
     <lastmod>2020-02-11T11:50:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tmux/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/tmux/</loc>
     <lastmod>2020-02-11T11:50:35+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/contradictions/</loc>
+    <loc>https://federicosimonetta.eu.org/notes/contradictions/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/fantastic/</loc>
+    <loc>https://federicosimonetta.eu.org/notes/fantastic/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ingegneri/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/ingegneri/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/liberazione/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/liberazione/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/partigiani/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/partigiani/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/liberazione/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/liberazione/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/stem/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/stem/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/techeconomy/</loc>
+    <loc>https://federicosimonetta.eu.org/categories/techeconomy/</loc>
     <lastmod>2019-04-25T12:34:41+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/digital-arts/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/digital-arts/</loc>
     <lastmod>2019-02-20T18:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/digital-humanities/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/digital-humanities/</loc>
     <lastmod>2019-02-20T18:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/live-coding/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/live-coding/</loc>
     <lastmod>2019-02-20T18:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/live_coding/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/live_coding/</loc>
     <lastmod>2019-02-20T18:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/music/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/music/</loc>
     <lastmod>2019-02-20T18:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fair-society/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/fair-society/</loc>
     <lastmod>2018-12-04T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/galileo/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/galileo/</loc>
     <lastmod>2018-12-04T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/machine-learning/</loc>
     <lastmod>2018-12-04T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/scientific-research/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/scientific-research/</loc>
     <lastmod>2018-12-04T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/galileo/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/galileo/</loc>
     <lastmod>2018-12-04T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/user_center/</loc>
+    <loc>https://federicosimonetta.eu.org/notes/user_center/</loc>
     <lastmod>2018-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/affective-computing/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/affective-computing/</loc>
     <lastmod>2018-10-02T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emozioni/</loc>
+    <loc>https://federicosimonetta.eu.org/tags/emozioni/</loc>
     <lastmod>2018-10-02T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/emozioni/</loc>
+    <loc>https://federicosimonetta.eu.org/blog/emozioni/</loc>
     <lastmod>2018-10-02T13:50:46+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/allnotes/</loc>
+    <loc>https://federicosimonetta.eu.org/notes/allnotes/</loc>
   </url><url>
-    <loc>http://localhost:1313/music/</loc>
+    <loc>https://federicosimonetta.eu.org/music/</loc>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://federicosimonetta.eu.org/home/</loc>
   </url>
 </urlset>

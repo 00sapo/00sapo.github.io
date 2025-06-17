@@ -2,110 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Federico Simonetta</title>
-    <link>http://localhost:1313/</link>
+    <link>https://federicosimonetta.eu.org/</link>
     <description>Recent content on Federico Simonetta</description>
     <generator>Hugo</generator>
     <language>english</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 14 Jan 2021 09:14:35 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://federicosimonetta.eu.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Una semplice introduzione a Git</title>
-      <link>http://localhost:1313/blog/git_intro/</link>
+      <link>https://federicosimonetta.eu.org/blog/git_intro/</link>
       <pubDate>Thu, 14 Jan 2021 09:14:35 +0000</pubDate>
-      <guid>http://localhost:1313/blog/git_intro/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/git_intro/</guid>
       <description>&lt;p&gt;L&amp;rsquo;idea di git è di salvare varie versioni apportate ai file in un repository.&lt;/p&gt;&#xA;&lt;p&gt;Le modifiche apportate si salvano sottoforma di &lt;strong&gt;commit&lt;/strong&gt;. Ogni commit contiene le&#xA;nuove versioni dei file modificati che si vogliono salvare. Idealmente, ogni commit&#xA;dovrebbe rispettare il principio di singola responsabilità: dovrebbe cioè riguardare una&#xA;sola funzionalità o caratteristica del software. Ogni commit porta con se un messaggio&#xA;che descrive brevemente cosa è stato modificato, un timestamp non modificabile e un hash&#xA;che consente di identificarlo univocamente.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Art and similar stuffs</title>
-      <link>http://localhost:1313/notes/art/</link>
+      <link>https://federicosimonetta.eu.org/notes/art/</link>
       <pubDate>Sat, 26 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/art/</guid>
+      <guid>https://federicosimonetta.eu.org/notes/art/</guid>
       <description>&lt;h2 id=&#34;il-prodotto-artistico&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#il-prodotto-artistico&#34;&gt;Il prodotto artistico&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Definire il concetto di &lt;em&gt;arte&lt;/em&gt; in generale, non è semplice. Le persone parlano di &lt;em&gt;arte&lt;/em&gt; per riferirsi genericamente a un processo intellettuale e materiale che produce un bene fruibile, materiale o meno; affinché tale bene venga definito &lt;em&gt;arte&lt;/em&gt;, deve possedere alcune caratteristiche che variano in base al contesto &lt;em&gt;culturale&lt;/em&gt;. Potrei quindi analizzare tali svariate caratteristiche per poi scoprire, però, che la mia stessa analisi sarebbe soggetta al mio contesto culturale e che pertanto non sarebbe comunque universalmente valida. Per uscire da questo inceppo, preferisco non cercare una definizione precisa ma di, banalmente, assumere come principio non dimostrabile una cosa che tutti trovano veritiera: &lt;em&gt;un prodotto artistico comunica qualcosa che in qualche sua parte è diverso da ciò che è comunicato da qualunque altro prodotto artistico&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Last Resort - how to force remote reboot</title>
-      <link>http://localhost:1313/blog/the_last_resort/</link>
+      <link>https://federicosimonetta.eu.org/blog/the_last_resort/</link>
       <pubDate>Mon, 07 Dec 2020 11:05:35 +0000</pubDate>
-      <guid>http://localhost:1313/blog/the_last_resort/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/the_last_resort/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;//feetpin.files.wordpress.com/2018/06/bungy-wide-angle.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;h2 id=&#34;problem&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#problem&#34;&gt;Problem&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Deadlocks are bad creatures in the unix world. Sometimes, you willl need to kill your machine forcely, but what if you are using a remote machine?&lt;/p&gt;&#xA;&lt;p&gt;In the COVID-19 situation, it could be difficult to get a machine up again if you forcely shutdown it (e.g. &lt;code&gt;shutdown -now&lt;/code&gt;). So, you need to reboot. The issue is that &lt;code&gt;reboot&lt;/code&gt; kindly unmount filesystems and wait for processes to shutdown.&lt;/p&gt;&#xA;&#xA;&lt;h2 id=&#34;solution&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#solution&#34;&gt;Solution&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;If you want to abruptly shutdown your system, simply does as following:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Developing and testing on a remote host</title>
-      <link>http://localhost:1313/blog/remote_editing/</link>
+      <link>https://federicosimonetta.eu.org/blog/remote_editing/</link>
       <pubDate>Tue, 11 Feb 2020 11:50:35 +0000</pubDate>
-      <guid>http://localhost:1313/blog/remote_editing/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/remote_editing/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;//www.dalet.com/uploads/2020/11/Remote-Editing-min1_0.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&#xA;&lt;h2 id=&#34;workflow&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#workflow&#34;&gt;Workflow&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;You create and edit code on your local machine&lt;/li&gt;&#xA;&lt;li&gt;An indipendent software mirrors your code to the host (&lt;code&gt;syncthing&lt;/code&gt; in this document)&lt;/li&gt;&#xA;&lt;li&gt;You interface with the host through terminal, give commands and run code (&lt;code&gt;tmux&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Finally, you debug your code (&lt;code&gt;debug&lt;/code&gt; section), and edit it your local machine&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;This workflow allows you to:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contradictions</title>
-      <link>http://localhost:1313/notes/contradictions/</link>
+      <link>https://federicosimonetta.eu.org/notes/contradictions/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/contradictions/</guid>
-      <description>&lt;p&gt;Human beings in 21th century has to live with a new incredible discovery: our world perception is contradictory.&lt;/p&gt;&#xA;&lt;p&gt;Here, I will try to list all the contradictions that humans have to face. The ratio for which they are listed here is that it may be impossible to solve these contradictions without stopping being a human, that is without stopping perceiving ourself as an active coscience.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Categories only exist in in our mind, but our mind also tells us that categories &lt;a href=&#34;http://localhost:1313/notes/fantastic&#34; &gt;do not exist&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Humans perceive a push towards something but they cannot understand why nor what&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>https://federicosimonetta.eu.org/notes/contradictions/</guid>
+      <description>&lt;p&gt;Human beings in 21th century has to live with a new incredible discovery: our world perception is contradictory.&lt;/p&gt;&#xA;&lt;p&gt;Here, I will try to list all the contradictions that humans have to face. The ratio for which they are listed here is that it may be impossible to solve these contradictions without stopping being a human, that is without stopping perceiving ourself as an active coscience.&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Categories only exist in in our mind, but our mind also tells us that categories &lt;a href=&#34;https://federicosimonetta.eu.org/notes/fantastic&#34; &gt;do not exist&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Humans perceive a push towards something but they cannot understand why nor what&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Fantastic notes</title>
-      <link>http://localhost:1313/notes/fantastic/</link>
+      <link>https://federicosimonetta.eu.org/notes/fantastic/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/fantastic/</guid>
+      <guid>https://federicosimonetta.eu.org/notes/fantastic/</guid>
       <description>&lt;h2 id=&#34;categories&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#categories&#34;&gt;Categories&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;We organize what we perceive in the world in categories. Everywhere we find categories: words, concepts, objects.&#xA;But why we do so? Are categories really part of the intrinsic essence of where we live? In a certain sense,&#xA;we could say that the needing for categories comes from the perception of the world as a set of multiple different&#xA;objects.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;It is completely instictual finding differences between a chair and a glass,&#xA;or between a table and a laptop. However, since more than a century physics&#xA;says that all the matter is made by the same essence, even if it is&#xA;impossible to define that essence. On second thought, it is not just&#xA;physics that talks about this uniformity of the world essence, but also&#xA;ancient greek philosophers, and maybe others of whom I am unaware.&#xA;E.g.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quando gli ingegneri ci liberavano dal nazifascismo</title>
-      <link>http://localhost:1313/blog/liberazione/</link>
+      <link>https://federicosimonetta.eu.org/blog/liberazione/</link>
       <pubDate>Thu, 25 Apr 2019 12:34:41 +0000</pubDate>
-      <guid>http://localhost:1313/blog/liberazione/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/liberazione/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230626194516im_/https://www.techeconomy2030.it/wp-content/uploads/2019/04/telephone-1822040_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Rispetto agli studiosi di materie sociali e umanistiche, pochi tra scienziati e&#xA;ingegneri si interessano di temi civili o questioni sociali. La cultura in cui viviamo, infatti,&#xA;non favorisce l&amp;rsquo;interazione tra la sfera socio-umanistica del sapere e&#xA;quella tecnico-scientifica. Eppure, la Storia dell&amp;rsquo;Italia è ricca di spunti, fin dalle&#xA;origini dei suoi principi etici: durante la guerra di Liberazione, il ruolo svolto da chi&#xA;aveva conoscenze professionali tecniche fu decisivo per garantire la trasmissibilità delle&#xA;informazioni e la cooperazione dei gruppi di liberazione e delle forze alleate.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Live Coding is one of the most interesting music phenomena of this century</title>
-      <link>http://localhost:1313/blog/live_coding/</link>
+      <link>https://federicosimonetta.eu.org/blog/live_coding/</link>
       <pubDate>Wed, 20 Feb 2019 18:50:46 +0000</pubDate>
-      <guid>http://localhost:1313/blog/live_coding/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/live_coding/</guid>
       <description>&lt;p&gt;Versione italiana su &lt;a href=&#34;https://web.archive.org/web/20230202085545/https://www.techeconomy2030.it/2019/02/18/7-motivi-per-cui-live-coding-crescera/&#34; target=&#34;_blank&#34; &gt;techeconomy2030.it&lt;/a&gt;&#xA;&lt;/p&gt;&#xA;&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://toplap.org/wiki/images/thumb/6/67/Toplap.png/450px-Toplap.png&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;From 14th to 17th February, an important Algorave took place: 84 hours of non-stop music in the what probably is the largest music show completely produced and distributed online of ever. The 14th February 2019, in fact, was the 15th anniversary since the birth of TOPLAP, the international online community of musicians active in &lt;em&gt;live coding&lt;/em&gt;, that are musicians who improvise music programming in real time. If you read this article and I can convince you that it was worthwhile to attend this Algorave, you can save this link to access the event: &lt;a href=&#34;https://toplap.org/wearefifteen/&#34; target=&#34;_blank&#34; &gt;https://toplap.org/wearefifteen/&lt;/a&gt;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Se il machine learning fosse nato 400 anni fa</title>
-      <link>http://localhost:1313/blog/galileo/</link>
+      <link>https://federicosimonetta.eu.org/blog/galileo/</link>
       <pubDate>Tue, 04 Dec 2018 13:50:46 +0000</pubDate>
-      <guid>http://localhost:1313/blog/galileo/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/galileo/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230601222546im_/https://www.techeconomy2030.it/wp-content/uploads/2018/12/fire-2777580_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Il sole era già oltre le colline e le nuvole a sprazzi lasciavano che la luce della luna illuminasse la Terra. Il gelo di gennaio filtrava tra i vestiti di chi, incurante dell’umidità, usciva dopo giorni di pioggia. Simplicio entrò nel capanno dietro casa. Era giunto un messo da Torre del Gallo, non aveva lasciato detto nulla: solo un foglio, piegato in quattro, con le sue iniziali su un lato, GG. Presa in consegna la lettera, Simplicio uscì immediatamente per avvisarlo e portargli il messaggio.&lt;/p&gt;</description>
     </item>
     <item>
       <title>L&#39;effetto dell&#39;informatica `user centered`</title>
-      <link>http://localhost:1313/notes/user_center/</link>
+      <link>https://federicosimonetta.eu.org/notes/user_center/</link>
       <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/user_center/</guid>
+      <guid>https://federicosimonetta.eu.org/notes/user_center/</guid>
       <description>&lt;h2 id=&#34;ipertrofia-segnica&#34; class=&#34;anchor-link&#34;&gt;&lt;a href=&#34;#ipertrofia-segnica&#34;&gt;Ipertrofia segnica&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;La società del Novecento è stata caratterizzata da un sovraffollamento di segnali. Ovunque andiamo, troviamo segni, indicazioni, scritte, simboli. Viviamo in un horror vacui della comunicazione. La società degli anni duemila è andata oltre. Nel XX sec. il capitalismo cominciò a martellare le persone con informazioni le più disparate con l&amp;rsquo;obiettivo di: sostenere i consumi, garantire la comprensione delle leggi e indicare il comportamento a cui le persone dovevano attenersi. L&amp;rsquo;ipertrofia segnica del Novecento poneva pertanto tutte le persone sullo stesso piano e si rivolgeva a tutti allo stesso modo. Era una comunicazione larga, uguale per tutti, che al più escludeva delle componenti in modo collettivo &amp;ndash; vd il razzismo &amp;ndash; ma mai individuale, non ci furono mai cartelli con scritto &amp;ldquo;vietato l&amp;rsquo;ingresso a Tizio, Caio e Sempronio&amp;rdquo;, tuttalpiù succedeva con personalità famose ed erano comunque casi eccezionali.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Le emozioni dei computer: a che punto siamo e dove andiamo?</title>
-      <link>http://localhost:1313/blog/emozioni/</link>
+      <link>https://federicosimonetta.eu.org/blog/emozioni/</link>
       <pubDate>Tue, 02 Oct 2018 13:50:46 +0000</pubDate>
-      <guid>http://localhost:1313/blog/emozioni/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/emozioni/</guid>
       <description>&lt;figure class=&#34;old_photo&#34;&gt;&lt;img src=&#34;https://web.archive.org/web/20230607084349im_/https://www.techeconomy2030.it/wp-content/uploads/2018/10/hands-423794_1280.jpg&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Sono molti gli scrittori, i registi e i “fantasticatori” in genere che hanno immaginato macchine capaci di provare emozioni, eppure, nessuno è mai riuscito ad oggi a crearne uno. Ci riusciremo? Io credo di sì, e nei prossimi paragrafi proverò a dare un’idea di quanto bene possano simulare le emozioni i computer di oggi.&#xA;Ogni tanto torna sui giornali la notizia di esperimenti riguardanti i cosiddetti “social robots” (qualcuno magari ricorderà i più appariscenti “sex robots“, in grado di simulare in tutto e per tutto una figura umana). E’ indubbio che queste ricerche restano lontane dalla nostra realtà, sia per motivi economici sia perché banalmente nessun nostro amico possiede un “social robot”. In realtà, lo studio e la modellizzazione delle emozioni da un punto di vista computazionale è ben più vasto e i campi applicativi molteplici, nonché di diretta influenza sulla nostra vita di tutti i giorni.&lt;/p&gt;</description>
     </item>
     <item>
       <title>List of Notes</title>
-      <link>http://localhost:1313/notes/allnotes/</link>
+      <link>https://federicosimonetta.eu.org/notes/allnotes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/allnotes/</guid>
-      <description>&lt;p&gt;This a list of personal notes about various stuffs. Be careful, because you could get crazy (or maybe you could just think that I&amp;rsquo;m crazy, which is probably part of the truth).&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/notes/fantastic&#34; &gt;Fantastic notes&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/notes/user_center&#34; &gt;Effetti sociali dell&amp;rsquo;informatica user-centered&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/notes/art&#34; &gt;Assurda filosofia dell&amp;rsquo;arte&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://localhost:1313/notes/contradictions&#34; &gt;Contrdictions&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+      <guid>https://federicosimonetta.eu.org/notes/allnotes/</guid>
+      <description>&lt;p&gt;This a list of personal notes about various stuffs. Be careful, because you could get crazy (or maybe you could just think that I&amp;rsquo;m crazy, which is probably part of the truth).&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://federicosimonetta.eu.org/notes/fantastic&#34; &gt;Fantastic notes&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://federicosimonetta.eu.org/notes/user_center&#34; &gt;Effetti sociali dell&amp;rsquo;informatica user-centered&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://federicosimonetta.eu.org/notes/art&#34; &gt;Assurda filosofia dell&amp;rsquo;arte&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://federicosimonetta.eu.org/notes/contradictions&#34; &gt;Contrdictions&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
       <title>Music &amp; co.</title>
-      <link>http://localhost:1313/music/</link>
+      <link>https://federicosimonetta.eu.org/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/music/</guid>
+      <guid>https://federicosimonetta.eu.org/music/</guid>
       <description>&lt;p&gt;Here are a few pieces that I have written since when I was an improbable composer until&#xA;today, when I&amp;rsquo;m still an improbable composer. The order is kind of a mess. Many others&#xA;exist but only these could be considered &lt;em&gt;complete&lt;/em&gt; by my sensibility at each respective&#xA;time. However, I&amp;rsquo;m not a professional composer and I don&amp;rsquo;t have any ambition in this.&#xA;Also, I&amp;rsquo;m not composing anymore since a few years. I&amp;rsquo;ll be back at music one day, maybe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>So, don&#39;t forget the bigger picture</title>
-      <link>http://localhost:1313/home/</link>
+      <link>https://federicosimonetta.eu.org/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/home/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/PhDKnowledge.012.jpg&#34; alt=&#34;don&amp;rsquo;t forget the big picture&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Keep pushing.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: right; font-size: 0.75rem;&#34;&gt;&#xA;    From a story by &lt;a href=&#34;//matt.might.net/articles/phd-school-in-pictures/&#34;&gt;Matt&#xA;    Might&lt;/a&gt;.&#xA;&lt;/div&gt;</description>
+      <guid>https://federicosimonetta.eu.org/home/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://federicosimonetta.eu.org/img/PhDKnowledge.012.jpg&#34; alt=&#34;don&amp;rsquo;t forget the big picture&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Keep pushing.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: right; font-size: 0.75rem;&#34;&gt;&#xA;    From a story by &lt;a href=&#34;//matt.might.net/articles/phd-school-in-pictures/&#34;&gt;Matt&#xA;    Might&lt;/a&gt;.&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

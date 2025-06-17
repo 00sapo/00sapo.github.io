@@ -145,7 +145,7 @@
 }
 
 #group_article div.bibbase_group i:after {
-  content: " Journal Articles";
+  content: " Journal, Magazine, Newspaper, and Periodical Articles";
 }
 #group_inproceedings div.bibbase_group i:after {
   content: " Conference and Workshop Publications";
