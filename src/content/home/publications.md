@@ -10,6 +10,27 @@ Here is [the full list of publications](#publications-full).
 
 The following are some notable publications that you may be interested in.
 
+![Most studied composers in Composer Identification literature](/img/composer_identification_screenshot.png)
+
+### Style-based Composer Identification and Attribution of Symbolic Music Scores: a Systematic Survey
+
+{{< expand "See more" >}}
+_Federico Simonetta_
+
+Accepted in the Transactions of the International Society for Music Information Retrieval (TISMIR)
+2025
+
+- [Full paper](https://arxiv.org/abs/2506.12440)
+- Journal link (to be updated)
+
+##### Abstract
+
+This paper presents the first comprehensive systematic review of literature on style-based composer identification and authorship attribution in symbolic music scores. Addressing the critical need for improved reliability and reproducibility in this field, the review rigorously analyzes 58 peer-reviewed papers published across various historical periods, with the search adapted to evolving terminology. The analysis critically assesses prevailing repertoires, computational approaches, and evaluation methodologies, highlighting significant challenges. It reveals that a substantial portion of existing research suffers from inadequate validation protocols and an over-reliance on simple accuracy metrics for often imbalanced datasets, which can undermine the credibility of attribution claims. The crucial role of robust metrics like Balanced Accuracy and rigorous cross-validation in ensuring trustworthy results is emphasized. The survey also details diverse feature representations and the evolution of machine learning models employed. Notable real-world authorship attribution cases, such as those involving works attributed to Bach, Josquin Desprez, and Lennon-McCartney, are specifically discussed, illustrating the opportunities and pitfalls of applying computational techniques to resolve disputed musical provenance. Based on these insights, a set of actionable guidelines for future research are proposed. These recommendations are designed to significantly enhance the reliability, reproducibility, and musicological validity of composer identification and authorship attribution studies, fostering more robust and interpretable computational stylistic analysis.
+
+{{< /expand >}}
+
+---
+
 ![Screenshot of the Listening Test](/img/listening_test_screenshot.png)
 
 ### A perceptual measure for evaluating the resynthesis of automatic music transcriptions
@@ -41,41 +62,6 @@ average subjective evaluation. To bridge this gap, we propose a novel measure
 which is meaningfully correlated with the outcome of the tests. In addition, we
 investigate multimodal machine learning by providing a new score-informed AMT
 method and propose an approximation algorithm for the p-dispersion problem.
-
-{{< /expand >}}
-
----
-
-![Acoustics-specific strategies improve velocity prediction](/img/acoustics_specific_screenshot.jpg)
-
-### Acoustics-specific Piano Velocity Estimation
-
-{{< expand "See more" >}}
-_Federico Simonetta, S. Ntalampiras, F. Avanzini_
-
-Published in MMSP 2022
-
-- [Full paper](https://arxiv.org/abs/2203.16294)
-- [Web Site](https://limunimi.github.io/MIA/)
-- [Source-code](https://github.com/LIMUNIMI/ContextAwareAMT/releases/tag/phdthesis)
-
-##### Abstract
-
-Motivated by the state-of-art psychological research, we note that a piano performance
-transcribed with existing Automatic Music Transcription (AMT) methods cannot be
-successfully resynthesized without affecting the artistic content of the performance.
-This is due to 1) the different mappings between MIDI parameters used by different
-instruments, and 2) the fact that musicians adapt their way of playing to the
-surrounding acoustic environment. To face this issue, we propose a methodology to build
-acoustics-specific AMT systems that are able to model the adaptations that musicians
-apply to convey their interpretation. Specifically, we train models tailored for virtual
-instruments in a modular architecture that takes as input an audio recording and the
-relative aligned music score, and outputs the acoustics-specific velocities of each
-note. We test different model shapes and show that the proposed methodology generally
-outperforms the usual AMT pipeline which does not consider specificities of the
-instrument and of the acoustic environment. Interestingly, such a methodology is
-extensible in a straightforward way since only slight efforts are required to train
-models for the inference of other piano parameters, such as pedaling.
 
 {{< /expand >}}
 
