@@ -14,16 +14,17 @@ the LaTeX project on Overleaf.
 
 ### Ongoing
 
-- Bachelor: _Patient independent classification of heart sounds_ by **Mara Castiglioni** - Year: ongoing, Advisor: S.
-Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: yes
+- Bachelor: _Patient independent classification of heart sounds_ by **Mara Castiglioni** - Year: ongoing, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: yes
 - Bachelor: _Sistema di audiosorveglianza per smart home_ by **Claudio Di Benedetto** - Year: ongoing, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: no
+- Bachelor: _to be defined_ by **Giovanni Dalla Villa** - Year: ongoing, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: no
 - Master: _Optical Music Recognition for Cultural Heritage in the Ricordi Archive_ by **Mondal Rishav** - Year: ongoing, Advisor: S. Ntalampiras, Co-advisor: me, Publication: conference, Link: [arxiv](https://arxiv.org/abs/2408.10260), Overleaf: yes
-- Master: _Domain generalization for multimodal speech-based depression detection_ by **Tabaraei Ali** - Year: ongoing, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: no
+- Master: _Domain Generalization for Medical Audio Explainability_ by **Matteo Faré** - Year: ongong, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: no
 
 ### 2025
 
 - Bachelor: _Explaining Audio Classification Models for Respiratory Sounds_ by **Longhi Giorgio** - Year: 2025, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: yes
-- Master: _Speech emotion music recommendation_ by **Luca Bellani** - Year: 2025, Advisor: S. Ntalampiras, Co-advisor: F. Avanzini, me, Publication: -, Link: -, Overleaf: yes
+- Master: _Speech Emotion Music Recommendation_ by **Luca Bellani** - Year: 2025, Advisor: S. Ntalampiras, Co-advisor: F. Avanzini, me, Publication: -, Link: -, Overleaf: yes
+- Master: _Domain Generalization for Multimodal Audio-textual Depression Detection_ by **Tabaraei Ali** - Year: 2025, Advisor: S. Ntalampiras, Co-advisor: me, Publication: -, Link: -, Overleaf: yes
 
 ### 2024
 
