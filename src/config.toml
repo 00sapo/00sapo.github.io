@@ -84,15 +84,14 @@ url = "/notes/allnotes"
 weight = 99
 
 [params.home]
-introHeight = "fullheight"     # Input either "medium" or "large" or "fullheight"
-showLatest = false             # Show latest blog post summary
-showAllPosts = false           # Set true to list all posts on home page, or set false to link to separate blog list page
-allPostsArchiveFormat = true   # show all posts in an archive format
-numberOfProjectsToShow = 3     # Maximum number of projects to show on home page. Unset or comment out to show all projects
-localTime = true               # Show your current local time in contact section
-timeZone = "Europe/Rome"       # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timeFormat = "en-US"           # Language specific format to use
-customCSS = ["css/custom.css"]
+introHeight = "fullheight"   # Input either "medium" or "large" or "fullheight"
+showLatest = false           # Show latest blog post summary
+showAllPosts = false         # Set true to list all posts on home page, or set false to link to separate blog list page
+allPostsArchiveFormat = true # show all posts in an archive format
+numberOfProjectsToShow = 3   # Maximum number of projects to show on home page. Unset or comment out to show all projects
+localTime = true             # Show your current local time in contact section
+timeZone = "Europe/Rome"     # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timeFormat = "en-US"         # Language specific format to use
 
 [[params.social]]
 url = "https://github.com/00sapo"
