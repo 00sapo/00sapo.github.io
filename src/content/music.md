@@ -1,8 +1,5 @@
 +++
 title = "Music & co."
-id = "music"
-comments = false
-schematype = "CollectionPage"
 +++
 
 Here are a few pieces that I have written since when I was an improbable composer until

@@ -46,3 +46,15 @@ h1.bold-title {
   max-width: 100%;
   max-height: none;
 }
+
+.navbar-burger, a {
+  color: #4f4f4f;
+}
+
+a.navbar-item:hover, .markdown a:hover, a:hover {
+  color: #000000;
+}
+
+.section {
+  padding-top: 0rem;
+}

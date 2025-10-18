@@ -10,4 +10,3 @@ This a list of personal notes about various stuffs. Be careful, because you coul
 1. [Fantastic notes](/notes/fantastic)
 2. [Effetti sociali dell'informatica user-centered](/notes/user_center)
 3. [Assurda filosofia dell'arte](/notes/art)
-4. [Contrdictions](/notes/contradictions)

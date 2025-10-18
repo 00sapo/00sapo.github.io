@@ -13,22 +13,22 @@ disableKinds = ["taxonomy"]
 [markup.goldmark.renderer]
 unsafe = true
 
-[author]
-name = "Federico Simonetta"
-
 [params]
 dateform = "Mon Jan 02, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 EST"
 favicon = "/img/avatar.ico"
 footerText = "_Fluid thoughts against categories_"
-randomBackground = false
+randomBackground = true
 showMenu = true
 comments = false
 showRSSButton = false                              # Show rss button in navigation
-fadeIn = true                                      # Turn on/off the fade-in effect
-fadeInIndex = false                                # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+fadeIn = false                                     # Turn on/off the fade-in effect
+fadeInIndex = true                                 # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
 dateFormat = "2 Jan 2006"
 email = "federico.simonetta [at] gssi.it"          # E-mail address for contact section
+
+[params.author]
+name = "Federico Simonetta"
 
 # Metadata for Open Graph and Twitter
 images = [
@@ -39,15 +39,49 @@ keywords = "Federico Simonetta, machine learning, artificial intelligence, ai, m
 description = "Federico Simonetta is a machine learning researcher. Interested in music, sound, and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"
 
 [[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 92
+
+[[menu.main]]
+name = "Publications"
+url = "/publications/"
+weight = 93
+
+[[menu.main]]
+name = "Theses"
+url = "/theses/"
+weight = 94
+
+[[menu.main]]
+name = "Teaching"
+url = "/teaching/"
+weight = 95
+
+[[menu.main]]
+name = "Links"
+url = "/links/"
+weight = 96
+
+[[menu.main]]
 name = "Blog"
 url = "/blog/"
-weight = 98
+weight = 97
 
 [[menu.main]]
 name = "Music & co."
 url = "/music/"
-weight = 99
+weight = 98
 
+[[menu.main]]
+name = "Crazy Ideas"
+url = "/notes/allnotes"
+weight = 99
 
 [params.home]
 introHeight = "fullheight"     # Input either "medium" or "large" or "fullheight"
@@ -64,22 +98,30 @@ customCSS = ["css/custom.css"]
 url = "https://github.com/00sapo"
 icon = "github"
 icon_pack = "fab"
+html_attributes = "target=\"_blank\""
 
 [[params.social]]
 url = "https://scholar.google.it/citations?hl=en&pli=1&user=qkEXQTgAAAAJ"
 icon = "google-scholar"
 icon_pack = "ai"
+html_attributes = "target=\"_blank\""
 
 [[params.social]]
 url = "https://www.scopus.com/authid/detail.uri?authorId=57205640973"
 icon = "scopus"
 icon_pack = "ai"
+html_attributes = "target=\"_blank\""
+
+[[params.social]]
+url = "https://mastodon.uno/@sapousername"
+icon = "mastodon"
+icon_pack = "fab"
+html_attributes = "rel=\"me\" target=\"_blank\""
 
 [[params.social]]
 url = "mailto:federico.simonetta at gssi.it"
 icon = "paper-plane"
 icon_pack = "fas"
-
 
 [imaging]
 quality = 75

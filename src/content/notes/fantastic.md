@@ -20,11 +20,11 @@ showDate = true
     impossible to define that essence. On second thought, it is not just
     physics that talks about this uniformity of the world essence, but also
     ancient greek philosophers, and maybe others of whom I am unaware.
-    E.g. 
-    
+    E.g.
+
     > We learn in school that the basic building blocks of matter are particles. In fact, we often continue to teach this in universities where we explain that quarks and electrons form the lego-bricks from which all matter is made. But this statement hides a deeper truth. According to our best laws of physics, the fundamental building blocks of Nature are not discrete particles at all. Instead they are continuous fluid-like substances, spread throughout all of space. We call these objects fields.
 
-    > David Tong [webiste](https://www.damtp.cam.ac.uk/user/tong/whatisqft.html)
+    > David Tong [website](https://www.damtp.cam.ac.uk/user/tong/whatisqft.html)
 
 * Why we _need_ a categorical cognition of the world even if that same
     cognition carries us to conclude that there is no difference, in the end,
@@ -34,7 +34,7 @@ showDate = true
     the world is not made by categories and categories are only made by our
     mind, if this is true, then there is no win for this effort.
 
-* The same crisis of the categorical mind is highlighted by studies on genre, 
+* The same crisis of the categorical mind is highlighted by studies on genre,
     sexuality, migrations, race, matter [...].  In front of such highlighting
     the categorical mind tries to define new categories (sexual orientations,
     left nationalism, science fileds). Why do not we accept this new finding
@@ -62,9 +62,8 @@ showDate = true
     realities exist.
 
 * If differences between the perceived objects are continuous, then what is the
-    *definition* of the various objects? Where an object ends of being itself
+    _definition_ of the various objects? Where an object ends of being itself
     and starts being another one?
-
 
 ## Self-cosciousness
 

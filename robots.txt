@@ -1,4 +1,1 @@
 User-agent: *
-Allow: /
-
-Sitemap: https://federicosimonetta.eu.org/sitemap.xml
