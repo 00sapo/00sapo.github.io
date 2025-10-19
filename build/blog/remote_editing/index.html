@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="english">
+    <head>
+        
+        
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-91GZC4XQBY"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-91GZC4XQBY');
+        }
+      </script>
+    
+  
+
+
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+Developing and Testing on a Remote Host - Federico Simonetta
+</title>
+
+
+
+<meta name="fediverse:creator" content="@sapousername@mastodon.uno">
+
+        
+        <meta property="og:title" content="Developing and testing on a remote host - Federico Simonetta" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content=""/>
+<meta property="og:url" content="https://federicosimonetta.eu.org/blog/remote_editing/"/>
+<meta property="og:site_name" content="Federico Simonetta"/>
+
+
+
+
+
+
+
+        
+<link rel="shortcut icon" href="https://federicosimonetta.eu.org/img/avatar.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="https://federicosimonetta.eu.org/css/main.min.c4f186fab846c133c24946b665ebe7704d11c93b76b9d98e0f1d1b5c9178b9c3.css" integrity="sha256-xPGG&#43;rhGwTPCSUa2ZevncE0RyTt2udmODx0bXJF4ucM=" crossorigin="anonymous" media="screen">
+
+
+
+<link rel="stylesheet" href="https://federicosimonetta.eu.org/css/custom.css" media="screen" crossorigin="anonymous">
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero ">
+                
+<h1 class="bold-title is-1">Blog</h1>
+
+            </div>
+            
+            <div class="section ">
+                
+
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/about/">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/publications/">
+                
+                Publications
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/theses/">
+                
+                Theses
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/teaching/">
+                
+                Teaching
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/links/">
+                
+                Links
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="https://federicosimonetta.eu.org/music/">
+                
+                Music &amp; co.
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://federicosimonetta.eu.org/blog/remote_editing/">Developing and testing on a remote host</a>
+    </h2>
+    
+  
+    <div class="post-data">
+        11 Feb 2020
+        
+    </div>
+  
+    
+    <div class="blog-share">
+        
+        <span> Share: </span>
+        
+        
+        
+        
+        
+        <a class="mastodon-share-button"
+            href="https://mastodonshare.com/?text=Developing%20and%20testing%20on%20a%20remote%20host&url=https%3a%2f%2ffedericosimonetta.eu.org%2fblog%2fremote_editing%2f"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-mastodon"></i>
+            <span class="hidden">Mastodon</span>
+        </a>
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    <p>
+        Categories:
+        
+        <a href="https://federicosimonetta.eu.org/categories/software">
+            software</a>
+        
+    </p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="https://federicosimonetta.eu.org/tags/software">
+            software</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/teaching">
+            teaching</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/remote">
+            remote</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/cloud">
+            cloud</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/syncthing">
+            syncthing</a>,
+        
+        <a href="https://federicosimonetta.eu.org/tags/tmux">
+            tmux</a>
+        
+    </p>
+    
+    
+    
+    
+</div>
+
+<div class="container markdown top-pad">
+    <figure class="old_photo"><img src="//www.dalet.com/uploads/2020/11/Remote-Editing-min1_0.png">
+</figure>
+
+
+<h2 id="workflow" class="anchor-link"><a href="#workflow">Workflow</a></h2>
+<p>In this document, you can find an introduction to tools commonly used for remote editing and development. The generla workflow is the following:</p>
+<ol>
+<li>You create and edit code on your local machine</li>
+<li>An indipendent software mirrors your code to the host (<code>syncthing</code> in this document)</li>
+<li>You interface with the host through terminal, give commands and run code (<code>tmux</code>)</li>
+<li>Finally, you debug your code (<code>debug</code> section), and edit it your local machine</li>
+</ol>
+<p>This workflow allows you to:</p>
+<ol>
+<li>use your preferred software for editing</li>
+<li>use very low connections (if you are in train or in the smurfs house, for instance)</li>
+<li>use any language on the host</li>
+<li>run intensive tasks for many many days without interrupting your connection</li>
+<li>have the resources on the host machine always at hand</li>
+</ol>
+
+<h2 id="basic-set-up" class="anchor-link"><a href="#basic-set-up">Basic set up</a></h2>
+<p>Create a <code>.ssh</code> folder in your home if it doesn&rsquo;t exist and put in it a file called <code>config</code> with the following content:</p>
+<pre tabindex="0"><code>Host *
+ControlMaster auto
+ControlPath ~/.ssh/sockets/%r@%h-%p
+ControlPersist 60
+
+Host amadeus.lim.di.unimi.it !exec &#34;[ -e ~/.ssh/socket-%r@%h:%p ]&#34;
+LocalForward 22001 localhost:22000
+RemoteForward 22001 localhost:22000
+LocalForward 8384 localhost:8384
+LocalForward 8097 localhost:8097
+LocalForward 6006 localhost:6006
+</code></pre><p>This configuration allows the reuse of the first connection among several <code>ssh</code>
+commands: if you connect through ssh to any host, all the folloqing <code>ssh</code>
+commands will use the first connection: you won&rsquo;t need to retype your password,
+the overhead decreases and firewalls will not push you back because of the
+proliferating of the number of connections. It also instructs <code>ssh</code> command about the
+file to be used as socket.</p>
+<p>Moreover, we set ssh to always forward certain ports for the server <code>amadeus.lim.di.unimi.it</code>.
+For instance, port 8097 is the one used by <code>visdom</code> for plotting from PyTorch and numpy,
+ports 6006, 22001 and 22000 are used by Syncthing for syncing over ssh.</p>
+
+<h2 id="syncing-with-syncthing" class="anchor-link"><a href="#syncing-with-syncthing">Syncing with <code>syncthing</code></a></h2>
+<p><code>syncthing</code> is an open source p2p syncing tool much more powerful than simple SFTP clients. However it must be configured on both sides.</p>
+<ol>
+<li>Download and install <code>syncthing</code> on both client and host (amadeus has it, but you can still download the pre-compiled binaries in your home if you do not have)</li>
+<li>Start syncthing on the client and go to <code>localhost:8384</code> or to the displayed address</li>
+<li>Look into <code>Actions &gt; Show ID</code> for the client device ID</li>
+<li>Connect via ssh tunneling to the host <code>ssh user@host -L 8385:localhost:8384</code></li>
+<li>Start syncthing on the host and go to <code>localhost:8485</code> from the client browser to access syncthing host</li>
+<li>Look into <code>Actions &gt; Show ID</code> for the host device ID</li>
+<li>On both client and host add a remote device (on host with the client ID and on client with host ID)</li>
+<li>Add a new folder and share it with the host</li>
+<li>Add ignore patterns (e.g. <code>.git</code> )</li>
+<li>Set folder type to <code>send only</code></li>
+<li>Check that <code>watch for changes</code> is selected</li>
+<li>Repeat points 8-11 on host</li>
+<li>On client, click on up-right <code>Actions &gt; Advanced &gt; [synced folder name] &gt; Fs Watcher Delay</code> and set to 1 (the minimum allowed, 1 second)</li>
+</ol>
+<p>Save the configuration and restart.</p>
+<p>If one of your machines is behind a strict firewall, it can be useful to use ssh tunneling for connecting.
+This requires a particular configuration that you first connect to the remote machine through ssh with port forwarding and then start syncthing on both machines.
+See the <code>.ssh/config</code> file in previous paragraph. More info in the <a href="https://docs.syncthing.net/users/tunneling.html" target="_blank" >official guides</a>
+.</p>
+
+<h2 id="running-tmux" class="anchor-link"><a href="#running-tmux">Running tmux</a></h2>
+<p>Once you have synced code, you should connect through ssh to the remote host and start <code>tmux</code> to run your code. <code>tmux</code> is a nice piece of software used for working on remote host. It can be used to run long experiments that need to disconnect your machine (e.g. experiments lasting many days). I really recommend to always use tmux. Using it, you can also use the same terminal creating multiple tabs and split. One recurring pattern, for instance, is having the terminal with 3 splits: one for the experiment running, the second for controlling the resources on the remote machine and the third to give commands to the machine.</p>
+<p>For controlling <code>tmux</code> you need to prepend each command with <code>CTRL-b</code>: everything pressed after this combination will be interpreted as a tmux command and it will not be written to the terminal.
+These steps exemplify the use of <code>tmux</code>:</p>
+<ol>
+<li>Connect to the remote host with <code>ssh username@host</code></li>
+<li>Run <code>tmux</code>. Now, a new blank terminal is shown. Notice the bottom bar indicating some useful information</li>
+<li>Press in sequence <code>CTRL-b</code> and <code>%</code>. Now the window is splitted.</li>
+<li>Try <code>CTRL-b</code> and <code>&quot;</code>.</li>
+<li>With <code>CTRL-b</code> and <code>x</code> you can kill the splits (and all the precesses running from it). The same with the command <code>exit</code></li>
+<li>With <code>CTRL-b</code> and arrow you can move to an existing split</li>
+<li>With <code>CTRL-b</code> and <code>c</code> you can create a new tab</li>
+<li>With <code>CTRL-b</code> and <code>[</code> you enter to &ldquo;copy mode&rdquo;: in this modality you can go up and down in the terminal and you can select and copy its content. Try surfing with arrows and <code>PgUp</code> and <code>PgDown</code> keys.</li>
+<li>Press <code>CTRL+SPACE</code> to start copying</li>
+<li>Press <code>ALT-w</code> or <code>CTRL-w</code> to copy the selection</li>
+<li>Press <code>q</code> to exit the copy mode</li>
+<li>Press <code>CTRL+b</code> and <code>]</code> to paste</li>
+<li>Try <code>CTRL+b</code> and <code>d</code>. The tmux session will be detached</li>
+<li>Exit from the ssh connection and reconnect</li>
+<li>Use <code>tmux a</code> to reattach to the previous session, that is continued to exist</li>
+</ol>
+<p>Since key <code>CTRL-b</code> is not that comfortable, I suggest to change it: create a file in your home called <code>.tmux.conf</code> and put the following lines:</p>
+<pre tabindex="0"><code>unbind-key C-b
+set -g prefix `
+bind-key ` send-prefix
+</code></pre><p>Now instead of pressing <code>CTRL-b</code>, you can just press ` char (for italian keyboard, you could use the <code>\</code> char, for instance).</p>
+<p>You can also customize your keybindings to make them more easy to remember. For instance, I use keybindings very similar to <code>vim</code>. For more info see <a href="https://tmuxcheatsheet.com/" target="_blank" >https://tmuxcheatsheet.com/</a>
+.</p>
+<p><strong>N.B. If the terminal become unresponsive, it can be that the ssh connection has been closed server-side (e.g. because of a connection error). In such a case, press <code>~</code> and then <code>.</code> to close the connection and return to your local terminal. If it doesn&rsquo;t work, see the &ldquo;SOS&rdquo; section.</strong></p>
+
+<h2 id="controlling-resources" class="anchor-link"><a href="#controlling-resources">Controlling resources</a></h2>
+<p>It is a good practice to continuously monitor the resources on the host in a separate split.</p>
+<p>For CPU and RAM, just run <code>htop</code> command in a seprate always live split.
+For GPU, run <code>watch -n 5 nvidia-smi</code>. The <code>watch</code> command will repeatedly run the <code>nvidia-smi</code> command every 5 seconds.
+With these two commands you should be able to understand if:</p>
+<ol>
+<li>you are using too many resources (please, stop your program before the machine RAM is full, otherwise see &ldquo;SOS&rdquo; section)</li>
+<li>you are using too few ersources (for instance if GPU is not used or no parallel processing is in action)</li>
+<li>you are using wrong resources (too many parallel processes, wrong GPU, etc.)</li>
+</ol>
+<p>Note that in <code>pytorch</code> you should use internal commands <code>torch.cuda.memory_allocated</code> and <code>torch.cuda.max_memory_allocated</code> since <code>nvidia-smi</code> fails in showing the real amount of RAM used: <a href="https://pytorch.org/docs/stable/notes/cuda.html#memory-management" target="_blank" >docs</a>
+</p>
+
+<h2 id="debugging-code" class="anchor-link"><a href="#debugging-code">Debugging code</a></h2>
+<p>For debugging code from remote you need to use a debugger. I suggest to always debug your code without parallelism whenever possible.</p>
+
+<h3 id="python" class="anchor-link"><a href="#python">Python</a></h3>
+<p>In Python, just use the default debugger. Since version 3.7 you can simply add the instruction <code>debugger()</code> one line before the one you want to start the debug. You can set up your preferred debugger (I suggest <code>ipdb</code>). For previous versions use <code>import pdb; pdb.set_trace()</code>.</p>
+<p>A better debugger is ipdb (<code>import ipdb; ipdb.set_trace()</code>). You will probably need to install it: <code>pip install ipdb</code>. See its commands by pressing <code>h</code> or <a href="http://wangchuan.github.io/coding/2017/07/12/ipdb-cheat-sheet.html" target="_blank" >here</a>
+</p>
+<p>If you really want a graphical debugger, you try <a href="https://github.com/Kozea/wdb" target="_blank" >wdb</a>
+. You will probably need to install it: <code>pip install wdb</code>.</p>
+<p>Another useful tool is <a href="https://github.com/cool-RR/PySnooper" target="_blank" >pysnooper</a>
+. You can use it in place of printing to stdout or of logging. It&rsquo;s much easier to use and very powerful. I use it for debugging scripts with multiprocessing on different files.</p>
+<p>I also recommend to use <code>pyenv</code> and <code>poetry</code> to isolate your project from the OS python packages.</p>
+
+<h3 id="matlab" class="anchor-link"><a href="#matlab">Matlab</a></h3>
+<p>In <code>matlab</code>, you can use the default debugger by using the statement <code>keyboard</code> just one line after you want to stop. Then you will be prompted and you can use typical matlab commands to show variables. However, the editing needs the use a <code>emacs</code> keys (as of now I am still not able to change these mappings). Remember these ones:</p>
+<table>
+<thead>
+<tr>
+<th>KEY</th>
+<th>ACTION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CTRL-a</td>
+<td>move cursor to (at) beginning-of-line</td>
+</tr>
+<tr>
+<td>CTRL-e</td>
+<td>move cursor to end-of-line</td>
+</tr>
+<tr>
+<td>CTRL-f</td>
+<td>move cursor forward one character</td>
+</tr>
+<tr>
+<td>CTRL-b*</td>
+<td>move cursor backward one character</td>
+</tr>
+</tbody>
+</table>
+<p>* <em>if you are using the default tmux keymap, <code>CTRL_B</code> is also the tmux escape sequence; in this case you&rsquo;ll have to press twice <code>CTRL-B</code> to send it to Matlab</em></p>
+<p>For managing the debugging itself, you can use <a href="https://www.mathworks.com/help/matlab/ref/dbcont.html" target="_blank" >dbcont</a>
+, <a href="https://www.mathworks.com/help/matlab/ref/dbstep.html" target="_blank" >dbstep</a>
+, <a href="https://www.mathworks.com/help/matlab/ref/dbquit.html" target="_blank" >dbquit</a>
+ and all the commands listed in the <a href="https://www.mathworks.com/help/matlab/debugging-code.html" target="_blank" >official docs</a>
+</p>
+
+<h3 id="julia" class="anchor-link"><a href="#julia">Julia</a></h3>
+<p>Use <a href="https://github.com/JuliaDebug/Debugger.jl" target="_blank" >Debugger</a>
+ package: command <code>]add Debugger</code> from Julia REPL.
+Set breakpoints with <code>@bp</code>. Start debugging a function with <code>@enter functionName(args)</code> (will stop at the first instruction) or with <code>@run functionName(args)</code> (will stop at the first breakpoint).</p>
+<p>Open the REPL. Run <code>include('filename'); mainFunction()</code> to test mainFunction after having edited it. Alternatively, you can also try <a href="https://github.com/timholy/Revise.jl" target="_blank" >Revise</a>
+ to automatically reload changed modules.</p>
+
+<h2 id="sos" class="anchor-link"><a href="#sos">SOS</a></h2>
+<p>It can happen that your program fill the host resources. In that case, you can:</p>
+<ol>
+<li>try to kill the program from inside the <code>ssh</code> connection keeping pressed <code>CTRL-C</code></li>
+<li>if <code>1.</code> doesn&rsquo;t work, create a new terminal or a new split in tmux and run <code>kill PROCESS NUMBER</code> (you can find the process number with <code>ps x</code> or <code>htop</code>)</li>
+<li>if neither <code>2.</code> works for your, try killing the termux split with <code>CTRL-b</code> and <code>x</code></li>
+<li>if your ssh connection is completely saturated or the host doesn&rsquo;t answer, then from another local terminal run <code>ssh username@host killall program</code> where <code>program</code> is the command of the experiment that your were executing (i.e. <code>python</code>, <code>python3</code>, <code>matlab</code>, etc.). This command will try to create a new ssh connection, run the command <code>killall program</code> and then exit suddenly.</li>
+<li>If the machine is not responding contact the administrator as soon as possible</li>
+</ol>
+
+<h2 id="apptainer" class="anchor-link"><a href="#apptainer">Apptainer</a></h2>
+
+<h3 id="why" class="anchor-link"><a href="#why">Why</a></h3>
+<p>When you are in a server without root access and you need to install some application,
+you are in a difficult situation. You can try to install it in your home, but it is not
+always possible and usually requires the admin intervention (i.e. Homebrew and Nix).
+Moreover, if you are worried about computational performances, Homebrew and Nix are not
+the best solutions. The best solution is to use a container.</p>
+<p>Containers are environments that are isolated from the rest of the system. Most of the
+container technologies, however, still require the admin intervention to be installed,
+even though they&rsquo;re much more likely already setup in the server than Homebrew and Nix.</p>
+<p>It is difficult to chose the proper technology, though. 99% of the benchmarks around are
+made by sysadmins, that are mainly interested in startup times and web server
+performances, not in the computational
+overhead imposed by the container while running our scientific code.</p>
+<p>A few time ago I have made some <a href="https://github.com/00sapo/Container-benchmarks" target="_blank" >little benchmarks</a>
+ for these purposes. The results are
+shown below:</p>
+<p><img src="https://camo.githubusercontent.com/fa10bbe543500c6ece9c7bee61edcfef3c9a13397cfe2c551b59ac000767e2d4/68747470733a2f2f646f63732e676f6f676c652e636f6d2f7370726561647368656574732f642f652f32504143582d3176534c727753317a4d647a70744e753549555239336e4e4d664443705571425273536f72595959466c476337683556736549686966617068586b61516d5178623039774e396f6c5a6c43456d6f314a2f70756263686172743f6f69643d343238373434393426666f726d61743d696d616765" alt="Benchmark">
+As you see, the best solution is by far Apptainer, then docker, devbox and podman. It
+must be noted that docker total score is so high because of its ability to
+asynchronously read and write files. However, this is not that relevant for scientific
+code, usually. Removed that, I would suggest using podman over docker.</p>
+<p>But the truth is that Apptainer has been built for scientific code and perfectly fits
+our needs:</p>
+<ol>
+<li>you can use it everywhere, without root access (docker and podman require some admin
+set ups)</li>
+<li>an Apptainer image is easy to build and to share, so your code will be totally
+reproducible</li>
+<li>you can use Docker images in Apptainer, so you can use most of the Docker ecosystem</li>
+<li>it is fast, especially in terms of CPU and RAM usage</li>
+<li>it gives you access to your home and files on the server by default in an optimized way</li>
+</ol>
+
+<h3 id="how" class="anchor-link"><a href="#how">How</a></h3>
+<p>So, use it. The workflow is like this:</p>
+<ol>
+<li>Install Apptainer in your computer, where you have admin/root access</li>
+<li>Prepare a file definition that specify an OS, the packages to install and the
+commands to run to configure the container</li>
+<li>Copy the Apptainer binary installed in your computer to the server (it&rsquo;s portable! 🎉)</li>
+<li>Build the container</li>
+<li>Copy the Apptainer image to the server</li>
+<li>Run the container</li>
+<li>Execute your code</li>
+</ol>
+<p>Points 1 and 2 are executed only once, while 3-5 are executed for each different server
+you deal with. Points 6-7 are executed every time you want to run your code.</p>
+
+<h3 id="installation" class="anchor-link"><a href="#installation">Installation</a></h3>
+<p>So,
+<a href="https://apptainer.org/docs/admin/main/installation.html#install-from-pre-built-packages" target="_blank" >here</a>
+
+(Linux) and
+<a href="https://apptainer.org/docs/admin/main/installation.html#installation-on-windows-or-mac" target="_blank" >here</a>
+
+(Windows and Mac) are the instructions to install Apptainer. In Windows, I suggest you
+use WSL, which is simpler.</p>
+
+<h3 id="building-an-image" class="anchor-link"><a href="#building-an-image">Building an image</a></h3>
+<p>Now you need to define an image. Here is an example that I have used in the past. However,
+<a href="https://apptainer.org/docs/user/main/definition_files.html" target="_blank" >here</a>
+ you can find more details.</p>
+<p>You can build a definition file with <code>apptainer build mycontainer.sif mycontainer.def</code>,
+where <code>mycontainer.def</code> is the name of the definition file (e.g. the one below) and
+<code>mycontainer.sif</code> is the name of the image you want to create.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e"># This line means &#34;pick the base container image from</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># the docker hub&#34;.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Bootstrap: docker</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">Bootstrap</span>: <span style="color:#ae81ff">localimage</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Whereas here we specify the particular image we are</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># interested in using as the base image, in this case</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># a basic `fedora` system at version `39`.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># The base image is the operating system configuration</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># that you want to customize.</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">From</span>: <span style="color:#ae81ff">fedora:39</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># you can also start building from an existing image to modify it</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># In this case, comment out this line and the line in %post that were already executed</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># From: mycontainer.sif</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># environment variables here</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">%environment</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">export LANG=en_US.UTF-8</span> <span style="color:#75715e"># luatex needs locale set</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># A definition file has several sections, see the documentation.</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># In the `post` section you can run commands to customize</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># your environment</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">%post</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># This is the place where you can</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># install additional dependencies.</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">########### My basic stuffs ###########</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># software for development</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install tmux neovim syncthing fish zoxide fzf ripgrep openssh-clients openssh powerline git hostname fd-find copr-cli procps-ng syncthing htop</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># python build dependencies</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install make gcc patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel libuuid-devel gdbm-libs libnsl2</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># python-pip</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install python3-pip</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># lazygit</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install &#39;dnf-command(copr)&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf copr enable atim/lazygit -y</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install lazygit</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># font</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/SourceCodePro.tar.xz</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># locale</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install glibc-locale-source glibc-langpack-en</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">########### Other more specific stuffs ###########</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># luatex and gregotex</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install texlive-collection-luatex texlive-collection-fontsrecommended texlive-collection-latexrecommended texlive-collection-latexextra texlive-collection-latex texlive-collection-music texlive-collec</span>
+</span></span><span style="display:flex;"><span><span style="color:#ae81ff">tion-mathscience texlive-gregoriotex</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install latexmk</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># tesseract</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">dnf -y install tesseract tesseract-langpack-eng tesseract-langpack-ita tesseract-langpack-ita_old tesseract-script-latin tesseract-tools tesseract-osd</span>
+</span></span></code></pre></div>
+<h3 id="running-an-image" class="anchor-link"><a href="#running-an-image">Running an image</a></h3>
+<p>Now you can run the image. You can do it in two ways:</p>
+<ol>
+<li>Running an <code>instance</code> to which you can connect even after ssh disconnection</li>
+</ol>
+<ul>
+<li><code>apptainer instance start mycontainer.sif a_name_for_this_instance</code></li>
+<li><code>apptainer shell instance://a_name_for_this_instance</code></li>
+<li><code>apptainer instance stop mycontainer.sif a_name_for_this_instance</code></li>
+</ul>
+<ol start="2">
+<li>Just run some commands in the container and close it</li>
+</ol>
+<ul>
+<li><code>apptainer shell mycontainer.sif</code></li>
+</ul>
+<p>You could actually define a command to run inside the container in the <code>%runscript</code>
+section of the definition file. In this case, you can just run <code>./mycontainer.sif</code> to
+run it or <code>apptainer instance run mycontainer.sif a_name_for_this_instance</code> to run it in
+a detached instance.</p>
+
+</div>
+
+
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <em>Fluid thoughts against categories</em>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://federicosimonetta.eu.org/js/bundle.5c23c0437f001a469ca373a465a6f7487203d18e10cdff76d86a60af66d5ee28.js" integrity="sha256-XCPAQ38AGkaco3OkZab3SHID0Y4Qzf922Gpgr2bV7ig="></script>
+
+
+
+
+        
+        
+        
+        
+    </body>
+</html>

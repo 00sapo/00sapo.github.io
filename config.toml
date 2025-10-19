@@ -1,0 +1,125 @@
+baseurl = "https://federicosimonetta.eu.org/"
+publishDir = "build"
+title = "Federico Simonetta"
+defaultContentLanguage = "english"
+theme = "introduction"
+enableEmoji = true                                                                                                # Shorthand emojis in content files - https://gohugo.io/functions/emojify/
+googleAnalytics = "G-91GZC4XQBY"
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+enableRobotsTXT = true
+canonifyURLs = true
+disableKinds = ["taxonomy"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+dateform = "Mon Jan 02, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 EST"
+favicon = "/img/avatar.ico"
+footerText = "_Fluid thoughts against categories_"
+randomBackground = true
+showMenu = true
+comments = false
+showReadingTime = false                            # Show the `.ReadingTime` variable for blog posts
+showRSSButton = false                              # Show rss button in navigation
+fadeIn = false                                     # Turn on/off the fade-in effect
+fadeInIndex = true                                 # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+dateFormat = "2 Jan 2006"
+email = "federico.simonetta [at] gssi.it"          # E-mail address for contact section
+
+[params.share]
+mastodon = true
+
+[params.author]
+name = "Federico Simonetta"
+
+# Metadata for Open Graph and Twitter
+images = [
+  "/img/image.jpg",
+] # Image that shows on Twitter cards and Open Graph links to the site
+title = "Federico Simonetta"
+keywords = "Federico Simonetta, machine learning, artificial intelligence, ai, musica, informatica, music, computer science, pavia, research, computer science, music composition, milan, gssi, phd"
+description = "Federico Simonetta is a machine learning researcher. Interested in music, sound, and digital humantities, here you found my publications, music, software and contacts. Pop in to know me!"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 92
+
+[[menu.main]]
+name = "Publications"
+url = "/publications/"
+weight = 93
+
+[[menu.main]]
+name = "Theses"
+url = "/theses/"
+weight = 94
+
+[[menu.main]]
+name = "Teaching"
+url = "/teaching/"
+weight = 95
+
+[[menu.main]]
+name = "Links"
+url = "/links/"
+weight = 96
+
+[[menu.main]]
+name = "Blog"
+url = "/blog/"
+weight = 97
+
+[[menu.main]]
+name = "Music & co."
+url = "/music/"
+weight = 98
+
+[params.home]
+introHeight = "fullheight"   # Input either "medium" or "large" or "fullheight"
+showLatest = false           # Show latest blog post summary
+showAllPosts = false         # Set true to list all posts on home page, or set false to link to separate blog list page
+allPostsArchiveFormat = true # show all posts in an archive format
+numberOfProjectsToShow = 3   # Maximum number of projects to show on home page. Unset or comment out to show all projects
+localTime = true             # Show your current local time in contact section
+timeZone = "Europe/Rome"     # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timeFormat = "en-US"         # Language specific format to use
+
+[[params.social]]
+url = "https://github.com/00sapo"
+icon = "github"
+icon_pack = "fab"
+html_attributes = "target=\"_blank\""
+
+[[params.social]]
+url = "https://scholar.google.it/citations?hl=en&pli=1&user=qkEXQTgAAAAJ"
+icon = "google-scholar"
+icon_pack = "ai"
+html_attributes = "target=\"_blank\""
+
+[[params.social]]
+url = "https://www.scopus.com/authid/detail.uri?authorId=57205640973"
+icon = "scopus"
+icon_pack = "ai"
+html_attributes = "target=\"_blank\""
+
+[[params.social]]
+url = "https://mastodon.uno/@sapousername"
+icon = "mastodon"
+icon_pack = "fab"
+html_attributes = "rel=\"me\" target=\"_blank\""
+
+[[params.social]]
+url = "mailto:federico.simonetta at gssi.it"
+icon = "paper-plane"
+icon_pack = "fas"
+
+[imaging]
+quality = 75

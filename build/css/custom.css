@@ -1,0 +1,11 @@
+code, .navbar-burger, a {
+  color: #4f4f4f;
+}
+
+a.navbar-item:hover, .markdown a:hover, a:hover {
+  color: #000000;
+}
+
+.markdown a:not(h1 a):not(h2 a):not(h3 a):not(h4 a):not(h5 a):not(h6 a) {
+  text-decoration: underline;
+}
