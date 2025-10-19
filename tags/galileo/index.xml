@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Galileo on Federico Simonetta</title>
-    <link>http://localhost:1313/tags/galileo/</link>
+    <link>https://federicosimonetta.eu.org/tags/galileo/</link>
     <description>Recent content in Galileo on Federico Simonetta</description>
     <generator>Hugo</generator>
     <language>english</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 04 Dec 2018 13:50:46 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/galileo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://federicosimonetta.eu.org/tags/galileo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Se il machine learning fosse nato 400 anni fa</title>
-      <link>http://localhost:1313/blog/galileo/</link>
+      <link>https://federicosimonetta.eu.org/blog/galileo/</link>
       <pubDate>Tue, 04 Dec 2018 13:50:46 +0000</pubDate>
-      <guid>http://localhost:1313/blog/galileo/</guid>
+      <guid>https://federicosimonetta.eu.org/blog/galileo/</guid>
       <description>Il sole era già oltre le colline e le nuvole a sprazzi lasciavano che la luce della luna illuminasse la Terra. Il gelo di gennaio filtrava tra i vestiti di chi, incurante dell’umidità, usciva dopo giorni di pioggia. Simplicio entrò nel capanno dietro casa. Era giunto un messo da Torre del Gallo, non aveva lasciato detto nulla: solo un foglio, piegato in quattro, con le sue iniziali su un lato, GG.</description>
     </item>
   </channel>
