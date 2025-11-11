@@ -256,44 +256,20 @@ Una Semplice Introduzione a Git - Federico Simonetta
 </div>
 
 <div class="container markdown top-pad">
-    <p>L&rsquo;idea di git è di salvare varie versioni apportate ai file in un repository.</p>
-<p>Le modifiche apportate si salvano sottoforma di <strong>commit</strong>. Ogni commit contiene le
-nuove versioni dei file modificati che si vogliono salvare. Idealmente, ogni commit
-dovrebbe rispettare il principio di singola responsabilità: dovrebbe cioè riguardare una
-sola funzionalità o caratteristica del software. Ogni commit porta con se un messaggio
-che descrive brevemente cosa è stato modificato, un timestamp non modificabile e un hash
-che consente di identificarlo univocamente.</p>
-<p>Il <strong>repository</strong> conterrà quindi una serie di commit ordinati temporalmente. I commit
-possono essere raggruppati in &ldquo;branch&rdquo; (rami), che si usano per separare strade
-differenti che il software può prendere. Un commit può appartenere a più branch. I
-branch possono fondersi tra di loro &ldquo;merge&rdquo;. Se il merge genera dei conflitti, ad
-esempio se entrambi i branch modificano una certa parte di un file, viene lasciato
-all&rsquo;utente la scelta di cosa tenere e cosa togliere.
-th-247796942
-Puoi immaginare git come se ci fossero diverse aree di memoria per lo stesso codice sorgente.
-Le aree di memoria possono rappresentare versioni diverse dello stesso codice oppure la stessa
-identica versione. Le aree di memoria sono le seguenti:</p>
+    <p>L&rsquo;idea di Git è di salvare varie versioni apportate ai file in un repository.</p>
+<p>Le modifiche apportate si salvano sotto forma di <strong>commit</strong>. Ogni commit contiene le differenze tra i file modificati e la loro precedente versione che si vogliono salvare. Idealmente, ogni commit dovrebbe rispettare il principio di singola responsabilità: dovrebbe cioè riguardare una sola funzionalità o caratteristica del software. Ogni commit porta con sé un messaggio che descrive brevemente cosa è stato modificato, un timestamp non modificabile e un hash che consente di identificarlo univocamente.</p>
+<p>Il <strong>repository</strong> conterrà quindi una serie di commit ordinati temporalmente. I commit possono essere raggruppati in &ldquo;branch&rdquo; (rami), che si usano per separare strade differenti che il software può prendere. Un commit può appartenere a più branch. I branch possono fondersi tra di loro tramite &ldquo;merge&rdquo;. Se il merge genera dei conflitti, ad esempio se entrambi i branch modificano una certa parte di un file, viene lasciata all&rsquo;utente la scelta di cosa tenere e cosa togliere.</p>
+<p>Puoi immaginare Git come se ci fossero diverse aree di memoria per lo stesso codice sorgente. Le aree di memoria possono rappresentare versioni diverse dello stesso codice oppure la stessa identica versione. Le aree di memoria sono le seguenti:</p>
 <ul>
-<li>La <em>working directory</em> è la directory di lavoro dove trovi i file che stai modificando. All&rsquo;interno vi sarà una directory &ldquo;.git&rdquo; che contiene tutti i dati sul repository.</li>
-<li>La <em>staging area</em> è l&rsquo;insieme dei file modificati e tracciati dal repository (se crei un nuovo file, non viene automaticamente tracciato)</li>
-<li>Il <em>repository</em> è la vera e propria memoria delle versioni, esiste in locale e ha una o più copie remote.</li>
+<li>La <em>working directory</em> è la directory di lavoro dove si trovano i file che stai modificando. Al suo interno vi sarà una directory &ldquo;.git&rdquo; che contiene tutti i dati sul repository.</li>
+<li>La <em>staging area</em> è l&rsquo;insieme dei file modificati e tracciati dal repository (se crei un nuovo file, non viene automaticamente tracciato).</li>
+<li>Il repository è la vera e propria memoria delle versioni, esiste in locale e ha una o più copie remote.</li>
 </ul>
-<p>Questa figura schematizza i principali comandi di git e come questi interagiscono con le
-aree di memoria. Le freccie dell&rsquo;immagine indicano i comandi da usare per
-aggiungere/togliere dal tracciamento, per salvare le modifiche (commit) e per aggiornare
-il codice con modifiche avvenute sul repository remoto (ad esempio modifiche effettuate
-da altri utenti).
+<p>Questa figura schematizza i principali comandi di Git e come questi interagiscono con le aree di memoria. Le frecce dell&rsquo;immagine indicano i comandi da usare per aggiungere/togliere dal tracciamento, per salvare le modifiche (commit) e per aggiornare il codice con modifiche avvenute sul repository remoto (ad esempio modifiche effettuate da altri utenti).</p>
 <figure><img src="https://federicosimonetta.eu.org/img/git-intro.png">
 </figure>
-</p>
-<p>In tutti i software grafici (gitg, gitahead, etc.) trovi sempre la possibilità di
-effettuare queste operazioni di base. Le cose si complicano quando si comincia ad usare
-branch differenti, ma per ora non ci interessa. La cosa importante da capire è che git
-<em>è</em> effettivamente pensato per salvare la Storia dello sviluppo; la Storia non si può
-cancellare e quindi non si può tornare indietro. Esistono tool appositi, ma l&rsquo;idea di
-usare git è accettare che ogni modifica apportata non deve <em>mai</em> essere cancellata,
-nemmeno se introduce un errore; è invece più utile ricordarle per capire i motivi per
-cui il softwaare si è sviluppato in un certo modo.</p>
+
+<p>In tutti i software grafici (gitg, gitahead, ecc.) trovi sempre la possibilità di effettuare queste operazioni di base. Le cose si complicano quando si iniziano a usare branch differenti, ma per ora non ci interessa. La cosa importante da capire è che Git <em>è</em> effettivamente pensato per salvare la storia dello sviluppo; la storia non si può cancellare e quindi non si può tornare indietro. Esistono tool appositi, ma l&rsquo;idea di usare Git è accettare che ogni modifica apportata non deve <em>mai</em> essere cancellata, nemmeno se introduce un errore; è invece più utile ricordarla per capire i motivi per cui il software si è sviluppato in un certo modo.</p>
 
 </div>
 
